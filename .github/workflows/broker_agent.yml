@@ -1,0 +1,64 @@
+name: IPMI Broker Discovery Agent
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Reason for manual run"
+        required: false
+        default: "Manual trigger"
+
+jobs:
+  discover-brokers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run IPMI broker discovery
+        env:
+          SERPAPI_KEY_PRIMARY: ${{ secrets.SERPAPI_KEY_PRIMARY }}
+          SERPAPI_KEY_BACKUP:  ${{ secrets.SERPAPI_KEY_BACKUP }}
+          OUTPUT_DIR: output
+          LOG_DIR: logs
+        run: python broker_agent.py
+
+      - name: Upload broker leads CSV
+        uses: actions/upload-artifact@v4
+        with:
+          name: ipmi-broker-leads-${{ github.run_number }}
+          path: output/
+          retention-days: 90
+
+      - name: Upload run logs
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: run-logs-${{ github.run_number }}
+          path: logs/
+          retention-days: 30
+
+      - name: Print run summary
+        if: always()
+        run: |
+          echo "──────────────────────────────"
+          echo "IPMI Broker Agent Run Summary"
+          echo "──────────────────────────────"
+          if [ -f output/latest_summary.json ]; then
+            cat output/latest_summary.json
+          else
+            echo "No summary file found — check logs"
+          fi
