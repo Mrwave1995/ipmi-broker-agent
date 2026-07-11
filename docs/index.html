@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPMI Broker Intelligence — Now Health</title>
+<style>
+  :root {
+    --navy:   #0D1B2A;
+    --teal:   #1A7A6E;
+    --teal2:  #22A896;
+    --gold:   #C9973A;
+    --cream:  #F5F0E8;
+    --slate:  #3D5166;
+    --mist:   #E8EEF4;
+    --white:  #FFFFFF;
+    --red:    #C0392B;
+    --font-head: 'Georgia', serif;
+    --font-body: 'Segoe UI', system-ui, sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--font-body);
+    background: var(--navy);
+    color: var(--cream);
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  header {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--slate) 100%);
+    border-bottom: 2px solid var(--teal);
+    padding: 24px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .logo-icon {
+    width: 44px; height: 44px;
+    background: var(--teal);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 22px;
+  }
+
+  .logo-text h1 {
+    font-family: var(--font-head);
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 0.3px;
+    color: var(--white);
+  }
+
+  .logo-text p {
+    font-size: 12px;
+    color: var(--teal2);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  .last-updated {
+    font-size: 12px;
+    color: #8FA3B8;
+    text-align: right;
+  }
+
+  .last-updated strong {
+    color: var(--teal2);
+    display: block;
+    font-size: 14px;
+  }
+
+  /* ── Stats bar ── */
+  .stats-bar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1px;
+    background: var(--slate);
+    border-bottom: 1px solid #1E3248;
+  }
+
+  .stat {
+    background: #0F2236;
+    padding: 18px 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.2s;
+    position: relative;
+  }
+
+  .stat:hover { background: #162C42; }
+  .stat.active { background: var(--teal); }
+  .stat.active .stat-label { color: rgba(255,255,255,0.8); }
+  .stat.active .stat-value { color: white; }
+
+  .stat-value {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--font-head);
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #8FA3B8;
+    margin-top: 4px;
+  }
+
+  .s-all    .stat-value { color: var(--cream); }
+  .s-strong .stat-value { color: #2ECC71; }
+  .s-pos    .stat-value { color: #F39C12; }
+  .s-weak   .stat-value { color: #E67E22; }
+  .s-none   .stat-value { color: #E74C3C; }
+
+  /* ── Controls ── */
+  .controls {
+    padding: 16px 24px;
+    background: #0B1826;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid #1E3248;
+  }
+
+  .search-box {
+    flex: 1;
+    min-width: 200px;
+    background: #162C42;
+    border: 1px solid #2A4560;
+    border-radius: 8px;
+    padding: 10px 16px;
+    color: var(--cream);
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .search-box:focus { border-color: var(--teal2); }
+  .search-box::placeholder { color: #4A6580; }
+
+  select {
+    background: #162C42;
+    border: 1px solid #2A4560;
+    border-radius: 8px;
+    padding: 10px 14px;
+    color: var(--cream);
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    min-width: 150px;
+  }
+
+  select:focus { border-color: var(--teal2); }
+
+  .btn-export {
+    background: var(--teal);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.2s;
+    white-space: nowrap;
+  }
+
+  .btn-export:hover { background: var(--teal2); }
+
+  .result-count {
+    font-size: 13px;
+    color: #8FA3B8;
+    white-space: nowrap;
+    padding: 0 4px;
+  }
+
+  /* ── Table ── */
+  .table-wrap {
+    overflow-x: auto;
+    padding: 0 0 40px 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+
+  thead {
+    background: #0B1826;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  th {
+    padding: 14px 16px;
+    text-align: left;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #8FA3B8;
+    border-bottom: 2px solid var(--teal);
+    cursor: pointer;
+    white-space: nowrap;
+    user-select: none;
+  }
+
+  th:hover { color: var(--teal2); }
+  th.sorted { color: var(--teal2); }
+  th .sort-arrow { margin-left: 4px; opacity: 0.5; }
+  th.sorted .sort-arrow { opacity: 1; }
+
+  tbody tr {
+    border-bottom: 1px solid #1A2E42;
+    transition: background 0.15s;
+  }
+
+  tbody tr:hover { background: #0F2236; }
+
+  td {
+    padding: 13px 16px;
+    vertical-align: middle;
+    color: #C8D8E8;
+  }
+
+  /* Score badge */
+  .score-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px; height: 28px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: var(--font-head);
+  }
+
+  .score-strong { background: rgba(46,204,113,0.15); color: #2ECC71; border: 1px solid rgba(46,204,113,0.3); }
+  .score-pos    { background: rgba(243,156,18,0.15);  color: #F39C12; border: 1px solid rgba(243,156,18,0.3); }
+  .score-weak   { background: rgba(230,126,34,0.12);  color: #E67E22; border: 1px solid rgba(230,126,34,0.25); }
+  .score-none   { background: rgba(231,76,60,0.1);    color: #E74C3C; border: 1px solid rgba(231,76,60,0.2); }
+
+  /* Priority tag */
+  .priority {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+  }
+  .p-high   { background: rgba(201,151,58,0.15); color: var(--gold); }
+  .p-medium { background: rgba(26,122,110,0.15); color: var(--teal2); }
+  .p-low    { background: rgba(61,81,102,0.3);   color: #8FA3B8; }
+
+  /* Broker name */
+  .broker-name {
+    font-weight: 600;
+    color: var(--cream);
+    max-width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .broker-url {
+    font-size: 11px;
+    color: #4A6580;
+    max-width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Links */
+  a { color: var(--teal2); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Email */
+  .email-chip {
+    background: rgba(26,122,110,0.12);
+    border: 1px solid rgba(26,122,110,0.25);
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 11px;
+    color: var(--teal2);
+    white-space: nowrap;
+  }
+
+  .no-email { color: #3D5166; font-size: 12px; }
+
+  /* Region tag */
+  .region-tag {
+    font-size: 11px;
+    color: #8FA3B8;
+    white-space: nowrap;
+  }
+
+  /* Empty state */
+  .empty-state {
+    text-align: center;
+    padding: 80px 20px;
+    color: #4A6580;
+  }
+
+  .empty-state .icon { font-size: 48px; margin-bottom: 16px; }
+  .empty-state p { font-size: 15px; }
+
+  /* Loading */
+  #loading {
+    text-align: center;
+    padding: 60px;
+    color: var(--teal2);
+    font-size: 15px;
+  }
+
+  /* Description tooltip on hover */
+  td[data-desc]:hover::after {
+    content: attr(data-desc);
+    position: absolute;
+    background: #162C42;
+    border: 1px solid #2A4560;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 12px;
+    color: var(--cream);
+    max-width: 320px;
+    z-index: 100;
+    white-space: normal;
+    line-height: 1.5;
+    pointer-events: none;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    header { padding: 16px; }
+    .controls { padding: 12px 16px; }
+    th, td { padding: 10px 12px; }
+    .hide-mobile { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-icon">🌐</div>
+    <div class="logo-text">
+      <h1>IPMI Broker Intelligence</h1>
+      <p>Now Health International · BD Pipeline</p>
+    </div>
+  </div>
+  <div class="last-updated">
+    <strong id="last-run">Loading...</strong>
+    Last agent run
+  </div>
+</header>
+
+<!-- Stats bar -->
+<div class="stats-bar">
+  <div class="stat s-all active" onclick="filterByScore('all')">
+    <div class="stat-value" id="cnt-all">—</div>
+    <div class="stat-label">Total Leads</div>
+  </div>
+  <div class="stat s-strong" onclick="filterByScore('strong')">
+    <div class="stat-value" id="cnt-strong">—</div>
+    <div class="stat-label">🟢 Strong IPMI</div>
+  </div>
+  <div class="stat s-pos" onclick="filterByScore('possible')">
+    <div class="stat-value" id="cnt-pos">—</div>
+    <div class="stat-label">🟡 Possible</div>
+  </div>
+  <div class="stat s-weak" onclick="filterByScore('weak')">
+    <div class="stat-value" id="cnt-weak">—</div>
+    <div class="stat-label">🟠 Weak Signal</div>
+  </div>
+  <div class="stat s-none" onclick="filterByScore('none')">
+    <div class="stat-value" id="cnt-none">—</div>
+    <div class="stat-label">🔴 Not IPMI</div>
+  </div>
+  <div class="stat" style="cursor:default;">
+    <div class="stat-value" id="cnt-emails" style="color:var(--teal2)">—</div>
+    <div class="stat-label">📧 With Email</div>
+  </div>
+</div>
+
+<!-- Controls -->
+<div class="controls">
+  <input class="search-box" type="text" id="search" placeholder="Search broker, country, email..." oninput="applyFilters()">
+  <select id="filter-region" onchange="applyFilters()">
+    <option value="">All Regions</option>
+    <option>Middle East</option>
+    <option>South/SE Asia</option>
+    <option>Small Europe</option>
+    <option>LATAM</option>
+  </select>
+  <select id="filter-country" onchange="applyFilters()">
+    <option value="">All Countries</option>
+  </select>
+  <select id="filter-email" onchange="applyFilters()">
+    <option value="">All Leads</option>
+    <option value="yes">With Email Only</option>
+  </select>
+  <span class="result-count" id="result-count"></span>
+  <button class="btn-export" onclick="exportCSV()">⬇ Export CSV</button>
+</div>
+
+<!-- Table -->
+<div class="table-wrap">
+  <div id="loading">Loading broker data...</div>
+  <table id="broker-table" style="display:none">
+    <thead>
+      <tr>
+        <th onclick="sortBy('ipmi_score')" class="sorted">Score <span class="sort-arrow">↓</span></th>
+        <th onclick="sortBy('broker_name')">Broker <span class="sort-arrow">↕</span></th>
+        <th onclick="sortBy('country')">Country <span class="sort-arrow">↕</span></th>
+        <th class="hide-mobile">Region</th>
+        <th class="hide-mobile">Priority</th>
+        <th>Email</th>
+        <th>Website</th>
+      </tr>
+    </thead>
+    <tbody id="table-body"></tbody>
+  </table>
+  <div id="empty-state" class="empty-state" style="display:none">
+    <div class="icon">🔍</div>
+    <p>No brokers match your filters.</p>
+  </div>
+</div>
+
+<script>
+  let allData = [];
+  let filtered = [];
+  let scoreFilter = 'all';
+  let sortCol = 'ipmi_score';
+  let sortDir = -1; // -1 = desc
+
+  // ── Load data ──────────────────────────────
+  async function loadData() {
+    try {
+      // Try to load from the repo's data folder
+      const res = await fetch('data/latest.json');
+      if (!res.ok) throw new Error('No data yet');
+      allData = await res.json();
+      init();
+    } catch(e) {
+      document.getElementById('loading').innerHTML =
+        '⚠️ No data found yet. Run the GitHub Actions agent first, then push the CSV.<br><small style="color:#4A6580;margin-top:8px;display:block">The agent will auto-populate this dashboard on every run.</small>';
+    }
+  }
+
+  function init() {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('broker-table').style.display = 'table';
+
+    // Stats
+    const strong   = allData.filter(r => r.ipmi_score >= 60);
+    const possible = allData.filter(r => r.ipmi_score >= 30 && r.ipmi_score < 60);
+    const weak     = allData.filter(r => r.ipmi_score >= 10 && r.ipmi_score < 30);
+    const none     = allData.filter(r => r.ipmi_score < 10);
+    const emails   = allData.filter(r => r.email && r.email.trim() !== '');
+
+    document.getElementById('cnt-all').textContent    = allData.length;
+    document.getElementById('cnt-strong').textContent = strong.length;
+    document.getElementById('cnt-pos').textContent    = possible.length;
+    document.getElementById('cnt-weak').textContent   = weak.length;
+    document.getElementById('cnt-none').textContent   = none.length;
+    document.getElementById('cnt-emails').textContent = emails.length;
+
+    // Last run date
+    const dates = allData.map(r => r.run_date).filter(Boolean).sort();
+    if (dates.length) {
+      document.getElementById('last-run').textContent = dates[dates.length - 1];
+    }
+
+    // Populate country dropdown
+    const countries = [...new Set(allData.map(r => r.country))].sort();
+    const sel = document.getElementById('filter-country');
+    countries.forEach(c => {
+      const opt = document.createElement('option');
+      opt.value = c; opt.textContent = c;
+      sel.appendChild(opt);
+    });
+
+    applyFilters();
+  }
+
+  // ── Filters ───────────────────────────────
+  function filterByScore(band) {
+    scoreFilter = band;
+    document.querySelectorAll('.stat').forEach(s => s.classList.remove('active'));
+    event.currentTarget.classList.add('active');
+    applyFilters();
+  }
+
+  function applyFilters() {
+    const q       = document.getElementById('search').value.toLowerCase();
+    const region  = document.getElementById('filter-region').value;
+    const country = document.getElementById('filter-country').value;
+    const emailOnly = document.getElementById('filter-email').value === 'yes';
+
+    filtered = allData.filter(r => {
+      // Score band
+      if (scoreFilter === 'strong'   && r.ipmi_score < 60)  return false;
+      if (scoreFilter === 'possible' && (r.ipmi_score < 30 || r.ipmi_score >= 60)) return false;
+      if (scoreFilter === 'weak'     && (r.ipmi_score < 10 || r.ipmi_score >= 30)) return false;
+      if (scoreFilter === 'none'     && r.ipmi_score >= 10) return false;
+      // Region
+      if (region  && r.region  !== region)  return false;
+      if (country && r.country !== country) return false;
+      // Email
+      if (emailOnly && (!r.email || r.email.trim() === '')) return false;
+      // Search
+      if (q) {
+        const hay = [r.broker_name, r.country, r.email, r.website, r.description].join(' ').toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
+
+    renderTable();
+  }
+
+  // ── Sort ──────────────────────────────────
+  function sortBy(col) {
+    if (sortCol === col) sortDir *= -1;
+    else { sortCol = col; sortDir = col === 'ipmi_score' ? -1 : 1; }
+
+    document.querySelectorAll('th').forEach(th => {
+      th.classList.remove('sorted');
+      const arrow = th.querySelector('.sort-arrow');
+      if (arrow) arrow.textContent = '↕';
+    });
+    event.currentTarget.classList.add('sorted');
+    const arrow = event.currentTarget.querySelector('.sort-arrow');
+    if (arrow) arrow.textContent = sortDir === 1 ? '↑' : '↓';
+
+    applyFilters();
+  }
+
+  // ── Render ────────────────────────────────
+  function renderTable() {
+    const sorted = [...filtered].sort((a, b) => {
+      let av = a[sortCol] ?? ''; let bv = b[sortCol] ?? '';
+      if (typeof av === 'number') return sortDir * (av - bv);
+      return sortDir * String(av).localeCompare(String(bv));
+    });
+
+    document.getElementById('result-count').textContent =
+      `${sorted.length} of ${allData.length} leads`;
+
+    const tbody = document.getElementById('table-body');
+    if (sorted.length === 0) {
+      tbody.innerHTML = '';
+      document.getElementById('broker-table').style.display = 'none';
+      document.getElementById('empty-state').style.display = 'block';
+      return;
+    }
+
+    document.getElementById('broker-table').style.display = 'table';
+    document.getElementById('empty-state').style.display = 'none';
+
+    tbody.innerHTML = sorted.map(r => {
+      const sc = r.ipmi_score;
+      const scoreClass = sc >= 60 ? 'score-strong' : sc >= 30 ? 'score-pos' : sc >= 10 ? 'score-weak' : 'score-none';
+      const priClass   = r.priority === 'high' ? 'p-high' : r.priority === 'medium' ? 'p-medium' : 'p-low';
+      const emailHtml  = r.email
+        ? `<a href="mailto:${r.email}" class="email-chip">${r.email}</a>`
+        : `<span class="no-email">—</span>`;
+      const domain = r.website ? new URL(r.website).hostname.replace('www.','') : '—';
+      const desc = (r.description || '').replace(/"/g, '&quot;').substring(0, 120);
+
+      return `<tr>
+        <td><span class="score-badge ${scoreClass}">${sc}</span></td>
+        <td>
+          <div class="broker-name" title="${r.broker_name}">${r.broker_name || '—'}</div>
+          <div class="broker-url">${domain}</div>
+        </td>
+        <td><strong style="color:var(--cream)">${r.country}</strong></td>
+        <td class="hide-mobile"><span class="region-tag">${r.region}</span></td>
+        <td class="hide-mobile"><span class="priority ${priClass}">${r.priority}</span></td>
+        <td>${emailHtml}</td>
+        <td><a href="${r.website}" target="_blank" rel="noopener" title="${desc}">Visit ↗</a></td>
+      </tr>`;
+    }).join('');
+  }
+
+  // ── Export ────────────────────────────────
+  function exportCSV() {
+    const cols = ['country','region','priority','broker_name','website','email','phone','ipmi_score','ipmi_verdict','run_date'];
+    const rows = [cols.join(',')];
+    filtered.forEach(r => {
+      rows.push(cols.map(c => `"${String(r[c]||'').replace(/"/g,'""')}"`).join(','));
+    });
+    const blob = new Blob([rows.join('\n')], {type:'text/csv'});
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `ipmi_leads_${new Date().toISOString().slice(0,10)}.csv`;
+    a.click();
+  }
+
+  loadData();
+</script>
+</body>
+</html>
