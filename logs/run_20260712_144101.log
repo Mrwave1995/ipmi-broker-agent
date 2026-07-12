@@ -1,0 +1,161 @@
+2026-07-12 14:41:01,759 [INFO] ============================================================
+2026-07-12 14:41:01,759 [INFO] IPMI BROKER AGENT v2 — Starting run
+2026-07-12 14:41:01,759 [INFO] Countries: 36 | Known exclusions: 116
+2026-07-12 14:41:01,759 [INFO] ============================================================
+2026-07-12 14:41:01,759 [INFO] SerpApi key loaded ✓
+2026-07-12 14:41:01,759 [INFO] 
+[SOURCE] iPMI Global Directory
+2026-07-12 14:41:05,474 [INFO]   iPMI Global → 95 entries
+2026-07-12 14:41:05,475 [INFO] 
+[SOURCE] Insurer Partner Pages
+2026-07-12 14:41:20,583 [WARNING] Fetch failed https://www.nowhealth.com/en/broker: HTTPSConnectionPool(host='www.nowhealth.com', port=443): Max retries exceeded with url: /en/broker (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.nowhealth.com', port=443) at 0x7fdaa19d3950>, 'Connection to www.nowhealth.com timed out. (connect timeout=15)'))
+2026-07-12 14:41:21,951 [WARNING] HTTP 404 for https://www.april-international.com/en/brokers
+2026-07-12 14:41:22,248 [INFO]   AXA Global Healthcare Broker → scraped
+2026-07-12 14:41:24,027 [WARNING] HTTP 404 for https://www.allianzcare.com/en/partners/brokers.html
+2026-07-12 14:41:24,028 [INFO] 
+── Oman (Middle East, high) ──
+2026-07-12 14:41:25,108 [WARNING] Fetch failed https://fsa.gov.om/Home/AuthorizedAndAccredited?companyType=10: HTTPSConnectionPool(host='fsa.gov.om', port=443): Max retries exceeded with url: /Home/AuthorizedAndAccredited?companyType=10 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+2026-07-12 14:41:26,608 [INFO]   Regulator → 0 entries for Oman
+2026-07-12 14:41:31,978 [INFO]   LinkedIn → 1 results for Oman
+2026-07-12 14:41:33,979 [INFO] 
+── Saudi Arabia (Middle East, high) ──
+2026-07-12 14:41:34,090 [WARNING] HTTP 404 for https://www.gaif.org/FE/Guide?directoryYear=2024&country=Kingdom+Of+Saudi+Arabia
+2026-07-12 14:41:35,591 [INFO]   Regulator → 0 entries for Saudi Arabia
+2026-07-12 14:41:38,465 [INFO]   LinkedIn → 10 results for Saudi Arabia
+2026-07-12 14:41:40,467 [INFO] 
+── Kuwait (Middle East, high) ──
+2026-07-12 14:41:40,635 [WARNING] Fetch failed https://www.gaif.org/FE/Guide?directoryYear=2024&country=State+of+Kuwait: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2026-07-12 14:41:42,135 [INFO]   Regulator → 0 entries for Kuwait
+2026-07-12 14:41:42,807 [INFO]   LinkedIn → 10 results for Kuwait
+2026-07-12 14:41:44,809 [INFO] 
+── Bahrain (Middle East, high) ──
+2026-07-12 14:41:45,671 [WARNING] HTTP 403 for https://www.cbb.gov.bh/insurance-brokers/
+2026-07-12 14:41:47,172 [INFO]   Regulator → 0 entries for Bahrain
+2026-07-12 14:42:02,213 [ERROR] LinkedIn search failed for Bahrain: HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=15)
+2026-07-12 14:42:02,213 [INFO]   LinkedIn → 0 results for Bahrain
+2026-07-12 14:42:04,213 [INFO] 
+── Qatar (Middle East, high) ──
+2026-07-12 14:42:09,894 [INFO]   Regulator → 158 entries for Qatar
+2026-07-12 14:42:16,934 [INFO]   LinkedIn → 10 results for Qatar
+2026-07-12 14:42:18,936 [INFO] 
+── Jordan (Middle East, high) ──
+2026-07-12 14:42:19,017 [WARNING] HTTP 404 for https://www.gaif.org/FE/Guide?directoryYear=2024&country=The+Hashemite+Kingdom+of+Jordan
+2026-07-12 14:42:20,518 [INFO]   Regulator → 0 entries for Jordan
+2026-07-12 14:42:21,889 [INFO]   LinkedIn → 10 results for Jordan
+2026-07-12 14:42:23,891 [INFO] 
+── Lebanon (Middle East, high) ──
+2026-07-12 14:42:23,978 [WARNING] HTTP 404 for https://www.gaif.org/FE/Guide?directoryYear=2024&country=Republic+of+Lebanon
+2026-07-12 14:42:25,479 [INFO]   Regulator → 0 entries for Lebanon
+2026-07-12 14:42:28,585 [INFO]   LinkedIn → 1 results for Lebanon
+2026-07-12 14:42:30,587 [INFO] 
+── Sri Lanka (South/SE Asia, high) ──
+2026-07-12 14:42:32,062 [INFO]   LinkedIn → 8 results for Sri Lanka
+2026-07-12 14:42:34,063 [INFO] 
+── Pakistan (South/SE Asia, high) ──
+2026-07-12 14:42:35,579 [INFO]   LinkedIn → 1 results for Pakistan
+2026-07-12 14:42:37,581 [INFO] 
+── Bangladesh (South/SE Asia, medium) ──
+2026-07-12 14:42:39,241 [INFO]   LinkedIn → 1 results for Bangladesh
+2026-07-12 14:42:41,243 [INFO] 
+── Nepal (South/SE Asia, medium) ──
+2026-07-12 14:42:45,291 [INFO]   LinkedIn → 10 results for Nepal
+2026-07-12 14:42:47,292 [INFO] 
+── Vietnam (South/SE Asia, high) ──
+2026-07-12 14:42:49,191 [INFO]   LinkedIn → 9 results for Vietnam
+2026-07-12 14:42:51,193 [INFO] 
+── Thailand (South/SE Asia, high) ──
+2026-07-12 14:42:53,838 [INFO]   LinkedIn → 6 results for Thailand
+2026-07-12 14:42:55,839 [INFO] 
+── Philippines (South/SE Asia, high) ──
+2026-07-12 14:43:01,314 [INFO]   LinkedIn → 2 results for Philippines
+2026-07-12 14:43:03,316 [INFO] 
+── Malaysia (South/SE Asia, high) ──
+2026-07-12 14:43:04,017 [INFO]   LinkedIn → 10 results for Malaysia
+2026-07-12 14:43:06,019 [INFO] 
+── India (South/SE Asia, low) ──
+2026-07-12 14:43:06,019 [INFO] 
+── Luxembourg (Small Europe, high) ──
+2026-07-12 14:43:06,550 [WARNING] HTTP 403 for https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=LU&pageSize=50
+2026-07-12 14:43:09,160 [INFO]   LinkedIn → 5 results for Luxembourg
+2026-07-12 14:43:11,162 [INFO] 
+── Slovenia (Small Europe, medium) ──
+2026-07-12 14:43:11,638 [WARNING] HTTP 403 for https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=SI&pageSize=50
+2026-07-12 14:43:14,311 [INFO]   LinkedIn → 10 results for Slovenia
+2026-07-12 14:43:16,312 [INFO] 
+── Croatia (Small Europe, medium) ──
+2026-07-12 14:43:16,773 [WARNING] HTTP 403 for https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=HR&pageSize=50
+2026-07-12 14:43:27,813 [INFO]   LinkedIn → 1 results for Croatia
+2026-07-12 14:43:29,814 [INFO] 
+── Estonia (Small Europe, medium) ──
+2026-07-12 14:43:30,266 [WARNING] HTTP 403 for https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=EE&pageSize=50
+2026-07-12 14:43:35,628 [INFO]   LinkedIn → 10 results for Estonia
+2026-07-12 14:43:37,629 [INFO] 
+── Latvia (Small Europe, medium) ──
+2026-07-12 14:43:38,152 [WARNING] HTTP 403 for https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=LV&pageSize=50
+2026-07-12 14:43:41,865 [INFO]   LinkedIn → 10 results for Latvia
+2026-07-12 14:43:43,867 [INFO] 
+── Lithuania (Small Europe, medium) ──
+2026-07-12 14:43:44,391 [WARNING] HTTP 403 for https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=LT&pageSize=50
+2026-07-12 14:43:48,378 [INFO]   LinkedIn → 10 results for Lithuania
+2026-07-12 14:43:50,379 [INFO] 
+── Cyprus (Small Europe, high) ──
+2026-07-12 14:43:50,980 [WARNING] HTTP 403 for https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=CY&pageSize=50
+2026-07-12 14:44:01,219 [INFO]   LinkedIn → 1 results for Cyprus
+2026-07-12 14:44:03,220 [INFO] 
+── Iceland (Small Europe, medium) ──
+2026-07-12 14:44:03,822 [WARNING] HTTP 403 for https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=IS&pageSize=50
+2026-07-12 14:44:12,481 [INFO]   LinkedIn → 10 results for Iceland
+2026-07-12 14:44:14,482 [INFO] 
+── Montenegro (Small Europe, medium) ──
+2026-07-12 14:44:15,794 [ERROR] SerpApi error: Google hasn't returned any results for this query.
+2026-07-12 14:44:17,795 [INFO] 
+── Albania (Small Europe, low) ──
+2026-07-12 14:44:17,796 [INFO] 
+── Panama (LATAM, high) ──
+2026-07-12 14:44:18,846 [INFO]   LinkedIn → 10 results for Panama
+2026-07-12 14:44:34,318 [INFO]   Supplementary → 16 results for Panama
+2026-07-12 14:44:36,319 [INFO] 
+── Costa Rica (LATAM, high) ──
+2026-07-12 14:44:37,690 [INFO]   LinkedIn → 10 results for Costa Rica
+2026-07-12 14:45:00,145 [INFO]   Supplementary → 18 results for Costa Rica
+2026-07-12 14:45:02,147 [INFO] 
+── Uruguay (LATAM, medium) ──
+2026-07-12 14:45:06,626 [INFO]   LinkedIn → 10 results for Uruguay
+2026-07-12 14:45:15,367 [INFO]   Supplementary → 18 results for Uruguay
+2026-07-12 14:45:17,369 [INFO] 
+── Paraguay (LATAM, low) ──
+2026-07-12 14:45:34,813 [INFO]   Supplementary → 18 results for Paraguay
+2026-07-12 14:45:36,815 [INFO] 
+── Bolivia (LATAM, low) ──
+2026-07-12 14:45:43,540 [INFO]   Supplementary → 18 results for Bolivia
+2026-07-12 14:45:45,542 [INFO] 
+── Ecuador (LATAM, medium) ──
+2026-07-12 14:45:48,849 [INFO]   LinkedIn → 10 results for Ecuador
+2026-07-12 14:45:57,013 [INFO]   Supplementary → 17 results for Ecuador
+2026-07-12 14:45:59,015 [INFO] 
+── Guatemala (LATAM, medium) ──
+2026-07-12 14:45:59,689 [INFO]   LinkedIn → 10 results for Guatemala
+2026-07-12 14:46:10,206 [INFO]   Supplementary → 18 results for Guatemala
+2026-07-12 14:46:12,208 [INFO] 
+── Honduras (LATAM, low) ──
+2026-07-12 14:46:24,057 [INFO]   Supplementary → 18 results for Honduras
+2026-07-12 14:46:26,058 [INFO] 
+── El Salvador (LATAM, low) ──
+2026-07-12 14:46:32,915 [INFO]   Supplementary → 18 results for El Salvador
+2026-07-12 14:46:34,916 [INFO] 
+── Dominican Republic (LATAM, medium) ──
+2026-07-12 14:46:39,012 [INFO]   LinkedIn → 10 results for Dominican Republic
+2026-07-12 14:46:49,751 [INFO]   Supplementary → 18 results for Dominican Republic
+2026-07-12 14:46:51,753 [INFO] 
+[SCORING] Scoring all leads...
+2026-07-12 14:46:51,768 [INFO] 
+============================================================
+2026-07-12 14:46:51,768 [INFO] RUN COMPLETE
+2026-07-12 14:46:51,768 [INFO] Total new leads      : 561
+2026-07-12 14:46:51,768 [INFO] 🟢 Strong IPMI       : 143
+2026-07-12 14:46:51,768 [INFO] 🟡 Possible          : 176
+2026-07-12 14:46:51,768 [INFO] 🔴 Weak/other        : 242
+2026-07-12 14:46:51,768 [INFO] SerpApi calls used   : 50
+2026-07-12 14:46:51,768 [INFO] CSV saved            : docs/data/ipmi_brokers_20260712_144651.csv
+2026-07-12 14:46:51,768 [INFO] Dashboard JSON       : docs/data/latest.json
+2026-07-12 14:46:51,768 [INFO] ============================================================
