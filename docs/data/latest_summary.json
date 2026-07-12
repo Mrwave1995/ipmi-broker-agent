@@ -1,9 +1,11 @@
 {
-  "run_date": "2026-07-12T14:46:51.768758",
-  "total_leads": 561,
-  "strong": 143,
-  "possible": 176,
-  "weak": 242,
+  "run_date": "2026-07-12T18:49:50.707185",
+  "raw_candidates": 564,
+  "total_leads": 98,
+  "strong": 98,
+  "possible": 0,
+  "filtered_out": 466,
   "serpapi_calls": 50,
-  "csv_file": "docs/data/ipmi_brokers_20260712_144651.csv"
+  "claude_calls": 564,
+  "claude_active": true
 }
