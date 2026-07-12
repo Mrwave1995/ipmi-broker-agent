@@ -2,7 +2,7 @@ name: IPMI Broker Discovery Agent
 
 on:
   schedule:
-    - cron: "0 3 * * 1"
+    - cron: "0 3 * * 1"   # Every Monday 7AM UAE time
   workflow_dispatch:
     inputs:
       reason:
@@ -38,17 +38,29 @@ jobs:
           LOG_DIR: logs
         run: python broker_agent.py
 
-      - name: Commit results back to repo
+      - name: Commit results to repo
         run: |
           git config --global user.name "IPMI Bot"
           git config --global user.email "bot@ipmi-agent.com"
           git add docs/data/ logs/
-          git diff --staged --quiet || git commit -m "🤖 Auto: broker leads update $(date +'%Y-%m-%d %H:%M')"
+          git diff --staged --quiet || git commit -m "🤖 Auto: broker leads $(date +'%Y-%m-%d')"
           git push
 
-      - name: Upload artifact (backup)
+      - name: Upload CSV artifact
         uses: actions/upload-artifact@v4
         with:
           name: ipmi-broker-leads-${{ github.run_number }}
           path: docs/data/
           retention-days: 90
+
+      - name: Print summary
+        if: always()
+        run: |
+          echo "════════════════════════════"
+          echo "  IPMI Agent Run Summary"
+          echo "════════════════════════════"
+          if [ -f docs/data/latest_summary.json ]; then
+            cat docs/data/latest_summary.json
+          else
+            echo "No summary found — check logs"
+          fi
