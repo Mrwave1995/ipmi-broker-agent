@@ -34,6 +34,7 @@ jobs:
         env:
           SERPAPI_KEY_PRIMARY: ${{ secrets.SERPAPI_KEY_PRIMARY }}
           SERPAPI_KEY_BACKUP:  ${{ secrets.SERPAPI_KEY_BACKUP }}
+          ANTHROPIC_API_KEY:   ${{ secrets.ANTHROPIC_API_KEY }}
           OUTPUT_DIR: docs/data
           LOG_DIR: logs
         run: python broker_agent.py
