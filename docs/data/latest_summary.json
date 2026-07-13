@@ -1,11 +1,11 @@
 {
-  "run_date": "2026-07-12T18:49:50.707185",
-  "raw_candidates": 564,
-  "total_leads": 98,
-  "strong": 98,
-  "possible": 0,
-  "filtered_out": 466,
+  "run_date": "2026-07-13T13:07:52.919121",
+  "raw_candidates": 482,
+  "total_leads": 80,
+  "strong": 78,
+  "possible": 2,
+  "filtered_out": 402,
   "serpapi_calls": 50,
-  "claude_calls": 564,
+  "claude_calls": 482,
   "claude_active": true
 }
