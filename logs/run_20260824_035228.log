@@ -1,0 +1,940 @@
+2026-08-24 03:52:28,906 [INFO] ============================================================
+2026-08-24 03:52:28,906 [INFO] IPMI BROKER AGENT v3 — Claude AI Filtering Edition
+2026-08-24 03:52:28,906 [INFO] Countries: 36 | Exclusions: 116
+2026-08-24 03:52:28,906 [INFO] Claude AI filtering: ✅ ACTIVE
+2026-08-24 03:52:28,906 [INFO] ============================================================
+2026-08-24 03:52:28,906 [INFO] SerpApi key loaded ✓
+2026-08-24 03:52:28,906 [INFO] 
+[SOURCE 3] iPMI Global Directory
+2026-08-24 03:52:28,972 [WARNING] HTTP 403 — https://ipmiglobal.com/provider-network
+2026-08-24 03:52:29,019 [WARNING] HTTP 403 — https://ipmiglobal.com/provider-network/network-directory
+2026-08-24 03:52:29,020 [INFO]   iPMI Global → 0 entries
+2026-08-24 03:52:29,020 [INFO] 
+[SOURCE 5] Insurer Partner Pages
+2026-08-24 03:52:44,158 [WARNING] Fetch failed https://www.nowhealth.com/en/broker: HTTPSConnectionPool(host='www.nowhealth.com', port=443): Max retries exceeded with url: /en/broker (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.nowhealth.com', port=443) at 0x7f6b5a68c750>, 'Connection to www.nowhealth.com timed out. (connect timeout=15)'))
+2026-08-24 03:52:45,735 [WARNING] HTTP 404 — https://www.april-international.com/en/brokers
+2026-08-24 03:52:46,153 [INFO]   AXA Global Healthcare Broker → scraped
+2026-08-24 03:52:47,955 [WARNING] HTTP 404 — https://www.allianzcare.com/en/partners/brokers.html
+2026-08-24 03:52:47,956 [INFO] 
+── Oman (Middle East, high) ──
+2026-08-24 03:52:48,860 [WARNING] Fetch failed https://fsa.gov.om/Home/AuthorizedAndAccredited?companyType=10: HTTPSConnectionPool(host='fsa.gov.om', port=443): Max retries exceeded with url: /Home/AuthorizedAndAccredited?companyType=10 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+2026-08-24 03:52:50,360 [INFO]   Regulator → 0 entries for Oman
+2026-08-24 03:52:52,001 [INFO]   LinkedIn → 10 for Oman
+2026-08-24 03:52:54,002 [INFO] 
+── Saudi Arabia (Middle East, high) ──
+2026-08-24 03:52:54,249 [WARNING] HTTP 404 — https://www.gaif.org/FE/Guide?directoryYear=2024&country=Kingdom+Of+Saudi+Arabia
+2026-08-24 03:52:55,750 [INFO]   Regulator → 0 entries for Saudi Arabia
+2026-08-24 03:53:10,799 [ERROR] LinkedIn search failed Saudi Arabia: HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=15)
+2026-08-24 03:53:10,799 [INFO]   LinkedIn → 0 for Saudi Arabia
+2026-08-24 03:53:12,800 [INFO] 
+── Kuwait (Middle East, high) ──
+2026-08-24 03:53:12,928 [WARNING] HTTP 404 — https://www.gaif.org/FE/Guide?directoryYear=2024&country=State+of+Kuwait
+2026-08-24 03:53:14,429 [INFO]   Regulator → 0 entries for Kuwait
+2026-08-24 03:53:17,879 [INFO]   LinkedIn → 10 for Kuwait
+2026-08-24 03:53:19,881 [INFO] 
+── Bahrain (Middle East, high) ──
+2026-08-24 03:53:20,436 [WARNING] HTTP 403 — https://www.cbb.gov.bh/insurance-brokers/
+2026-08-24 03:53:21,937 [INFO]   Regulator → 0 entries for Bahrain
+2026-08-24 03:53:36,973 [ERROR] LinkedIn search failed Bahrain: HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=15)
+2026-08-24 03:53:36,973 [INFO]   LinkedIn → 0 for Bahrain
+2026-08-24 03:53:38,974 [INFO] 
+── Qatar (Middle East, high) ──
+2026-08-24 03:53:43,742 [INFO]   Regulator → 157 entries for Qatar
+2026-08-24 03:53:44,947 [INFO]   LinkedIn → 10 for Qatar
+2026-08-24 03:53:46,949 [INFO] 
+── Jordan (Middle East, high) ──
+2026-08-24 03:53:47,126 [WARNING] HTTP 404 — https://www.gaif.org/FE/Guide?directoryYear=2024&country=The+Hashemite+Kingdom+of+Jordan
+2026-08-24 03:53:48,627 [INFO]   Regulator → 0 entries for Jordan
+2026-08-24 03:53:53,533 [INFO]   LinkedIn → 10 for Jordan
+2026-08-24 03:53:55,535 [INFO] 
+── Lebanon (Middle East, high) ──
+2026-08-24 03:53:55,832 [WARNING] HTTP 404 — https://www.gaif.org/FE/Guide?directoryYear=2024&country=Republic+of+Lebanon
+2026-08-24 03:53:57,333 [INFO]   Regulator → 0 entries for Lebanon
+2026-08-24 03:54:12,382 [ERROR] LinkedIn search failed Lebanon: HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=15)
+2026-08-24 03:54:12,382 [INFO]   LinkedIn → 0 for Lebanon
+2026-08-24 03:54:14,382 [INFO] 
+── Sri Lanka (South/SE Asia, high) ──
+2026-08-24 03:54:15,513 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-08-24 03:54:17,514 [INFO] 
+── Pakistan (South/SE Asia, high) ──
+2026-08-24 03:54:21,681 [INFO]   LinkedIn → 10 for Pakistan
+2026-08-24 03:54:23,683 [INFO] 
+── Bangladesh (South/SE Asia, medium) ──
+2026-08-24 03:54:28,366 [INFO]   LinkedIn → 1 for Bangladesh
+2026-08-24 03:54:30,368 [INFO] 
+── Nepal (South/SE Asia, medium) ──
+2026-08-24 03:54:31,945 [INFO]   LinkedIn → 10 for Nepal
+2026-08-24 03:54:33,947 [INFO] 
+── Vietnam (South/SE Asia, high) ──
+2026-08-24 03:54:42,797 [INFO]   LinkedIn → 7 for Vietnam
+2026-08-24 03:54:44,799 [INFO] 
+── Thailand (South/SE Asia, high) ──
+2026-08-24 03:54:45,824 [INFO]   LinkedIn → 9 for Thailand
+2026-08-24 03:54:47,826 [INFO] 
+── Philippines (South/SE Asia, high) ──
+2026-08-24 03:54:48,841 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-08-24 03:54:50,842 [INFO] 
+── Malaysia (South/SE Asia, high) ──
+2026-08-24 03:55:01,596 [INFO]   LinkedIn → 10 for Malaysia
+2026-08-24 03:55:03,598 [INFO] 
+── India (South/SE Asia, low) ──
+2026-08-24 03:55:03,598 [INFO] 
+── Luxembourg (Small Europe, high) ──
+2026-08-24 03:55:03,997 [WARNING] HTTP 403 — https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=LU&pageSize=50
+2026-08-24 03:55:06,863 [INFO]   LinkedIn → 3 for Luxembourg
+2026-08-24 03:55:08,865 [INFO] 
+── Slovenia (Small Europe, medium) ──
+2026-08-24 03:55:09,196 [WARNING] HTTP 403 — https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=SI&pageSize=50
+2026-08-24 03:55:12,585 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-08-24 03:55:14,586 [INFO] 
+── Croatia (Small Europe, medium) ──
+2026-08-24 03:55:14,996 [WARNING] HTTP 403 — https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=HR&pageSize=50
+2026-08-24 03:55:25,539 [INFO]   LinkedIn → 1 for Croatia
+2026-08-24 03:55:27,541 [INFO] 
+── Estonia (Small Europe, medium) ──
+2026-08-24 03:55:27,867 [WARNING] HTTP 403 — https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=EE&pageSize=50
+2026-08-24 03:55:40,322 [INFO]   LinkedIn → 1 for Estonia
+2026-08-24 03:55:42,323 [INFO] 
+── Latvia (Small Europe, medium) ──
+2026-08-24 03:55:42,715 [WARNING] HTTP 403 — https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=LV&pageSize=50
+2026-08-24 03:55:46,108 [INFO]   LinkedIn → 10 for Latvia
+2026-08-24 03:55:48,110 [INFO] 
+── Lithuania (Small Europe, medium) ──
+2026-08-24 03:55:48,447 [WARNING] HTTP 403 — https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=LT&pageSize=50
+2026-08-24 03:55:53,241 [INFO]   LinkedIn → 10 for Lithuania
+2026-08-24 03:55:55,243 [INFO] 
+── Cyprus (Small Europe, high) ──
+2026-08-24 03:55:55,652 [WARNING] HTTP 403 — https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=CY&pageSize=50
+2026-08-24 03:55:58,414 [INFO]   LinkedIn → 1 for Cyprus
+2026-08-24 03:56:00,416 [INFO] 
+── Iceland (Small Europe, medium) ──
+2026-08-24 03:56:00,827 [WARNING] HTTP 403 — https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=IS&pageSize=50
+2026-08-24 03:56:17,373 [ERROR] LinkedIn search failed Iceland: HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=15)
+2026-08-24 03:56:17,373 [INFO]   LinkedIn → 0 for Iceland
+2026-08-24 03:56:19,374 [INFO] 
+── Montenegro (Small Europe, medium) ──
+2026-08-24 03:56:20,667 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-08-24 03:56:22,668 [INFO] 
+── Albania (Small Europe, low) ──
+2026-08-24 03:56:22,669 [INFO] 
+── Panama (LATAM, high) ──
+2026-08-24 03:56:25,593 [INFO]   LinkedIn → 10 for Panama
+2026-08-24 03:56:39,595 [INFO]   Supplementary → 17 for Panama
+2026-08-24 03:56:41,596 [INFO] 
+── Costa Rica (LATAM, high) ──
+2026-08-24 03:56:42,815 [INFO]   LinkedIn → 10 for Costa Rica
+2026-08-24 03:56:51,052 [INFO]   Supplementary → 18 for Costa Rica
+2026-08-24 03:56:53,053 [INFO] 
+── Uruguay (LATAM, medium) ──
+2026-08-24 03:56:54,186 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-08-24 03:57:05,007 [INFO]   Supplementary → 18 for Uruguay
+2026-08-24 03:57:07,009 [INFO] 
+── Paraguay (LATAM, low) ──
+2026-08-24 03:57:22,707 [INFO]   Supplementary → 18 for Paraguay
+2026-08-24 03:57:24,708 [INFO] 
+── Bolivia (LATAM, low) ──
+2026-08-24 03:57:32,222 [INFO]   Supplementary → 18 for Bolivia
+2026-08-24 03:57:34,224 [INFO] 
+── Ecuador (LATAM, medium) ──
+2026-08-24 03:57:40,011 [INFO]   LinkedIn → 10 for Ecuador
+2026-08-24 03:57:52,607 [INFO]   Supplementary → 17 for Ecuador
+2026-08-24 03:57:54,609 [INFO] 
+── Guatemala (LATAM, medium) ──
+2026-08-24 03:58:09,656 [ERROR] LinkedIn search failed Guatemala: HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=15)
+2026-08-24 03:58:09,656 [INFO]   LinkedIn → 0 for Guatemala
+2026-08-24 03:58:18,310 [INFO]   Supplementary → 18 for Guatemala
+2026-08-24 03:58:20,311 [INFO] 
+── Honduras (LATAM, low) ──
+2026-08-24 03:58:27,220 [INFO]   Supplementary → 18 for Honduras
+2026-08-24 03:58:29,222 [INFO] 
+── El Salvador (LATAM, low) ──
+2026-08-24 03:58:36,476 [INFO]   Supplementary → 18 for El Salvador
+2026-08-24 03:58:38,478 [INFO] 
+── Dominican Republic (LATAM, medium) ──
+2026-08-24 03:58:53,516 [ERROR] LinkedIn search failed Dominican Republic: HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=15)
+2026-08-24 03:58:53,516 [INFO]   LinkedIn → 0 for Dominican Republic
+2026-08-24 03:59:13,384 [INFO]   Supplementary → 19 for Dominican Republic
+2026-08-24 03:59:15,386 [INFO] 
+[RAW] 429 total candidates before AI filtering
+2026-08-24 03:59:15,386 [INFO] 
+[CLAUDE] Filtering 429 leads...
+2026-08-24 03:59:15,386 [INFO]   [1/429] Personal
+2026-08-24 03:59:17,447 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks identifying details (no website
+2026-08-24 03:59:17,448 [INFO]   [2/429] Business
+2026-08-24 03:59:19,300 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks sufficient identifying details 
+2026-08-24 03:59:19,300 [INFO]   [3/429] Intermediaries
+2026-08-24 03:59:21,624 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry name 'Intermediaries' is too generic 
+2026-08-24 03:59:21,624 [INFO]   [4/429] Medical providers
+2026-08-24 03:59:23,257 [INFO]     ❌ Filtered: 🔴 Filtered out — The entry describes a category of medical p
+2026-08-24 03:59:23,257 [INFO]   [5/429] Wellbeing
+2026-08-24 03:59:24,969 [INFO]     ❌ Filtered: 🔴 Filtered out — Insufficient information to verify; 'Wellbe
+2026-08-24 03:59:24,969 [INFO]   [6/429] Unlock a world of opportunity
+2026-08-24 03:59:26,795 [INFO]     ❌ Filtered: 🔴 Filtered out — The entry name 'Unlock a world of opportuni
+2026-08-24 03:59:26,795 [INFO]   [7/429] A look at our Hong Kong cover
+2026-08-24 03:59:28,538 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be a single article or prod
+2026-08-24 03:59:28,538 [INFO]   [8/429] Cover benefits for Channel Islands or Isle of Man
+2026-08-24 03:59:30,403 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be a product offering or se
+2026-08-24 03:59:30,403 [INFO]   [9/429] Switching to AXA
+2026-08-24 03:59:31,927 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry appears to be a listing or reference 
+2026-08-24 03:59:31,927 [INFO]   [10/429] Individuals and families
+2026-08-24 03:59:33,537 [INFO]     ❌ Filtered: 🔴 Filtered out — This entry appears to be a generic category
+2026-08-24 03:59:33,537 [INFO]   [11/429] Plans for groups of up to 74 employees
+2026-08-24 03:59:35,183 [INFO]     ❌ Filtered: 🔴 Filtered out — The entry describes a product tier or plan 
+2026-08-24 03:59:35,183 [INFO]   [12/429] Plans for groups of 75 to 149 employees
+2026-08-24 03:59:36,799 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a plan category or product listing 
+2026-08-24 03:59:36,799 [INFO]   [13/429] Plans for groups of 150+ employees
+2026-08-24 03:59:38,612 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry describes a product category (group p
+2026-08-24 03:59:38,612 [INFO]   [14/429] Maternity services
+2026-08-24 03:59:39,936 [INFO]     ❌ Filtered: 🔴 Filtered out — Maternity services is a service category or
+2026-08-24 03:59:39,936 [INFO]   [15/429] Cancer services
+2026-08-24 03:59:41,324 [INFO]     ❌ Filtered: 🔴 Filtered out — Cancer services is a specialized medical pr
+2026-08-24 03:59:41,324 [INFO]   [16/429] Evacuation and Repatriation service
+2026-08-24 03:59:42,685 [INFO]     ❌ Filtered: 🔴 Filtered out — Evacuation and Repatriation is a specialize
+2026-08-24 03:59:42,686 [INFO]   [17/429] Second medical opinion
+2026-08-24 03:59:44,189 [INFO]     ❌ Filtered: 🔴 Filtered out — Second medical opinion is a healthcare serv
+2026-08-24 03:59:44,190 [INFO]   [18/429] Mind health
+2026-08-24 03:59:45,911 [INFO]     ❌ Filtered: 🔴 Filtered out — Mind health appears to be a mental health s
+2026-08-24 03:59:45,911 [INFO]   [19/429] Virtual doctor
+2026-08-24 03:59:47,291 [INFO]     ❌ Filtered: 🔴 Filtered out — Virtual doctor appears to be a telemedicine
+2026-08-24 03:59:47,291 [INFO]   [20/429] Psychiatric Case Management
+2026-08-24 03:59:48,653 [INFO]     ❌ Filtered: 🔴 Filtered out — Psychiatric Case Management is a healthcare
+2026-08-24 03:59:48,653 [INFO]   [21/429] You’ve got their back. We’ve got yours.
+2026-08-24 03:59:50,179 [INFO]     ❌ Filtered: 🔴 Filtered out — The entry name appears to be a tagline or m
+2026-08-24 03:59:50,179 [INFO]   [22/429] Get a quote for your client
+2026-08-24 04:00:11,525 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be a generic quotation requ
+2026-08-24 04:00:11,526 [INFO]   [23/429] +44 (0)1892 556025*
+2026-08-24 04:00:13,149 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is a phone number lacking website, co
+2026-08-24 04:00:13,149 [INFO]   [24/429] +44 (0)1892 556796**
+2026-08-24 04:00:14,714 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is a phone number only with no websit
+2026-08-24 04:00:14,714 [INFO]   [25/429] New to AXA?
+2026-08-24 04:00:16,307 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry appears to be a generic landing page 
+2026-08-24 04:00:16,307 [INFO]   [26/429] Why choose us?
+2026-08-24 04:00:37,471 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be a generic landing page s
+2026-08-24 04:00:37,471 [INFO]   [27/429] Want to work with us?
+2026-08-24 04:00:39,034 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be a recruitment or partner
+2026-08-24 04:00:39,034 [INFO]   [28/429] Making it easier to switch
+2026-08-24 04:00:40,847 [INFO]     ❌ Filtered: 🔴 Filtered out — The entry name 'Making it easier to switch'
+2026-08-24 04:00:40,847 [INFO]   [29/429] Personal insurance
+2026-08-24 04:01:02,222 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks specific company name, website 
+2026-08-24 04:01:02,223 [INFO]   [30/429] International health insurance
+2026-08-24 04:01:03,957 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry appears to be a reference to AXA's br
+2026-08-24 04:01:03,957 [INFO]   [31/429] Short term cover options
+2026-08-24 04:01:05,985 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be a product category or li
+2026-08-24 04:01:05,986 [INFO]   [32/429] Online doctor service
+2026-08-24 04:01:26,991 [INFO]     ❌ Filtered: 🔴 Filtered out — An 'online doctor service' provides telemed
+2026-08-24 04:01:26,991 [INFO]   [33/429] Business insurance
+2026-08-24 04:01:28,632 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry name 'Business insurance' is too gene
+2026-08-24 04:01:28,632 [INFO]   [34/429] Small business (1-74)
+2026-08-24 04:01:49,762 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks sufficient identifying informat
+2026-08-24 04:01:49,762 [INFO]   [35/429] Medium enterprise (75-149)
+2026-08-24 04:01:51,272 [INFO]   [36/429] Large corporate (150+)
+2026-08-24 04:02:12,156 [INFO]   [37/429] All business health insurance
+2026-08-24 04:02:14,213 [INFO]     ❌ Filtered: 🔴 Filtered out — Name is generic and lacks specificity; list
+2026-08-24 04:02:14,213 [INFO]   [38/429] Helpful links
+2026-08-24 04:02:35,175 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a generic directory listing or refe
+2026-08-24 04:02:35,175 [INFO]   [39/429] Existing customers
+2026-08-24 04:02:36,925 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be a category or listing pa
+2026-08-24 04:02:36,926 [INFO]   [40/429] Insurance partners
+2026-08-24 04:02:58,481 [INFO]     ❌ Filtered: 🔴 Filtered out — Listed on AXA Global Healthcare Broker with
+2026-08-24 04:02:58,481 [INFO]   [41/429] Meet our global team
+2026-08-24 04:03:00,659 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be a generic team directory
+2026-08-24 04:03:00,659 [INFO]   [42/429] Accessibility
+2026-08-24 04:03:22,113 [INFO]     ❌ Filtered: 🔴 Filtered out — The name 'Accessibility' is too generic and
+2026-08-24 04:03:22,113 [INFO]   [43/429] Social
+2026-08-24 04:03:42,136 [WARNING] Claude API error for Social: HTTPSConnectionPool(host='api.anthropic.com', port=443): Max retries exceeded with url: /v1/messages (Caused by NewConnectionError("HTTPSConnection(host='api.anthropic.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable")) — falling back to keywords
+2026-08-24 04:03:42,636 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-08-24 04:03:42,636 [INFO]   [44/429] Gender Pay Gap
+2026-08-24 04:03:44,294 [INFO]     ❌ Filtered: 🔴 Filtered out — Gender Pay Gap is a policy/social issue top
+2026-08-24 04:03:44,294 [INFO]   [45/429] Modern Slavery Act
+2026-08-24 04:03:45,561 [INFO]     ❌ Filtered: 🔴 Filtered out — Modern Slavery Act is UK legislation requir
+2026-08-24 04:03:45,561 [INFO]   [46/429] Privacy Policy
+2026-08-24 04:03:47,583 [INFO]     ❌ Filtered: 🔴 Filtered out — A privacy policy document is not itself an 
+2026-08-24 04:03:47,583 [INFO]   [47/429] Cookie Policy
+2026-08-24 04:04:08,661 [INFO]     ❌ Filtered: 🔴 Filtered out — A 'Cookie Policy' is a legal/compliance doc
+2026-08-24 04:04:08,661 [INFO]   [48/429] Legal Information
+2026-08-24 04:04:14,177 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks sufficient identifying informat
+2026-08-24 04:04:14,177 [INFO]   [49/429] © 2026  AXA All Rights Reserved
+2026-08-24 04:04:15,951 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry appears to be a copyright notice or f
+2026-08-24 04:04:15,951 [INFO]   [50/429] AL BATINAH TREASURES INSURANCE BROKERS LLC
+2026-08-24 04:04:17,554 [INFO]     ❌ Filtered: 🔴 Filtered out — Company focuses on domestic Omani insurance
+2026-08-24 04:04:17,554 [INFO]   [51/429] Omega Insurance Brokers LLC
+2026-08-24 04:04:19,362 [INFO]     ❌ Filtered: 🔴 Filtered out — Company is based in Oman with a UAE LinkedI
+2026-08-24 04:04:19,362 [INFO]   [52/429] Platinum Insurance Broker LLC
+2026-08-24 04:04:40,866 [INFO]     ❌ Filtered: 🔴 Filtered out — While the company lists health insurance am
+2026-08-24 04:04:40,866 [INFO]   [53/429] Khimji Ramdas Insurance Services
+2026-08-24 04:04:43,115 [INFO]     ❌ Filtered: 🔴 Filtered out — Khimji Ramdas appears to be a general insur
+2026-08-24 04:04:43,115 [INFO]   [54/429] Gargash Insurance Services LLC
+2026-08-24 04:04:44,930 [INFO]     ❌ Filtered: 🔴 Filtered out — Gargash is a UAE-based general insurance in
+2026-08-24 04:04:44,930 [INFO]   [55/429] Fidelity Insurance Brokers Private Limited
+2026-08-24 04:04:46,708 [INFO]   [56/429] Insurte
+2026-08-24 04:04:48,403 [INFO]     ❌ Filtered: 🔴 Filtered out — Insurte appears to be a general digital ins
+2026-08-24 04:04:48,403 [INFO]   [57/429] Gargash Insurance
+2026-08-24 04:04:50,439 [INFO]     ❌ Filtered: 🔴 Filtered out — Gargash Insurance is a GCC-focused chartere
+2026-08-24 04:04:50,439 [INFO]   [58/429] Aon-COFCO Insurance Brokers Co., Ltd.
+2026-08-24 04:04:51,873 [INFO]     ❌ Filtered: 🔴 Filtered out — Aon-COFCO is a general insurance broker lic
+2026-08-24 04:04:51,873 [INFO]   [59/429] Nasco Insurance Group
+2026-08-24 04:04:53,500 [INFO]     ❌ Filtered: 🔴 Filtered out — While Nasco is a legitimate insurance broke
+2026-08-24 04:04:53,500 [INFO]   [60/429] IIC - International Insurance Consultants
+2026-08-24 04:04:54,952 [INFO]     ❌ Filtered: 🔴 Filtered out — Described as 'general insurance brokerage' 
+2026-08-24 04:04:54,952 [INFO]   [61/429] Al Mulla Insurance Brokerage
+2026-08-24 04:04:57,524 [INFO]     ❌ Filtered: 🔴 Filtered out — While Al Mulla appears to be a legitimate i
+2026-08-24 04:04:57,524 [INFO]   [62/429] British International Insurance Brokerage co.
+2026-08-24 04:04:59,126 [INFO]     ❌ Filtered: 🔴 Filtered out — LinkedIn-only presence with no accessible w
+2026-08-24 04:04:59,127 [INFO]   [63/429] Warba Insurance and Reinsurance Company K.S.C.P
+2026-08-24 04:05:00,955 [INFO]     ❌ Filtered: 🔴 Filtered out — Warba is a domestic Kuwaiti insurance compa
+2026-08-24 04:05:00,955 [INFO]   [64/429] AARKAY INSURANCE BROKERS W.L.L.
+2026-08-24 04:05:02,715 [INFO]     ❌ Filtered: 🔴 Filtered out — LinkedIn-only presence with generic descrip
+2026-08-24 04:05:02,715 [INFO]   [65/429] Aljazeera Alarabiya Insurance Brokerage Company.KW
+2026-08-24 04:05:23,599 [INFO]     ❌ Filtered: 🔴 Filtered out — LinkedIn profile description is incomplete 
+2026-08-24 04:05:23,600 [INFO]   [66/429] Gulf Trust Insurance Broker Company
+2026-08-24 04:05:25,164 [INFO]     ❌ Filtered: 🔴 Filtered out — LinkedIn profile lacks specific mention of 
+2026-08-24 04:05:25,164 [INFO]   [67/429] Nexus Insurance Brokers LLC
+2026-08-24 04:05:27,054 [INFO]   [68/429] Elite insurance Consultants
+2026-08-24 04:05:28,976 [INFO]     ❌ Filtered: 🔴 Filtered out — Generic description mentioning 'insurance s
+2026-08-24 04:05:28,976 [INFO]   [69/429] ACE Gallagher
+2026-08-24 04:05:50,591 [INFO]   [70/429] The QFC and the QFCRA
+2026-08-24 04:05:52,644 [INFO]     ❌ Filtered: 🔴 Filtered out — The QFC and QFCRA are financial regulators/
+2026-08-24 04:05:52,644 [INFO]   [71/429] QFC Affiliated Organisations
+2026-08-24 04:05:54,091 [INFO]     ❌ Filtered: 🔴 Filtered out — Licensed as a general insurance broker in Q
+2026-08-24 04:05:54,092 [INFO]   [72/429] QFCRA Structure
+2026-08-24 04:06:05,437 [INFO]     ❌ Filtered: 🔴 Filtered out — QFCRA Structure is a regulatory body (Qatar
+2026-08-24 04:06:05,437 [INFO]   [73/429] Qatar’s Strategy for Financial Regulation
+2026-08-24 04:06:06,982 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a government regulatory framework d
+2026-08-24 04:06:06,982 [INFO]   [74/429] The Financial Stability and Risk Control Committee
+2026-08-24 04:06:08,319 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a government regulatory committee, 
+2026-08-24 04:06:08,319 [INFO]   [75/429] Board Governance
+2026-08-24 04:06:09,883 [INFO]     ❌ Filtered: 🔴 Filtered out — Board Governance is a regulatory body/regul
+2026-08-24 04:06:09,883 [INFO]   [76/429] Board of Directors
+2026-08-24 04:06:11,491 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory body (Board of Directo
+2026-08-24 04:06:11,492 [INFO]   [77/429] The Executive Team
+2026-08-24 04:06:13,254 [INFO]     ❌ Filtered: 🔴 Filtered out — Licensed as a general insurance broker in Q
+2026-08-24 04:06:13,255 [INFO]   [78/429] Corporate Social Responsibility
+2026-08-24 04:06:14,751 [INFO]     ❌ Filtered: 🔴 Filtered out — Corporate Social Responsibility is a regula
+2026-08-24 04:06:14,752 [INFO]   [79/429] Contact Us
+2026-08-24 04:06:16,442 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a generic 'Contact Us' page from a 
+2026-08-24 04:06:16,443 [INFO]   [80/429] Regulatory Objectives
+2026-08-24 04:06:19,818 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory body or licensing auth
+2026-08-24 04:06:19,819 [INFO]   [81/429] Economic Research and Data Analytics
+2026-08-24 04:06:21,364 [INFO]     ❌ Filtered: 🔴 Filtered out — Generic research and analytics entity with 
+2026-08-24 04:06:21,364 [INFO]   [82/429] Our Risk-Based Approach to Regulation
+2026-08-24 04:06:32,633 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory framework document fro
+2026-08-24 04:06:32,633 [INFO]   [83/429] Authorisation
+2026-08-24 04:06:34,166 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory body (Qatar financial 
+2026-08-24 04:06:34,166 [INFO]   [84/429] Supervision
+2026-08-24 04:06:35,501 [INFO]     ❌ Filtered: 🔴 Filtered out — Licensed as a general insurance broker in Q
+2026-08-24 04:06:35,501 [INFO]   [85/429] Financial Analysis and Innovation
+2026-08-24 04:06:37,342 [INFO]     ❌ Filtered: 🔴 Filtered out — The generic name 'Financial Analysis and In
+2026-08-24 04:06:37,342 [INFO]   [86/429] AML/CFT Law and Legislation
+2026-08-24 04:06:38,833 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory framework or legislati
+2026-08-24 04:06:38,833 [INFO]   [87/429] AML/CFT Regulatory Framework
+2026-08-24 04:06:40,198 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory framework document fro
+2026-08-24 04:06:40,198 [INFO]   [88/429] AML/CFT Publications
+2026-08-24 04:07:01,333 [INFO]     ❌ Filtered: 🔴 Filtered out — AML/CFT Publications is a regulatory/publis
+2026-08-24 04:07:01,334 [INFO]   [89/429] AML/CFT Forms
+2026-08-24 04:07:12,975 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an AML/CFT compliance forms entity 
+2026-08-24 04:07:12,975 [INFO]   [90/429] National and International AML/CFT Bodies
+2026-08-24 04:07:14,734 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an AML/CFT (anti-money laundering/c
+2026-08-24 04:07:14,735 [INFO]   [91/429] United Nations Security Council Matters
+2026-08-24 04:07:16,569 [INFO]     ❌ Filtered: 🔴 Filtered out — Entity name references UN Security Council 
+2026-08-24 04:07:16,569 [INFO]   [92/429] Suspicious Transaction Reports
+2026-08-24 04:07:18,017 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory reporting entity (Susp
+2026-08-24 04:07:18,017 [INFO]   [93/429] Policy
+2026-08-24 04:07:39,618 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry describes a generic licensed insuranc
+2026-08-24 04:07:39,618 [INFO]   [94/429] Enforcement
+2026-08-24 04:07:41,147 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory enforcement body, not 
+2026-08-24 04:07:41,147 [INFO]   [95/429] Multilateral Agreements
+2026-08-24 04:07:42,488 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry describes a generic licensed insuranc
+2026-08-24 04:07:42,488 [INFO]   [96/429] Bilateral Agreements
+2026-08-24 04:08:04,379 [INFO]     ❌ Filtered: 🔴 Filtered out — The entry describes a generic licensed insu
+2026-08-24 04:08:04,379 [INFO]   [97/429] Alternative Investment Fund Management MoUs
+2026-08-24 04:08:05,693 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory framework for alternat
+2026-08-24 04:08:05,694 [INFO]   [98/429] Strategic Partnerships
+2026-08-24 04:08:07,306 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry provides only generic licensing infor
+2026-08-24 04:08:07,306 [INFO]   [99/429] Corporate Sustainability Reporting
+2026-08-24 04:08:09,130 [INFO]     ❌ Filtered: 🔴 Filtered out — Corporate Sustainability Reporting is a reg
+2026-08-24 04:08:09,130 [INFO]   [100/429] QFCRA Rules
+2026-08-24 04:08:30,119 [INFO]     ❌ Filtered: 🔴 Filtered out — QFCRA Rules is a regulatory body (Qatar Fin
+2026-08-24 04:08:30,119 [INFO]   [101/429] QFCRA Rules for Business Sectors
+2026-08-24 04:08:31,549 [INFO]     ❌ Filtered: 🔴 Filtered out — QFCRA Rules for Business Sectors is a regul
+2026-08-24 04:08:31,549 [INFO]   [102/429] The Application Process
+2026-08-24 04:08:33,048 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory authority or governmen
+2026-08-24 04:08:33,049 [INFO]   [103/429] Permitted ActivitiesRegulated ActivitiesNon-Regula
+2026-08-24 04:08:35,173 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory framework document or 
+2026-08-24 04:08:35,173 [INFO]   [104/429] Regulated Activities
+2026-08-24 04:08:55,847 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory body or licensing auth
+2026-08-24 04:08:55,847 [INFO]   [105/429] Non-Regulated Activities
+2026-08-24 04:08:57,549 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory classification categor
+2026-08-24 04:08:57,549 [INFO]   [106/429] Corporate Governance
+2026-08-24 04:08:59,131 [INFO]     ❌ Filtered: 🔴 Filtered out — Corporate Governance is a regulatory body o
+2026-08-24 04:08:59,131 [INFO]   [107/429] Application Tips
+2026-08-24 04:09:00,931 [INFO]     ❌ Filtered: 🔴 Filtered out — Company name and description suggest this i
+2026-08-24 04:09:00,931 [INFO]   [108/429] Frequently Asked Questions
+2026-08-24 04:09:02,510 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a FAQ page from a government regula
+2026-08-24 04:09:02,510 [INFO]   [109/429] E-submission
+2026-08-24 04:09:03,915 [INFO]     ❌ Filtered: 🔴 Filtered out — E-submission is a government regulator enti
+2026-08-24 04:09:03,915 [INFO]   [110/429] Whistleblowing
+2026-08-24 04:09:05,273 [INFO]     ❌ Filtered: 🔴 Filtered out — Whistleblowing is a regulatory mechanism or
+2026-08-24 04:09:05,273 [INFO]   [111/429] How to Make Your Complaint
+2026-08-24 04:09:06,853 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory guidance document or w
+2026-08-24 04:09:06,853 [INFO]   [112/429] Independent Adjudication
+2026-08-24 04:09:14,368 [INFO]     ❌ Filtered: 🔴 Filtered out — Independent Adjudication is a claims adjudi
+2026-08-24 04:09:14,368 [INFO]   [113/429] Summary of CDRS Outcomes
+2026-08-24 04:09:15,992 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory document (CDRS outcome
+2026-08-24 04:09:15,993 [INFO]   [114/429] CDRS Case Studies
+2026-08-24 04:09:17,531 [INFO]     ❌ Filtered: 🔴 Filtered out — CDRS Case Studies appears to be an educatio
+2026-08-24 04:09:17,531 [INFO]   [115/429] Financial Scams Framework
+2026-08-24 04:09:18,949 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory framework or complianc
+2026-08-24 04:09:18,949 [INFO]   [116/429] Consumer Alert Bulletin
+2026-08-24 04:09:20,287 [INFO]     ❌ Filtered: 🔴 Filtered out — Consumer Alert Bulletin is a regulatory pub
+2026-08-24 04:09:20,287 [INFO]   [117/429] RecruitmentApprenticeshipOpen PositionsInternship 
+2026-08-24 04:09:21,907 [INFO]     ❌ Filtered: 🔴 Filtered out — The entry name appears to be a job listing 
+2026-08-24 04:09:21,908 [INFO]   [118/429] Apprenticeship
+2026-08-24 04:09:23,435 [INFO]     ❌ Filtered: 🔴 Filtered out — Apprenticeship is a job training program, n
+2026-08-24 04:09:23,436 [INFO]   [119/429] Open Positions
+2026-08-24 04:09:44,568 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a generic job listing page ('Open P
+2026-08-24 04:09:44,568 [INFO]   [120/429] Internship Programme
+2026-08-24 04:09:46,020 [INFO]     ❌ Filtered: 🔴 Filtered out — An 'Internship Programme' is an educational
+2026-08-24 04:09:46,020 [INFO]   [121/429] Al Masar Nationalisation Programme
+2026-08-24 04:09:47,735 [INFO]     ❌ Filtered: 🔴 Filtered out — Al Masar Nationalisation Programme is a Qat
+2026-08-24 04:09:47,735 [INFO]   [122/429] Search
+2026-08-24 04:09:49,558 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry describes a generic licensed insuranc
+2026-08-24 04:09:49,558 [INFO]   [123/429] Al Awael Captive Insurance Co. LLC
+2026-08-24 04:09:51,320 [INFO]     ❌ Filtered: 🔴 Filtered out — Al Awael is a captive insurance company (se
+2026-08-24 04:09:51,320 [INFO]   [124/429] Authorised
+2026-08-24 04:09:52,777 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry describes a generic licensed insuranc
+2026-08-24 04:09:52,778 [INFO]   [125/429] 29/01/2020
+2026-08-24 04:09:54,279 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is a regulatory license date/record f
+2026-08-24 04:09:54,279 [INFO]   [126/429] 26/08/2020
+2026-08-24 04:09:55,864 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks identifying company name, websi
+2026-08-24 04:09:55,864 [INFO]   [127/429] AWP Health & Life S.A.
+2026-08-24 04:09:57,513 [INFO]     ❌ Filtered: 🔴 Filtered out — AWP Health & Life S.A. is a licensed insura
+2026-08-24 04:09:57,513 [INFO]   [128/429] 17/06/2014
+2026-08-24 04:10:18,675 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks identifying company name, websi
+2026-08-24 04:10:18,675 [INFO]   [129/429] Gulf Insurance Group (Gulf) B.S.C.(C)
+2026-08-24 04:10:20,260 [INFO]     ❌ Filtered: 🔴 Filtered out — Licensed as a general insurance broker in Q
+2026-08-24 04:10:20,260 [INFO]   [130/429] 19/11/2006
+2026-08-24 04:10:22,236 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks company name, website, and spec
+2026-08-24 04:10:22,236 [INFO]   [131/429] Logistics Insurance LLC
+2026-08-24 04:10:43,924 [INFO]     ❌ Filtered: 🔴 Filtered out — While licensed as an insurance broker in Qa
+2026-08-24 04:10:43,924 [INFO]   [132/429] 31/05/2022
+2026-08-24 04:10:46,110 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is a regulatory licensing date/record
+2026-08-24 04:10:46,110 [INFO]   [133/429] 08/01/2026
+2026-08-24 04:10:47,535 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks identifying information (no com
+2026-08-24 04:10:47,535 [INFO]   [134/429] MedGulf Takaful - QFC Branch
+2026-08-24 04:11:08,964 [INFO]     ❌ Filtered: 🔴 Filtered out — While licensed as an insurance broker in Qa
+2026-08-24 04:11:08,964 [INFO]   [135/429] Authorised - Closed to New Business
+2026-08-24 04:11:10,497 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry indicates a closed broker no longer a
+2026-08-24 04:11:10,497 [INFO]   [136/429] 09/08/2009
+2026-08-24 04:11:12,289 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks identifying information (no com
+2026-08-24 04:11:12,290 [INFO]   [137/429] 16/02/2025
+2026-08-24 04:11:33,378 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is a regulatory designation ('License
+2026-08-24 04:11:33,379 [INFO]   [138/429] Oman Reinsurance Co. - QFC Branch
+2026-08-24 04:11:35,057 [INFO]     ❌ Filtered: 🔴 Filtered out — Oman Reinsurance Co. is a reinsurance entit
+2026-08-24 04:11:35,058 [INFO]   [139/429] 30/11/2020
+2026-08-24 04:11:36,656 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks identifying information (no com
+2026-08-24 04:11:36,656 [INFO]   [140/429] 22/08/2021
+2026-08-24 04:12:00,955 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is a regulatory classification date f
+2026-08-24 04:12:00,955 [INFO]   [141/429] SEIB Insurance and Reinsurance Company LLC
+2026-08-24 04:12:02,587 [INFO]     ❌ Filtered: 🔴 Filtered out — SEIB is a domestic Qatari insurance and rei
+2026-08-24 04:12:02,587 [INFO]   [142/429] 21/10/2009
+2026-08-24 04:12:04,527 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks identifying company name, websi
+2026-08-24 04:12:04,527 [INFO]   [143/429] 26/09/2010
+2026-08-24 04:12:25,764 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is a date (26/09/2010) and regulatory
+2026-08-24 04:12:25,764 [INFO]   [144/429] Sharq Insurance LLC
+2026-08-24 04:12:27,316 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry indicates a licensed insurance broker
+2026-08-24 04:12:27,317 [INFO]   [145/429] 16/07/2007
+2026-08-24 04:12:48,604 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks identifying information (no com
+2026-08-24 04:12:48,604 [INFO]   [146/429] Zurich Insurance Company Ltd. QFC Branch
+2026-08-24 04:12:50,471 [INFO]     ❌ Filtered: 🔴 Filtered out — Zurich Insurance Company Ltd. is a major gl
+2026-08-24 04:12:50,471 [INFO]   [147/429] Authorised - Inactive
+2026-08-24 04:13:11,447 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is marked 'Inactive' and identified a
+2026-08-24 04:13:11,447 [INFO]   [148/429] 08/10/2012
+2026-08-24 04:13:13,115 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks identifying company name, websi
+2026-08-24 04:13:13,115 [INFO]   [149/429] 10/06/2024
+2026-08-24 04:13:34,273 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is a regulatory designation date from
+2026-08-24 04:13:34,273 [INFO]   [150/429] Zurich International Life Limited
+2026-08-24 04:13:35,756 [INFO]     ❌ Filtered: 🔴 Filtered out — While licensed as an insurance broker in Qa
+2026-08-24 04:13:35,756 [INFO]   [151/429] 08/11/2007
+2026-08-24 04:13:58,031 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks identifying company name, websi
+2026-08-24 04:13:58,031 [INFO]   [152/429] Aon Qatar LLC
+2026-08-24 04:13:59,620 [INFO]     ❌ Filtered: 🔴 Filtered out — While Aon Qatar LLC is a licensed insurance
+2026-08-24 04:13:59,620 [INFO]   [153/429] 22/07/2008
+2026-08-24 04:14:01,060 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is a regulatory classification/date r
+2026-08-24 04:14:01,060 [INFO]   [154/429] 31/08/2009
+2026-08-24 04:14:02,670 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is a date (31/08/2009) and regulatory
+2026-08-24 04:14:02,670 [INFO]   [155/429] Chedid and Associates Qatar LLC
+2026-08-24 04:14:24,899 [INFO]     ❌ Filtered: 🔴 Filtered out — Licensed as a general insurance broker in Q
+2026-08-24 04:14:24,899 [INFO]   [156/429] Lifecare International (Qatar) LLC
+2026-08-24 04:14:26,514 [INFO]   [157/429] 09/01/2013
+2026-08-24 04:14:28,147 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks sufficient identifying informat
+2026-08-24 04:14:28,147 [INFO]   [158/429] 20/03/2013
+2026-08-24 04:14:29,865 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry appears to be a regulatory license da
+2026-08-24 04:14:29,865 [INFO]   [159/429] Marsh Qatar LLC
+2026-08-24 04:14:51,028 [INFO]     ❌ Filtered: 🔴 Filtered out — Marsh is a global insurance broker, but the
+2026-08-24 04:14:51,028 [INFO]   [160/429] 30/06/2008
+2026-08-24 04:14:52,747 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks company name, website, and busi
+2026-08-24 04:14:52,747 [INFO]   [161/429] Nasco Qatar LLC
+2026-08-24 04:14:54,327 [INFO]     ❌ Filtered: 🔴 Filtered out — Licensed as a general insurance broker in Q
+2026-08-24 04:14:54,327 [INFO]   [162/429] 08/08/2007
+2026-08-24 04:14:55,728 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks identifying information (no com
+2026-08-24 04:14:55,728 [INFO]   [163/429] Nexus Financial Services WLL
+2026-08-24 04:15:17,029 [INFO]     ❌ Filtered: 🔴 Filtered out — Licensed as a general insurance broker in Q
+2026-08-24 04:15:17,029 [INFO]   [164/429] 30/11/2008
+2026-08-24 04:15:18,511 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks identifying company name, websi
+2026-08-24 04:15:18,511 [INFO]   [165/429] public-registers
+2026-08-24 04:15:20,078 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory body or public registe
+2026-08-24 04:15:20,078 [INFO]   [166/429] Search FirmsCurrent Authorised FirmsCurrent Insura
+2026-08-24 04:15:21,636 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is a regulatory search directory page
+2026-08-24 04:15:21,636 [INFO]   [167/429] Current Authorised Firms
+2026-08-24 04:15:42,526 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory authority listing of l
+2026-08-24 04:15:42,527 [INFO]   [168/429] Current Insurance Authorised Firms
+2026-08-24 04:15:43,849 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory body (Qatar financial 
+2026-08-24 04:15:43,850 [INFO]   [169/429] All Firms
+2026-08-24 04:15:45,246 [INFO]     ❌ Filtered: 🔴 Filtered out — All Firms is a generic regulatory category 
+2026-08-24 04:15:45,246 [INFO]   [170/429] Search IndividualsActive IndividualsSearch All
+2026-08-24 04:15:46,788 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory authority search inter
+2026-08-24 04:15:46,788 [INFO]   [171/429] Active Individuals
+2026-08-24 04:15:49,067 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry indicates a generic licensed insuranc
+2026-08-24 04:15:49,067 [INFO]   [172/429] Search All
+2026-08-24 04:16:10,309 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is identified as a government regulat
+2026-08-24 04:16:10,310 [INFO]   [173/429] Search Waivers & Modifications
+2026-08-24 04:16:14,230 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory body or government dep
+2026-08-24 04:16:14,230 [INFO]   [174/429] Search Registered Funds
+2026-08-24 04:16:15,846 [INFO]     ❌ Filtered: 🔴 Filtered out — Search Registered Funds appears to be a reg
+2026-08-24 04:16:15,846 [INFO]   [175/429] Search DNFBP Firms
+2026-08-24 04:16:17,260 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory database or search too
+2026-08-24 04:16:17,260 [INFO]   [176/429] Authorised Firms
+2026-08-24 04:16:18,816 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory body/government author
+2026-08-24 04:16:18,816 [INFO]   [177/429] DNFBP Firms
+2026-08-24 04:16:20,398 [INFO]     ❌ Filtered: 🔴 Filtered out — DNFBP Firms is a regulatory classification 
+2026-08-24 04:16:20,398 [INFO]   [178/429] Approved Individuals
+2026-08-24 04:16:21,955 [INFO]     ❌ Filtered: 🔴 Filtered out — While licensed as an insurance broker in Qa
+2026-08-24 04:16:21,955 [INFO]   [179/429] Related Individuals
+2026-08-24 04:16:23,830 [INFO]     ❌ Filtered: 🔴 Filtered out — The entry describes a licensed insurance br
+2026-08-24 04:16:23,830 [INFO]   [180/429] Registered Individuals
+2026-08-24 04:16:25,616 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory category or list of li
+2026-08-24 04:16:25,616 [INFO]   [181/429] +974 44 95 68 88
+2026-08-24 04:16:27,198 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is a phone number without website or 
+2026-08-24 04:16:27,198 [INFO]   [182/429] +974 44 95 68 68
+2026-08-24 04:16:28,785 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is a phone number without company nam
+2026-08-24 04:16:28,786 [INFO]   [183/429] info@qfcra.com
+2026-08-24 04:16:30,399 [INFO]     ❌ Filtered: 🔴 Filtered out — Email-only entry with no website or evidenc
+2026-08-24 04:16:30,399 [INFO]   [184/429] Quick Links
+2026-08-24 04:16:51,358 [INFO]     ❌ Filtered: 🔴 Filtered out — Quick Links is a generic name with no speci
+2026-08-24 04:16:51,358 [INFO]   [185/429] Privacy Notice
+2026-08-24 04:16:53,090 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory document (Privacy Noti
+2026-08-24 04:16:53,090 [INFO]   [186/429] Legal Notice
+2026-08-24 04:16:55,605 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory document/legal notice 
+2026-08-24 04:16:55,605 [INFO]   [187/429] Accessibility Statement
+2026-08-24 04:16:57,022 [INFO]     ❌ Filtered: 🔴 Filtered out — An 'Accessibility Statement' is a regulator
+2026-08-24 04:16:57,022 [INFO]   [188/429] QFCRA Webmail
+2026-08-24 04:16:58,655 [INFO]     ❌ Filtered: 🔴 Filtered out — QFCRA Webmail is a regulatory webmail syste
+2026-08-24 04:16:58,655 [INFO]   [189/429] Privacy Overview
+2026-08-24 04:17:19,718 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a regulatory oversight body or info
+2026-08-24 04:17:19,718 [INFO]   [190/429] Increase TextIncrease Text
+2026-08-24 04:17:21,563 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks specific evidence of IPMI sales
+2026-08-24 04:17:21,563 [INFO]   [191/429] Decrease TextDecrease Text
+2026-08-24 04:17:23,064 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks identifying information (no com
+2026-08-24 04:17:23,064 [INFO]   [192/429] GrayscaleGrayscale
+2026-08-24 04:17:24,968 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry identifies as a licensed insurance br
+2026-08-24 04:17:24,968 [INFO]   [193/429] High ContrastHigh Contrast
+2026-08-24 04:17:46,035 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry describes a generic licensed insuranc
+2026-08-24 04:17:46,035 [INFO]   [194/429] Negative ContrastNegative Contrast
+2026-08-24 04:17:47,880 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks specific evidence of IPMI sales
+2026-08-24 04:17:47,880 [INFO]   [195/429] Light BackgroundLight Background
+2026-08-24 04:17:53,567 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry describes a generic licensed insuranc
+2026-08-24 04:17:53,567 [INFO]   [196/429] Links UnderlineLinks Underline
+2026-08-24 04:17:55,199 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks website, specific business desc
+2026-08-24 04:17:55,199 [INFO]   [197/429] Readable FontReadable Font
+2026-08-24 04:17:56,592 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is identified as a government regulat
+2026-08-24 04:17:56,592 [INFO]   [198/429] ResetReset
+2026-08-24 04:18:05,700 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry identifies as a licensed insurance br
+2026-08-24 04:18:05,700 [INFO]   [199/429] Advanced Insurance Brokers (AIB)
+2026-08-24 04:18:07,512 [INFO]     ❌ Filtered: 🔴 Filtered out — Description mentions general insurance brok
+2026-08-24 04:18:07,512 [INFO]   [200/429] Lifecare International
+2026-08-24 04:18:09,174 [INFO]   [201/429] Qatar Insurance Group
+2026-08-24 04:18:30,029 [INFO]     ❌ Filtered: 🔴 Filtered out — QIC is a domestic/regional insurer based in
+2026-08-24 04:18:30,029 [INFO]   [202/429] Insure Direct Brokers WLL Qatar
+2026-08-24 04:18:31,455 [INFO]     ❌ Filtered: 🔴 Filtered out — Company description identifies it as a gene
+2026-08-24 04:18:31,455 [INFO]   [203/429] Qatar General Insurance & Reinsurance Co.
+2026-08-24 04:18:33,040 [INFO]     ❌ Filtered: 🔴 Filtered out — Qatar General Insurance & Reinsurance Co. i
+2026-08-24 04:18:33,040 [INFO]   [204/429] Orbee Insurance Brokers WLL
+2026-08-24 04:18:34,467 [INFO]     ❌ Filtered: 🔴 Filtered out — Limited evidence of IPMI specialization; de
+2026-08-24 04:18:34,467 [INFO]   [205/429] Al Dirae Insurance Brokers W.L.L (Shield)
+2026-08-24 04:18:36,050 [INFO]     ❌ Filtered: 🔴 Filtered out — Limited information available; LinkedIn-onl
+2026-08-24 04:18:36,050 [INFO]   [206/429] Savoy Insurance Brokers
+2026-08-24 04:18:37,525 [INFO]     ❌ Filtered: 🔴 Filtered out — LinkedIn profile lacks specific evidence of
+2026-08-24 04:18:37,525 [INFO]   [207/429] INTEGRO - International Integrated Insurance Broke
+2026-08-24 04:18:59,687 [INFO]   [208/429] Lockton
+2026-08-24 04:19:01,664 [INFO]   [209/429] Professional Insurance Brokers Jordan
+2026-08-24 04:19:22,823 [INFO]     ❌ Filtered: 🔴 Filtered out — No evidence of IPMI specialization; appears
+2026-08-24 04:19:22,823 [INFO]   [210/429] Insurance Services
+2026-08-24 04:19:24,459 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a domestic U.S. insurance broker ba
+2026-08-24 04:19:24,459 [INFO]   [211/429] Piper Jordan
+2026-08-24 04:19:45,658 [INFO]     ❌ Filtered: 🔴 Filtered out — While the description mentions advising glo
+2026-08-24 04:19:45,659 [INFO]   [212/429] Jordan River Insurance / ALKEME
+2026-08-24 04:20:07,030 [INFO]     ❌ Filtered: 🔴 Filtered out — Jordan River Insurance is a domestic US-bas
+2026-08-24 04:20:07,030 [INFO]   [213/429] Hadbrok Insurance Brokers S.A.E
+2026-08-24 04:20:28,490 [INFO]     ❌ Filtered: 🔴 Filtered out — While the company is a regional insurance b
+2026-08-24 04:20:28,490 [INFO]   [214/429] CareCard Health Insurance Management Co
+2026-08-24 04:20:29,994 [INFO]     ❌ Filtered: 🔴 Filtered out — CareCard is a health insurance management a
+2026-08-24 04:20:29,995 [INFO]   [215/429] ALDAWLIYAH INSURANCE SERVICES LLC
+2026-08-24 04:20:51,296 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry provides only basic company establish
+2026-08-24 04:20:51,296 [INFO]   [216/429] JAP Insurance Brokers
+2026-08-24 04:20:52,804 [INFO]     ❌ Filtered: 🔴 Filtered out — JAP Insurance Brokers appears to focus on d
+2026-08-24 04:20:52,804 [INFO]   [217/429] Risk Management Services (Pvt) Limited
+2026-08-24 04:20:54,379 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry describes a general insurance broker 
+2026-08-24 04:20:54,379 [INFO]   [218/429] Shahenshah Insurance Brokers (Pvt) Ltd - Aon
+2026-08-24 04:21:15,518 [INFO]     ❌ Filtered: 🔴 Filtered out — The company's stated focus is cyber risk an
+2026-08-24 04:21:15,518 [INFO]   [219/429] Indemnifier Insurance Broker (Pvt.) Ltd.
+2026-08-24 04:21:17,234 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry shows only a LinkedIn company profile
+2026-08-24 04:21:17,235 [INFO]   [220/429] RIB Insurance Brokers & Advisory Services Pvt Ltd
+2026-08-24 04:21:19,445 [INFO]     ❌ Filtered: 🔴 Filtered out — While RIB appears to be a licensed insuranc
+2026-08-24 04:21:19,445 [INFO]   [221/429] The Brokerage Firm LLC
+2026-08-24 04:21:41,269 [INFO]     ❌ Filtered: 🔴 Filtered out — While described as part of Libano-Suisse gr
+2026-08-24 04:21:41,269 [INFO]   [222/429] YallaCompare
+2026-08-24 04:21:43,119 [INFO]     ❌ Filtered: 🔴 Filtered out — YallaCompare is a general insurance compari
+2026-08-24 04:21:43,119 [INFO]   [223/429] Infini3 Insurance Brokers
+2026-08-24 04:22:04,139 [INFO]     ❌ Filtered: 🔴 Filtered out — Company is registered with Pakistan's Secur
+2026-08-24 04:22:04,139 [INFO]   [224/429] Nationwide Solutions
+2026-08-24 04:22:05,754 [INFO]   [225/429] Healthcare Growth Industry
+2026-08-24 04:22:26,791 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry lacks verifiable evidence of active I
+2026-08-24 04:22:26,791 [INFO]   [226/429] Preferred Partners Insurance Brokers Pvt. Ltd.
+2026-08-24 04:22:48,761 [INFO]     ❌ Filtered: 🔴 Filtered out — LinkedIn-only presence with generic descrip
+2026-08-24 04:22:48,761 [INFO]   [227/429] Asia Insurance Review
+2026-08-24 04:22:50,318 [INFO]     ❌ Filtered: 🔴 Filtered out — Asia Insurance Review is a trade publicatio
+2026-08-24 04:22:50,318 [INFO]   [228/429] Oldorff Consulting
+2026-08-24 04:23:11,608 [INFO]     ❌ Filtered: 🔴 Filtered out — Oldorff Consulting is a B2B insurance consu
+2026-08-24 04:23:11,608 [INFO]   [229/429] Federal Reinsurance Brokers Limited
+2026-08-24 04:23:13,038 [INFO]     ❌ Filtered: 🔴 Filtered out — Federal Reinsurance Brokers Limited is a re
+2026-08-24 04:23:13,038 [INFO]   [230/429] MetLife Nepal
+2026-08-24 04:23:14,755 [INFO]     ❌ Filtered: 🔴 Filtered out — MetLife Nepal is a domestic insurance compa
+2026-08-24 04:23:14,756 [INFO]   [231/429] Peraj Insurance Brokers Pvt Ltd
+2026-08-24 04:23:16,441 [INFO]     ❌ Filtered: 🔴 Filtered out — While Peraj operates across multiple countr
+2026-08-24 04:23:16,441 [INFO]   [232/429] Aon
+2026-08-24 04:23:38,298 [INFO]   [233/429] Insubuy
+2026-08-24 04:23:39,895 [INFO]   [234/429] insurancepe
+2026-08-24 04:23:41,402 [INFO]     ❌ Filtered: 🔴 Filtered out — insurancepe appears to be a general insuran
+2026-08-24 04:23:41,403 [INFO]   [235/429] Tenzing Pacific Services
+2026-08-24 04:23:43,570 [INFO]   [236/429] Alea - Health Insurance & Benefits
+2026-08-24 04:24:04,801 [INFO]   [237/429] Athena Global Consulting
+2026-08-24 04:24:06,786 [INFO]   [238/429] Andika Assistant
+2026-08-24 04:24:08,860 [INFO]   [239/429] VanderSure Co.,Ltd
+2026-08-24 04:24:10,633 [INFO]   [240/429] Luke Medikal Internasional
+2026-08-24 04:24:21,421 [INFO]     ❌ Filtered: 🔴 Filtered out — The limited available information suggests 
+2026-08-24 04:24:21,421 [INFO]   [241/429] NOMADS.insure
+2026-08-24 04:24:24,101 [INFO]   [242/429] ASure Insurance
+2026-08-24 04:24:25,545 [INFO]   [243/429] BrokerFish Ltd (International Health Insurance)
+2026-08-24 04:24:47,797 [INFO]   [244/429] AOC Insurance Broker "Insurtech"​ is leading a glo
+2026-08-24 04:24:49,409 [INFO]   [245/429] ExpatMedicare
+2026-08-24 04:24:51,219 [INFO]   [246/429] Medibroker Ltd
+2026-08-24 04:25:12,705 [INFO]   [247/429] Ferber & Associates
+2026-08-24 04:25:14,445 [INFO]   [248/429] Envisage International Corporation
+2026-08-24 04:25:15,976 [INFO]   [249/429] Acturis Group
+2026-08-24 04:25:36,880 [INFO]     ❌ Filtered: 🔴 Filtered out — Acturis Group is a software provider to the
+2026-08-24 04:25:36,880 [INFO]   [250/429] Think Insurtech
+2026-08-24 04:25:38,685 [INFO]     ❌ Filtered: 🔴 Filtered out — LinkedIn-only presence with vague descripti
+2026-08-24 04:25:38,685 [INFO]   [251/429] Miller Insurance Services LLP
+2026-08-24 04:25:40,226 [INFO]     ❌ Filtered: 🔴 Filtered out — Description indicates a (re)insurance broki
+2026-08-24 04:25:40,226 [INFO]   [252/429] GrECo Group
+2026-08-24 04:25:41,811 [INFO]     ❌ Filtered: 🔴 Filtered out — LinkedIn profile excerpt provides insuffici
+2026-08-24 04:25:41,811 [INFO]   [253/429] BALTO LINK
+2026-08-24 04:25:43,618 [INFO]     ❌ Filtered: 🔴 Filtered out — LinkedIn profile alone provides insufficien
+2026-08-24 04:25:43,618 [INFO]   [254/429] O2 Broking
+2026-08-24 04:26:05,005 [INFO]     ❌ Filtered: 🔴 Filtered out — O2 Broking is a Lloyd's-approved general in
+2026-08-24 04:26:05,005 [INFO]   [255/429] IGK AG, Credit Risk Management
+2026-08-24 04:26:06,791 [INFO]     ❌ Filtered: 🔴 Filtered out — IGK AG is a credit risk insurance broker, n
+2026-08-24 04:26:06,791 [INFO]   [256/429] Perks
+2026-08-24 04:26:08,359 [INFO]     ❌ Filtered: 🔴 Filtered out — While Perks is an insurance broker in Latvi
+2026-08-24 04:26:08,359 [INFO]   [257/429] ERGO
+2026-08-24 04:26:10,127 [INFO]     ❌ Filtered: 🔴 Filtered out — ERGO Group is a major domestic/regional ins
+2026-08-24 04:26:10,128 [INFO]   [258/429] IBL RE
+2026-08-24 04:26:11,642 [INFO]     ❌ Filtered: 🔴 Filtered out — IBL RE is a Lloyd's insurance and reinsuran
+2026-08-24 04:26:11,643 [INFO]   [259/429] AXA
+2026-08-24 04:26:13,043 [INFO]     ❌ Filtered: 🔴 Filtered out — AXA is a global insurance group/carrier, no
+2026-08-24 04:26:13,044 [INFO]   [260/429] W Denis Europe UADBB
+2026-08-24 04:26:15,321 [INFO]   [261/429] C&N Insurance Services
+2026-08-24 04:26:17,220 [INFO]     ❌ Filtered: 🔴 Filtered out — C&N Insurance Services specializes in comme
+2026-08-24 04:26:17,220 [INFO]   [262/429] Spike Technologies
+2026-08-24 04:26:18,881 [INFO]     ❌ Filtered: 🔴 Filtered out — Spike Technologies is a healthcare IT/softw
+2026-08-24 04:26:18,881 [INFO]   [263/429] Sapiens
+2026-08-24 04:26:20,682 [INFO]     ❌ Filtered: 🔴 Filtered out — Sapiens is an insurance software provider, 
+2026-08-24 04:26:20,683 [INFO]   [264/429] IVP PARTNERS
+2026-08-24 04:26:22,174 [INFO]     ❌ Filtered: 🔴 Filtered out — Description indicates general insurance bro
+2026-08-24 04:26:22,175 [INFO]   [265/429] Nicos Rossos Insurance Brokers
+2026-08-24 04:26:43,214 [INFO]   [266/429] VIP Universal Medical Insurance Group (VUMI)
+2026-08-24 04:26:44,907 [INFO]   [267/429] Pan-American Life Insurance Group
+2026-08-24 04:26:46,518 [INFO]     ❌ Filtered: 🔴 Filtered out — Pan-American Life Insurance Group is a majo
+2026-08-24 04:26:46,519 [INFO]   [268/429] IMG (International Medical Group)
+2026-08-24 04:27:08,031 [INFO]   [269/429] Algorithmic Insurance Services, Inc dba LIRG™
+2026-08-24 04:27:29,124 [INFO]     ❌ Filtered: 🔴 Filtered out — Company focuses on reinsurance advisory and
+2026-08-24 04:27:29,124 [INFO]   [270/429] Ocean International Reinsurance
+2026-08-24 04:27:30,691 [INFO]     ❌ Filtered: 🔴 Filtered out — Ocean International Reinsurance is a reinsu
+2026-08-24 04:27:30,691 [INFO]   [271/429] RightPlan
+2026-08-24 04:27:51,975 [INFO]   [272/429] Redbridge
+2026-08-24 04:27:53,730 [INFO]   [273/429] Malakut
+2026-08-24 04:28:15,073 [INFO]     ❌ Filtered: 🔴 Filtered out — While Malakut appears to be a legitimate in
+2026-08-24 04:28:15,073 [INFO]   [274/429] PBC International
+2026-08-24 04:28:16,995 [INFO]     ❌ Filtered: 🔴 Filtered out — Company name and incomplete description sug
+2026-08-24 04:28:16,995 [INFO]   [275/429] ‏(AAA) Allied Arab Assurance Brokerage S.A.E.‏
+2026-08-24 04:28:38,876 [INFO]     ❌ Filtered: 🔴 Filtered out — Company is registered in Panama but operate
+2026-08-24 04:28:38,876 [INFO]   [276/429] MGM ASESORES DE SEGUROS on Instagram: "Contar con 
+2026-08-24 04:28:40,387 [INFO]   [277/429] Seguro de salud privado en Panamá
+2026-08-24 04:29:01,741 [INFO]   [278/429] No todos los seguros internacionales son iguales. 
+2026-08-24 04:29:03,348 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is an Instagram reel/social media con
+2026-08-24 04:29:03,348 [INFO]   [279/429] Tu salud no se toma vacaciones. Por eso, donde qui
+2026-08-24 04:29:05,005 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry appears to be an Instagram reel/socia
+2026-08-24 04:29:05,005 [INFO]   [280/429] Aseguradora Fortaleza
+2026-08-24 04:29:29,696 [INFO]     ❌ Filtered: 🔴 Filtered out — Aseguradora Fortaleza appears to be a domes
+2026-08-24 04:29:29,696 [INFO]   [281/429] ProBroker | Asesores de Seguros on Instagram: "Hoy
+2026-08-24 04:29:31,452 [INFO]   [282/429] Seguros Triple A on Instagram: "Contar con un segu
+2026-08-24 04:29:33,462 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is a single Instagram reel with minim
+2026-08-24 04:29:33,462 [INFO]   [283/429] Cobertura de Seguro de Salud en América Latina
+2026-08-24 04:29:54,356 [INFO]   [284/429] Cotiza con nosotros las mejores opciones de seguro
+2026-08-24 04:29:55,934 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is a Facebook video post from MGM Seg
+2026-08-24 04:29:55,935 [INFO]   [285/429] Health Insurance Options in Panama
+2026-08-24 04:29:57,394 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a relocation/tourism website provid
+2026-08-24 04:29:57,394 [INFO]   [286/429] Health Insurance for Foreigners in Panama
+2026-08-24 04:30:18,769 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be an informational/compari
+2026-08-24 04:30:18,769 [INFO]   [287/429] Panama Healthcare System & Medical Insurance Optio
+2026-08-24 04:30:20,166 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an informational article about Pana
+2026-08-24 04:30:20,166 [INFO]   [288/429] Which Health Insurance To Choose in Panama
+2026-08-24 04:30:21,959 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an informational article/guide abou
+2026-08-24 04:30:21,959 [INFO]   [289/429] Health Insurance in Panama: What Expats Need to Kn
+2026-08-24 04:30:43,232 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a YouTube video content piece, not 
+2026-08-24 04:30:43,232 [INFO]   [290/429] Panama Expat Medical Insurance | Private Health Co
+2026-08-24 04:30:44,581 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be an informational guide o
+2026-08-24 04:30:44,581 [INFO]   [291/429] Health Insurance for Canadian Expats in Panama
+2026-08-24 04:30:47,118 [INFO]   [292/429] International Health Insurance for Expatriates in 
+2026-08-24 04:31:08,508 [INFO]   [293/429] The Liberty Company Insurance Brokers, LLC: Jobs
+2026-08-24 04:31:10,295 [INFO]     ❌ Filtered: 🔴 Filtered out — LinkedIn jobs page alone provides insuffici
+2026-08-24 04:31:10,295 [INFO]   [294/429] World of America
+2026-08-24 04:31:11,823 [INFO]   [295/429] Insured Nomads
+2026-08-24 04:31:13,529 [INFO]   [296/429] Prointel Corredores de Seguros S.A - Costa Rica
+2026-08-24 04:31:34,916 [INFO]     ❌ Filtered: 🔴 Filtered out — LinkedIn-only presence with generic descrip
+2026-08-24 04:31:34,917 [INFO]   [297/429] CREW REINSURANCE BROKERS
+2026-08-24 04:31:36,428 [INFO]     ❌ Filtered: 🔴 Filtered out — CREW Reinsurance Brokers is a reinsurance b
+2026-08-24 04:31:36,429 [INFO]   [298/429] CIG Insurance
+2026-08-24 04:31:37,993 [INFO]     ❌ Filtered: 🔴 Filtered out — CIG Insurance is described as a general com
+2026-08-24 04:31:37,993 [INFO]   [299/429] MedEscape
+2026-08-24 04:31:39,524 [INFO]     ❌ Filtered: 🔴 Filtered out — MedEscape is a medical tourism facilitator 
+2026-08-24 04:31:39,524 [INFO]   [300/429] Seguro de salud internacional en Costa Rica
+2026-08-24 04:31:41,435 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be a country-specific landi
+2026-08-24 04:31:41,435 [INFO]   [301/429] Mejor seguro de salud internacional en Costa Rica 
+2026-08-24 04:31:43,022 [INFO]   [302/429] ¿Qué es un corredor de seguros de salud internacio
+2026-08-24 04:31:44,485 [INFO]     ❌ Filtered: 🔴 Filtered out — The entry is a Google Translate redirect of
+2026-08-24 04:31:44,486 [INFO]   [303/429] Cigna / Seguro de Salud y de Viaje Internacional
+2026-08-24 04:31:46,221 [INFO]     ❌ Filtered: 🔴 Filtered out — The website URL belongs to GlobalSurance (a
+2026-08-24 04:31:46,221 [INFO]   [304/429] Un plan de salud diseñado para cuidar lo que más a
+2026-08-24 04:31:47,840 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be an Instagram reel promot
+2026-08-24 04:31:47,840 [INFO]   [305/429] Tu seguro internacional sí funciona con nosotros ✈
+2026-08-24 04:31:49,770 [INFO]   [306/429] La Boliviana Ciacruz Seguros
+2026-08-24 04:31:51,566 [INFO]   [307/429] Assist Card
+2026-08-24 04:31:53,556 [INFO]   [308/429] Costa Rica Health Insurance for Foreigners and Exp
+2026-08-24 04:31:55,416 [INFO]     ❌ Filtered: 🔴 Filtered out — The URL structure and description suggest t
+2026-08-24 04:31:55,416 [INFO]   [309/429] What are the best health insurance options in Cost
+2026-08-24 04:31:57,187 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a Facebook group discussion thread 
+2026-08-24 04:31:57,188 [INFO]   [310/429] International Health Insurance in Costa Rica
+2026-08-24 04:31:58,798 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a landing page on Cigna Global's we
+2026-08-24 04:31:58,798 [INFO]   [311/429] A Guide to Health Insurance in Costa Rica for Expa
+2026-08-24 04:32:00,356 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a blog article/content page about h
+2026-08-24 04:32:00,357 [INFO]   [312/429] Expatriate Health Insurance in Costa Rica
+2026-08-24 04:32:04,764 [INFO]   [313/429] Costa Rica Healthcare: What Expats Need to Know
+2026-08-24 04:32:06,309 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an informational article/guide abou
+2026-08-24 04:32:06,309 [INFO]   [314/429] Best International Health Insurance in Costa Rica 
+2026-08-24 04:32:27,018 [INFO]   [315/429] Health insurance in Costa Rica: How to choose the 
+2026-08-24 04:32:28,694 [INFO]   [316/429] 7 Best International Health Insurance Plans for Ex
+2026-08-24 04:32:30,350 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a content article/comparison page r
+2026-08-24 04:32:30,351 [INFO]   [317/429] Más tranquilidad para ti y tu familia. Seguro Médi
+2026-08-24 04:32:51,691 [INFO]   [318/429] Mejor seguro de salud internacional en Uruguay
+2026-08-24 04:32:53,064 [INFO]   [319/429] Asegurate.uy – Broker de Seguros en Uruguay | Coti
+2026-08-24 04:32:54,857 [INFO]   [320/429] VUMI @vumi_group un seguro de salud internacional.
+2026-08-24 04:32:56,694 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is an Instagram reel link with insuff
+2026-08-24 04:32:56,694 [INFO]   [321/429] Cuando sabes que estás protegido, todo se disfruta
+2026-08-24 04:33:17,893 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is an Instagram reel/social media pos
+2026-08-24 04:33:17,893 [INFO]   [322/429] ✅ Todos los captchas completados, los checks marca
+2026-08-24 04:33:19,904 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is an Instagram post (social media co
+2026-08-24 04:33:19,905 [INFO]   [323/429] Uruguay Healthcare System & Insurance Options for 
+2026-08-24 04:33:21,514 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an informational article or guide a
+2026-08-24 04:33:21,514 [INFO]   [324/429] International health insurance in Uruguay for expa
+2026-08-24 04:33:23,230 [INFO]   [325/429] Uruguay Health Insurance for Expats
+2026-08-24 04:33:44,630 [INFO]   [326/429] Health Insurance in Uruguay
+2026-08-24 04:33:46,246 [INFO]   [327/429] Uruguay Expat Health Insurance Guide, Montevideo P
+2026-08-24 04:33:47,918 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be an informational guide o
+2026-08-24 04:33:47,918 [INFO]   [328/429] Thinking of moving to Uruguay? Understanding insur
+2026-08-24 04:34:09,131 [INFO]   [329/429] Moving to Uruguay | Expat Guide
+2026-08-24 04:34:10,942 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an expat relocation guide/article t
+2026-08-24 04:34:10,942 [INFO]   [330/429] 5 mistakes to avoid when buying international heal
+2026-08-24 04:34:12,696 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an educational article/blog post ab
+2026-08-24 04:34:12,696 [INFO]   [331/429] NowCompare - International Health Insurance
+2026-08-24 04:34:33,587 [INFO]   [332/429] Seguro de Salud Internacional | Asistencia Médica 
+2026-08-24 04:34:35,161 [INFO]   [333/429] Mejor seguro de salud internacional en Paraguay
+2026-08-24 04:34:36,709 [INFO]   [334/429] En Paraguay, la cobertura local tiene límites… y e
+2026-08-24 04:34:38,383 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is an Instagram reel (social media co
+2026-08-24 04:34:38,383 [INFO]   [335/429] Broker de Seguros Internacionales (@provisional.ad
+2026-08-24 04:34:59,263 [INFO]     ❌ Filtered: 🔴 Filtered out — Instagram-only presence with no verifiable 
+2026-08-24 04:34:59,263 [INFO]   [336/429] Seguro de Viajero Internacional | Asistencia Médic
+2026-08-24 04:35:01,040 [INFO]   [337/429] Tu seguro de salud internacional
+2026-08-24 04:35:02,751 [INFO]     ❌ Filtered: 🔴 Filtered out — The website appears to be a general immigra
+2026-08-24 04:35:02,751 [INFO]   [338/429] mapfre
+2026-08-24 04:35:24,126 [INFO]   [339/429] International Health Insurance for Expatriates in 
+2026-08-24 04:35:26,460 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be a content/informational 
+2026-08-24 04:35:26,460 [INFO]   [340/429] Best International Health Insurance Plans for Expa
+2026-08-24 04:35:28,072 [INFO]   [341/429] Paraguay Expat Medical Insurance | International H
+2026-08-24 04:35:29,869 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an informational guide/article abou
+2026-08-24 04:35:29,869 [INFO]   [342/429] Health Insurance in Paraguay
+2026-08-24 04:35:31,364 [INFO]   [343/429] Private health insurance options in Paraguay?
+2026-08-24 04:35:33,132 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a Facebook group discussion thread 
+2026-08-24 04:35:33,132 [INFO]   [344/429] Paraguay Healthcare System & Medical Insurance Opt
+2026-08-24 04:35:35,409 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an informational article/blog post 
+2026-08-24 04:35:35,409 [INFO]   [345/429] Paraguay Health Insurance for Expats
+2026-08-24 04:35:36,767 [INFO]   [346/429] Cigna Global for Paraguay (2026) | Honest Expat Re
+2026-08-24 04:35:38,179 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be a content/review article
+2026-08-24 04:35:38,179 [INFO]   [347/429] Mejor seguro de salud internacional en Bolivia
+2026-08-24 04:35:39,571 [INFO]   [348/429] Cuidar tu salud también es contar con respaldo cua
+2026-08-24 04:35:41,505 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is an Instagram reel link with insuff
+2026-08-24 04:35:41,506 [INFO]   [349/429] Ya se va acabando el año y es indispensable la lis
+2026-08-24 04:35:46,186 [INFO]     ❌ Filtered: 🔴 Filtered out — Pacifico Seguros is a domestic Bolivian ins
+2026-08-24 04:35:46,186 [INFO]   [350/429] Ser la número 1 no es quedarse quieto. Y ...
+2026-08-24 04:35:47,942 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an Instagram reel from a Bolivian i
+2026-08-24 04:35:47,942 [INFO]   [351/429] La Boliviana Ciacruz Seguros, comercializará en #B
+2026-08-24 04:35:49,890 [INFO]   [352/429] La información y la prevención son el primer paso 
+2026-08-24 04:36:11,088 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is a Facebook video post from Asegura
+2026-08-24 04:36:11,088 [INFO]   [353/429] Bolivia Health Insurance for Expats
+2026-08-24 04:36:12,534 [INFO]   [354/429] Bolivia Healthcare System & Insurance Options for 
+2026-08-24 04:36:13,985 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be an informational article
+2026-08-24 04:36:13,985 [INFO]   [355/429] AOC Insurance broker: Expat health insurance
+2026-08-24 04:36:34,995 [INFO]   [356/429] Health Insurance in Bolivia | Healthcare & Cover f
+2026-08-24 04:36:36,918 [INFO]   [357/429] International health insurance Bolivia for expatri
+2026-08-24 04:36:38,641 [INFO]   [358/429] What are good expat health insurance options?
+2026-08-24 04:36:40,043 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a Facebook group post requesting ex
+2026-08-24 04:36:40,043 [INFO]   [359/429] International Health Insurance | APRIL Internation
+2026-08-24 04:36:41,715 [INFO]   [360/429] EVER Insurance
+2026-08-24 04:36:43,358 [INFO]   [361/429] Best Doctors Insurance
+2026-08-24 04:36:45,005 [INFO]   [362/429] VUMI® Global
+2026-08-24 04:36:47,037 [INFO]   [363/429] Global Benefits Group (GBG)
+2026-08-24 04:36:49,071 [INFO]   [364/429] QBE Insurance
+2026-08-24 04:36:50,909 [INFO]     ❌ Filtered: 🔴 Filtered out — QBE is a global insurance carrier/underwrit
+2026-08-24 04:36:50,909 [INFO]   [365/429] Gallagher Re
+2026-08-24 04:36:52,664 [INFO]     ❌ Filtered: 🔴 Filtered out — Gallagher Re is a global reinsurance broker
+2026-08-24 04:36:52,664 [INFO]   [366/429] Brokers Financial Group
+2026-08-24 04:36:54,357 [INFO]   [367/429] Con nuestro Seguro de Salud Internacional, accedes
+2026-08-24 04:36:56,026 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is an Instagram reel link without ver
+2026-08-24 04:36:56,026 [INFO]   [368/429] Seguros del Pacífico | Broker de Seguros en Ecuado
+2026-08-24 04:36:57,845 [INFO]     ❌ Filtered: 🔴 Filtered out — While the broker mentions international hea
+2026-08-24 04:36:57,845 [INFO]   [369/429] blueboxec
+2026-08-24 04:36:59,475 [INFO]     ❌ Filtered: 🔴 Filtered out — Instagram post URL with incomplete descript
+2026-08-24 04:36:59,475 [INFO]   [370/429] Novaecuador
+2026-08-24 04:37:01,188 [INFO]     ❌ Filtered: 🔴 Filtered out — Facebook page with limited information avai
+2026-08-24 04:37:01,189 [INFO]   [371/429] Bróker de Seguros en Ecuador | Qué es y Beneficios
+2026-08-24 04:37:02,994 [INFO]   [372/429] ¿Cuál es el mejor seguro de salud en Ecuador?
+2026-08-24 04:37:04,785 [INFO]   [373/429] Expat Health Insurance in Ecuador: The Complete Gu
+2026-08-24 04:37:25,434 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an informational guide/article abou
+2026-08-24 04:37:25,435 [INFO]   [374/429] Health Insurance in Ecuador
+2026-08-24 04:37:26,788 [INFO]   [375/429] Ecuador Expat Insurance & Country Guide
+2026-08-24 04:37:28,157 [INFO]     ❌ Filtered: 🔴 Filtered out — The entry appears to be an informational gu
+2026-08-24 04:37:28,157 [INFO]   [376/429] Health Insurance for American Expats in Ecuador
+2026-08-24 04:37:49,585 [INFO]   [377/429] IESS vs Private Health Insurance Ecuador: $85 in 2
+2026-08-24 04:37:50,939 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a blog article/content page compari
+2026-08-24 04:37:50,939 [INFO]   [378/429] Expat Health Insurance Ecuador: Navigating High-Ri
+2026-08-24 04:37:52,698 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be a blog article or conten
+2026-08-24 04:37:52,698 [INFO]   [379/429] Excellent Healthcare in Ecuador at a Fraction of U
+2026-08-24 04:37:54,251 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an informational article from Inter
+2026-08-24 04:37:54,251 [INFO]   [380/429] Health Insurance in Ecuador | Healthcare & Cover f
+2026-08-24 04:38:15,260 [INFO]   [381/429] Mejor seguro de salud internacional en Guatemala
+2026-08-24 04:38:16,753 [INFO]   [382/429] Con nuestros planes de seguro internacional, los .
+2026-08-24 04:38:18,291 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be a social media post (Ins
+2026-08-24 04:38:18,291 [INFO]   [383/429] ⚽️ La emoción del Mundial ya se siente… pero hay a
+2026-08-24 04:38:20,146 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is an Instagram post about World Cup 
+2026-08-24 04:38:20,146 [INFO]   [384/429] Bupa Ecuador | Quito
+2026-08-24 04:38:41,978 [INFO]   [385/429] ✈️ Cuando contratamos un seguro de viaje, solemos 
+2026-08-24 04:38:43,849 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an Instagram reel about travel insu
+2026-08-24 04:38:43,849 [INFO]   [386/429] La correduría S.I.B. presenta un nuevo seguro de .
+2026-08-24 04:38:45,722 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is an Instagram post from FE Seguros 
+2026-08-24 04:38:45,723 [INFO]   [387/429] Health insurance options for expats in Guatemala?
+2026-08-24 04:39:06,828 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a Facebook group discussion post se
+2026-08-24 04:39:06,828 [INFO]   [388/429] Guatemala Health Insurance for Expats
+2026-08-24 04:39:08,525 [INFO]   [389/429] Health Insurance in Guatemala
+2026-08-24 04:39:10,357 [INFO]   [390/429] A Guide to the Guatemala Healthcare System for Exp
+2026-08-24 04:39:31,456 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an informational article/guide abou
+2026-08-24 04:39:31,456 [INFO]   [391/429] Expat Health Insurance
+2026-08-24 04:39:33,074 [INFO]   [392/429] Moving to Guatemala | Expat Guide
+2026-08-24 04:39:35,015 [INFO]   [393/429] Mejor seguro de salud internacional en Honduras
+2026-08-24 04:39:36,351 [INFO]   [394/429] ¿Pensando en un regalo para estas Navidades? 🎄🎁 Es
+2026-08-24 04:40:07,463 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is an Instagram post (social media co
+2026-08-24 04:40:07,463 [INFO]   [395/429] Cuando algo no se siente bien, lo más importante e
+2026-08-24 04:40:09,033 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is an Instagram reel (social media co
+2026-08-24 04:40:09,034 [INFO]   [396/429] Beneficios de Seguro de Salud Mundial | PDF
+2026-08-24 04:40:30,210 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be a Scribd document PDF co
+2026-08-24 04:40:30,210 [INFO]   [397/429] Marketing digital 3.0 para corredores de seguros. 
+2026-08-24 04:40:31,666 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an Instagram reel about digital mar
+2026-08-24 04:40:31,666 [INFO]   [398/429] International Health Insurance for Expats in Hondu
+2026-08-24 04:40:33,673 [INFO]   [399/429] Honduras International Health Insurance Guide
+2026-08-24 04:40:35,292 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an educational guide/article about 
+2026-08-24 04:40:35,292 [INFO]   [400/429] Honduras Healthcare System & Medical Insurance Opt
+2026-08-24 04:40:56,363 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an informational article or guide a
+2026-08-24 04:40:56,363 [INFO]   [401/429] International health insurance for senior expats
+2026-08-24 04:40:58,108 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a Facebook post from Cigna Global's
+2026-08-24 04:40:58,108 [INFO]   [402/429] Which Are The Best International Health Insurance 
+2026-08-24 04:40:59,582 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an informational article/content pi
+2026-08-24 04:40:59,582 [INFO]   [403/429] Mejor seguro de salud internacional en El Salvador
+2026-08-24 04:41:01,680 [INFO]   [404/429] ¿Por qué es importante tener un seguro de salud in
+2026-08-24 04:41:22,681 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a Facebook video link from BMI Head
+2026-08-24 04:41:22,682 [INFO]   [405/429] ¡Un día lleno de ideas y estrategia en Reynoso Bro
+2026-08-24 04:41:24,378 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an Instagram social media post from
+2026-08-24 04:41:24,378 [INFO]   [406/429] Top Insurance Companies in El Salvador for Expats
+2026-08-24 04:41:26,426 [INFO]   [407/429] El Salvador Expat Insurance
+2026-08-24 04:41:47,346 [INFO]     ❌ Filtered: 🔴 Filtered out — The entry appears to be a web page or artic
+2026-08-24 04:41:47,346 [INFO]   [408/429] What private medical insurance providers are ...
+2026-08-24 04:41:49,272 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a Facebook group discussion post as
+2026-08-24 04:41:49,272 [INFO]   [409/429] Expat Health Insurance in El Salvador: Essential C
+2026-08-24 04:41:50,744 [INFO]     ❌ Filtered: 🔴 Filtered out — The source appears to be a travel/lifestyle
+2026-08-24 04:41:50,744 [INFO]   [410/429] International Health Insurance for Expats in El Sa
+2026-08-24 04:41:52,153 [INFO]   [411/429] Healthcare System Guide in El Salvador
+2026-08-24 04:42:13,492 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an informational guide or directory
+2026-08-24 04:42:13,492 [INFO]   [412/429] Immigration and Health Insurance Requirements in E
+2026-08-24 04:42:15,057 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be an informational article
+2026-08-24 04:42:15,057 [INFO]   [413/429] How does healthcare work in El Salvador, and what 
+2026-08-24 04:42:16,657 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be an informational blog ar
+2026-08-24 04:42:16,657 [INFO]   [414/429] Salud Dominicana | Seguros on Instagram: "¡Celebre
+2026-08-24 04:42:18,487 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is an Instagram reel with insufficien
+2026-08-24 04:42:18,487 [INFO]   [415/429] Asesores de Seguros on Instagram: "Muchos tienen u
+2026-08-24 04:42:39,579 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry is a single Instagram reel post from 
+2026-08-24 04:42:39,580 [INFO]   [416/429] Seguro de salud en la República Dominicana
+2026-08-24 04:42:41,052 [INFO]   [417/429] Hace algunos días, 250 de nuestros intermediarios 
+2026-08-24 04:42:42,554 [INFO]     ❌ Filtered: 🔴 Filtered out — Entry appears to be an Instagram reel fragm
+2026-08-24 04:42:42,554 [INFO]   [418/429] IG - Garcia & Asociados | La Romana
+2026-08-24 04:43:03,579 [INFO]   [419/429] Seguimos en grande con Adocose Santo Domingo. Fuim
+2026-08-24 04:43:05,247 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be a social media post (Ins
+2026-08-24 04:43:05,247 [INFO]   [420/429] Lic.Frandy Herrera on Instagram: "Nos propusimos u
+2026-08-24 04:43:07,051 [INFO]     ❌ Filtered: 🔴 Filtered out — This appears to be an individual Instagram 
+2026-08-24 04:43:07,051 [INFO]   [421/429] Dominican Republic Health Insurance for Expats
+2026-08-24 04:43:08,658 [INFO]   [422/429] Dominican Republic Healthcare System 2026 | Expat 
+2026-08-24 04:43:29,589 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an informational guide/article abou
+2026-08-24 04:43:29,589 [INFO]   [423/429] Health Insurance in Dominican Republic
+2026-08-24 04:43:31,019 [INFO]   [424/429] Health insurance for american and dominican family
+2026-08-24 04:43:32,473 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a Facebook group discussion post wh
+2026-08-24 04:43:32,473 [INFO]   [425/429] Choosing the Right International Health Insurance 
+2026-08-24 04:43:33,992 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an educational article/guide about 
+2026-08-24 04:43:33,992 [INFO]   [426/429] How we handled HEALTH INSURANCE living abroad ...
+2026-08-24 04:43:55,161 [INFO]     ❌ Filtered: 🔴 Filtered out — This is an Instagram reel (social media con
+2026-08-24 04:43:55,161 [INFO]   [427/429] Health Insurance Expat
+2026-08-24 04:43:56,889 [INFO]     ❌ Filtered: 🔴 Filtered out — The URL points to an article/interview on i
+2026-08-24 04:43:56,889 [INFO]   [428/429] Health Insurance - Dominican Republic forum
+2026-08-24 04:43:58,796 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a forum discussion page on expat.co
+2026-08-24 04:43:58,797 [INFO]   [429/429] Watch this BEFORE you buy travel health insurance 
+2026-08-24 04:44:19,600 [INFO]     ❌ Filtered: 🔴 Filtered out — This is a Facebook personal post/video cont
+2026-08-24 04:44:19,600 [INFO] 
+[FILTER] Kept: 93 | Removed: 336
+2026-08-24 04:44:19,603 [INFO] 
+============================================================
+2026-08-24 04:44:19,603 [INFO] RUN COMPLETE
+2026-08-24 04:44:19,603 [INFO] Raw candidates       : 429
+2026-08-24 04:44:19,603 [INFO] After AI filtering   : 93
+2026-08-24 04:44:19,604 [INFO] 🟢 Strong IPMI       : 92
+2026-08-24 04:44:19,604 [INFO] 🟡 Possible          : 1
+2026-08-24 04:44:19,604 [INFO] 🔴 Filtered out      : 336
+2026-08-24 04:44:19,604 [INFO] SerpApi calls        : 50
+2026-08-24 04:44:19,604 [INFO] Claude API calls     : 429
+2026-08-24 04:44:19,604 [INFO] CSV                  : docs/data/ipmi_brokers_20260824_044419.csv
+2026-08-24 04:44:19,604 [INFO] ============================================================
