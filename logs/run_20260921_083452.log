@@ -1,0 +1,1196 @@
+2026-09-21 08:34:52,457 [INFO] ============================================================
+2026-09-21 08:34:52,457 [INFO] IPMI BROKER AGENT v3 — Claude AI Filtering Edition
+2026-09-21 08:34:52,457 [INFO] Countries: 36 | Exclusions: 116
+2026-09-21 08:34:52,457 [INFO] Claude AI filtering: ✅ ACTIVE
+2026-09-21 08:34:52,457 [INFO] ============================================================
+2026-09-21 08:34:52,457 [INFO] SerpApi key loaded ✓
+2026-09-21 08:34:52,457 [INFO] 
+[SOURCE 3] iPMI Global Directory
+2026-09-21 08:34:56,938 [INFO]   iPMI Global → 93 entries
+2026-09-21 08:34:56,939 [INFO] 
+[SOURCE 5] Insurer Partner Pages
+2026-09-21 08:35:12,094 [WARNING] Fetch failed https://www.nowhealth.com/en/broker: HTTPSConnectionPool(host='www.nowhealth.com', port=443): Max retries exceeded with url: /en/broker (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.nowhealth.com', port=443) at 0x7f5408738b50>, 'Connection to www.nowhealth.com timed out. (connect timeout=15)'))
+2026-09-21 08:35:13,843 [WARNING] HTTP 404 — https://www.april-international.com/en/brokers
+2026-09-21 08:35:14,288 [INFO]   AXA Global Healthcare Broker → scraped
+2026-09-21 08:35:16,151 [WARNING] HTTP 404 — https://www.allianzcare.com/en/partners/brokers.html
+2026-09-21 08:35:16,152 [INFO] 
+── Oman (Middle East, high) ──
+2026-09-21 08:35:17,224 [WARNING] Fetch failed https://fsa.gov.om/Home/AuthorizedAndAccredited?companyType=10: HTTPSConnectionPool(host='fsa.gov.om', port=443): Max retries exceeded with url: /Home/AuthorizedAndAccredited?companyType=10 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+2026-09-21 08:35:18,725 [INFO]   Regulator → 0 entries for Oman
+2026-09-21 08:35:25,303 [INFO]   LinkedIn → 10 for Oman
+2026-09-21 08:35:27,305 [INFO] 
+── Saudi Arabia (Middle East, high) ──
+2026-09-21 08:35:29,515 [INFO]   Regulator → 0 entries for Saudi Arabia
+2026-09-21 08:35:29,996 [INFO]   LinkedIn → 1 for Saudi Arabia
+2026-09-21 08:35:31,998 [INFO] 
+── Kuwait (Middle East, high) ──
+2026-09-21 08:35:34,043 [INFO]   Regulator → 0 entries for Kuwait
+2026-09-21 08:35:35,700 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-09-21 08:35:37,701 [INFO] 
+── Bahrain (Middle East, high) ──
+2026-09-21 08:35:38,525 [WARNING] HTTP 403 — https://www.cbb.gov.bh/insurance-brokers/
+2026-09-21 08:35:40,026 [INFO]   Regulator → 0 entries for Bahrain
+2026-09-21 08:35:40,513 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-09-21 08:35:42,514 [INFO] 
+── Qatar (Middle East, high) ──
+2026-09-21 08:35:47,062 [INFO]   Regulator → 157 entries for Qatar
+2026-09-21 08:35:47,521 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-09-21 08:35:49,523 [INFO] 
+── Jordan (Middle East, high) ──
+2026-09-21 08:35:51,575 [INFO]   Regulator → 0 entries for Jordan
+2026-09-21 08:35:52,300 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-09-21 08:35:54,301 [INFO] 
+── Lebanon (Middle East, high) ──
+2026-09-21 08:35:56,344 [INFO]   Regulator → 0 entries for Lebanon
+2026-09-21 08:35:56,993 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-09-21 08:35:58,994 [INFO] 
+── Sri Lanka (South/SE Asia, high) ──
+2026-09-21 08:35:59,572 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-09-21 08:36:01,574 [INFO] 
+── Pakistan (South/SE Asia, high) ──
+2026-09-21 08:36:02,059 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-09-21 08:36:04,060 [INFO] 
+── Bangladesh (South/SE Asia, medium) ──
+2026-09-21 08:36:04,569 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-09-21 08:36:06,570 [INFO] 
+── Nepal (South/SE Asia, medium) ──
+2026-09-21 08:36:07,086 [INFO]   LinkedIn → 0 for Nepal
+2026-09-21 08:36:09,088 [INFO] 
+── Vietnam (South/SE Asia, high) ──
+2026-09-21 08:36:09,577 [INFO]   LinkedIn → 0 for Vietnam
+2026-09-21 08:36:11,578 [INFO] 
+── Thailand (South/SE Asia, high) ──
+2026-09-21 08:36:12,285 [INFO]   LinkedIn → 9 for Thailand
+2026-09-21 08:36:14,287 [INFO] 
+── Philippines (South/SE Asia, high) ──
+2026-09-21 08:36:14,791 [INFO]   LinkedIn → 10 for Philippines
+2026-09-21 08:36:16,792 [INFO] 
+── Malaysia (South/SE Asia, high) ──
+2026-09-21 08:36:31,830 [ERROR] LinkedIn search failed Malaysia: HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=15)
+2026-09-21 08:36:31,830 [INFO]   LinkedIn → 0 for Malaysia
+2026-09-21 08:36:33,830 [INFO] 
+── India (South/SE Asia, low) ──
+2026-09-21 08:36:33,831 [INFO] 
+── Luxembourg (Small Europe, high) ──
+2026-09-21 08:36:34,417 [WARNING] HTTP 403 — https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=LU&pageSize=50
+2026-09-21 08:36:41,373 [INFO]   LinkedIn → 2 for Luxembourg
+2026-09-21 08:36:43,374 [INFO] 
+── Slovenia (Small Europe, medium) ──
+2026-09-21 08:36:43,838 [WARNING] HTTP 403 — https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=SI&pageSize=50
+2026-09-21 08:36:45,917 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-09-21 08:36:47,918 [INFO] 
+── Croatia (Small Europe, medium) ──
+2026-09-21 08:36:48,387 [WARNING] HTTP 403 — https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=HR&pageSize=50
+2026-09-21 08:37:04,932 [ERROR] LinkedIn search failed Croatia: HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=15)
+2026-09-21 08:37:04,932 [INFO]   LinkedIn → 0 for Croatia
+2026-09-21 08:37:06,932 [INFO] 
+── Estonia (Small Europe, medium) ──
+2026-09-21 08:37:07,397 [WARNING] HTTP 403 — https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=EE&pageSize=50
+2026-09-21 08:37:14,452 [INFO]   LinkedIn → 1 for Estonia
+2026-09-21 08:37:16,454 [INFO] 
+── Latvia (Small Europe, medium) ──
+2026-09-21 08:37:17,038 [WARNING] HTTP 403 — https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=LV&pageSize=50
+2026-09-21 08:37:19,028 [INFO]   LinkedIn → 10 for Latvia
+2026-09-21 08:37:21,029 [INFO] 
+── Lithuania (Small Europe, medium) ──
+2026-09-21 08:37:21,486 [WARNING] HTTP 403 — https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=LT&pageSize=50
+2026-09-21 08:37:23,521 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-09-21 08:37:25,522 [INFO] 
+── Cyprus (Small Europe, high) ──
+2026-09-21 08:37:26,045 [WARNING] HTTP 403 — https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=CY&pageSize=50
+2026-09-21 08:37:28,066 [INFO]   LinkedIn → 1 for Cyprus
+2026-09-21 08:37:30,067 [INFO] 
+── Iceland (Small Europe, medium) ──
+2026-09-21 08:37:30,523 [WARNING] HTTP 403 — https://register.eiopa.europa.eu/RACR/eiopa-register/insurance-intermediary?homeCountry=IS&pageSize=50
+2026-09-21 08:37:32,540 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-09-21 08:37:34,541 [INFO] 
+── Montenegro (Small Europe, medium) ──
+2026-09-21 08:37:35,033 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-09-21 08:37:37,035 [INFO] 
+── Albania (Small Europe, low) ──
+2026-09-21 08:37:37,035 [INFO] 
+── Panama (LATAM, high) ──
+2026-09-21 08:37:52,069 [ERROR] LinkedIn search failed Panama: HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=15)
+2026-09-21 08:37:52,070 [INFO]   LinkedIn → 0 for Panama
+2026-09-21 08:38:00,112 [INFO]   Supplementary → 18 for Panama
+2026-09-21 08:38:02,114 [INFO] 
+── Costa Rica (LATAM, high) ──
+2026-09-21 08:38:02,798 [INFO]   LinkedIn → 1 for Costa Rica
+2026-09-21 08:38:10,389 [INFO]   Supplementary → 18 for Costa Rica
+2026-09-21 08:38:12,391 [INFO] 
+── Uruguay (LATAM, medium) ──
+2026-09-21 08:38:12,971 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-09-21 08:38:20,298 [INFO]   Supplementary → 18 for Uruguay
+2026-09-21 08:38:22,300 [INFO] 
+── Paraguay (LATAM, low) ──
+2026-09-21 08:38:27,835 [INFO]   Supplementary → 18 for Paraguay
+2026-09-21 08:38:29,837 [INFO] 
+── Bolivia (LATAM, low) ──
+2026-09-21 08:38:35,865 [INFO]   Supplementary → 18 for Bolivia
+2026-09-21 08:38:37,867 [INFO] 
+── Ecuador (LATAM, medium) ──
+2026-09-21 08:38:38,374 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-09-21 08:38:45,565 [INFO]   Supplementary → 18 for Ecuador
+2026-09-21 08:38:47,567 [INFO] 
+── Guatemala (LATAM, medium) ──
+2026-09-21 08:38:48,412 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-09-21 08:38:55,969 [INFO]   Supplementary → 18 for Guatemala
+2026-09-21 08:38:57,971 [INFO] 
+── Honduras (LATAM, low) ──
+2026-09-21 08:39:13,014 [ERROR] Supplementary search failed Honduras: HTTPSConnectionPool(host='serpapi.com', port=443): Read timed out. (read timeout=15)
+2026-09-21 08:39:15,519 [INFO]   Supplementary → 9 for Honduras
+2026-09-21 08:39:17,519 [INFO] 
+── El Salvador (LATAM, low) ──
+2026-09-21 08:39:22,952 [INFO]   Supplementary → 18 for El Salvador
+2026-09-21 08:39:24,954 [INFO] 
+── Dominican Republic (LATAM, medium) ──
+2026-09-21 08:39:25,461 [ERROR] SerpApi: Google hasn't returned any results for this query.
+2026-09-21 08:39:32,855 [INFO]   Supplementary → 18 for Dominican Republic
+2026-09-21 08:39:34,857 [INFO] 
+[RAW] 420 total candidates before AI filtering
+2026-09-21 08:39:34,857 [INFO] 
+[CLAUDE] Filtering 420 leads...
+2026-09-21 08:39:34,857 [INFO]   [1/420] iPMI Global
+2026-09-21 08:39:34,968 [WARNING] Claude API error for iPMI Global: 'content' — falling back to keywords
+2026-09-21 08:39:35,470 [INFO]   [2/420] Network
+2026-09-21 08:39:35,570 [WARNING] Claude API error for Network: 'content' — falling back to keywords
+2026-09-21 08:39:36,072 [INFO]   [3/420] Network Directory
+2026-09-21 08:39:36,182 [WARNING] Claude API error for Network Directory: 'content' — falling back to keywords
+2026-09-21 08:39:36,683 [INFO]   [4/420] In Focus
+2026-09-21 08:39:36,782 [WARNING] Claude API error for In Focus: 'content' — falling back to keywords
+2026-09-21 08:39:37,283 [INFO]   [5/420] Air AmbulanceAir Ambulance In Focus
+2026-09-21 08:39:37,381 [WARNING] Claude API error for Air AmbulanceAir Ambulance In Focus: 'content' — falling back to keywords
+2026-09-21 08:39:37,882 [INFO]   [6/420] AppointmentsExecutive Appointments In Focus
+2026-09-21 08:39:37,980 [WARNING] Claude API error for AppointmentsExecutive Appointments In Focus: 'content' — falling back to keywords
+2026-09-21 08:39:38,481 [INFO]   [7/420] AssistanceAssistance In Focus
+2026-09-21 08:39:38,580 [WARNING] Claude API error for AssistanceAssistance In Focus: 'content' — falling back to keywords
+2026-09-21 08:39:39,081 [INFO]   [8/420] Cost ContainmentCost Containment In Focus
+2026-09-21 08:39:39,190 [WARNING] Claude API error for Cost ContainmentCost Containment In Focus: 'content' — falling back to keywords
+2026-09-21 08:39:39,692 [INFO]   [9/420] Country GuidesCountry Guides and Profiles
+2026-09-21 08:39:39,795 [WARNING] Claude API error for Country GuidesCountry Guides and Profiles: 'content' — falling back to keywords
+2026-09-21 08:39:40,296 [INFO]   [10/420] Digital Nomads Insurance
+2026-09-21 08:39:40,398 [WARNING] Claude API error for Digital Nomads Insurance: 'content' — falling back to keywords
+2026-09-21 08:39:40,899 [INFO]   [11/420] Expatriate LifeExpat Insurance News
+2026-09-21 08:39:41,002 [WARNING] Claude API error for Expatriate LifeExpat Insurance News: 'content' — falling back to keywords
+2026-09-21 08:39:41,503 [INFO]   [12/420] InsuranceInsurance In Focus
+2026-09-21 08:39:41,607 [WARNING] Claude API error for InsuranceInsurance In Focus: 'content' — falling back to keywords
+2026-09-21 08:39:42,108 [INFO]   [13/420] InsureTechInsurance Technology News
+2026-09-21 08:39:42,210 [WARNING] Claude API error for InsureTechInsurance Technology News: 'content' — falling back to keywords
+2026-09-21 08:39:42,711 [INFO]   [14/420] iPMIiPMI In Focus
+2026-09-21 08:39:42,810 [WARNING] Claude API error for iPMIiPMI In Focus: 'content' — falling back to keywords
+2026-09-21 08:39:43,311 [INFO]   [15/420] Marine & Seafarer InsuranceSeafarer Insurance In F
+2026-09-21 08:39:43,417 [WARNING] Claude API error for Marine & Seafarer InsuranceSeafarer Insurance In Focus: 'content' — falling back to keywords
+2026-09-21 08:39:43,919 [INFO]   [16/420] PaymentsDomestic and International Premium Payment
+2026-09-21 08:39:44,013 [WARNING] Claude API error for PaymentsDomestic and International Premium Payments: 'content' — falling back to keywords
+2026-09-21 08:39:44,514 [INFO]   [17/420] Pharmacy Benefits Management
+2026-09-21 08:39:44,612 [WARNING] Claude API error for Pharmacy Benefits Management: 'content' — falling back to keywords
+2026-09-21 08:39:45,113 [INFO]   [18/420] Private Medical Insurance & Employee BenefitsPriva
+2026-09-21 08:39:45,208 [WARNING] Claude API error for Private Medical Insurance & Employee BenefitsPrivate Medical Insurance In Focus: 'content' — falling back to keywords
+2026-09-21 08:39:45,710 [INFO]   [19/420] Travel InsuranceTravel Insurance In Focus
+2026-09-21 08:39:45,806 [WARNING] Claude API error for Travel InsuranceTravel Insurance In Focus: 'content' — falling back to keywords
+2026-09-21 08:39:46,307 [INFO]   [20/420] Travel & TourismBusiness & Leisure Travel In Focus
+2026-09-21 08:39:46,401 [WARNING] Claude API error for Travel & TourismBusiness & Leisure Travel In Focus: 'content' — falling back to keywords
+2026-09-21 08:39:46,902 [INFO]   [21/420] Travel Risk ManagementTravel Risk Management In Fo
+2026-09-21 08:39:47,004 [WARNING] Claude API error for Travel Risk ManagementTravel Risk Management In Focus: 'content' — falling back to keywords
+2026-09-21 08:39:47,506 [INFO]   [22/420] Telemedicine & Telehealth
+2026-09-21 08:39:47,606 [WARNING] Claude API error for Telemedicine & Telehealth: 'content' — falling back to keywords
+2026-09-21 08:39:48,107 [INFO]   [23/420] Insights
+2026-09-21 08:39:48,208 [WARNING] Claude API error for Insights: 'content' — falling back to keywords
+2026-09-21 08:39:48,709 [INFO]   [24/420] Regional
+2026-09-21 08:39:48,876 [WARNING] Claude API error for Regional: 'content' — falling back to keywords
+2026-09-21 08:39:49,378 [INFO]   [25/420] Latest Round Tables
+2026-09-21 08:39:49,480 [WARNING] Claude API error for Latest Round Tables: 'content' — falling back to keywords
+2026-09-21 08:39:49,982 [INFO]   [26/420] Air AmbulanceEvacuation & Repatriation News
+2026-09-21 08:39:50,084 [WARNING] Claude API error for Air AmbulanceEvacuation & Repatriation News: 'content' — falling back to keywords
+2026-09-21 08:39:50,585 [INFO]   [27/420] AssistanceInternational Assistance News
+2026-09-21 08:39:50,685 [WARNING] Claude API error for AssistanceInternational Assistance News: 'content' — falling back to keywords
+2026-09-21 08:39:51,186 [INFO]   [28/420] BreakingBreaking iPMI News
+2026-09-21 08:39:51,283 [WARNING] Claude API error for BreakingBreaking iPMI News: 'content' — falling back to keywords
+2026-09-21 08:39:51,784 [INFO]   [29/420] Company ResultsCompany Results News
+2026-09-21 08:39:51,880 [WARNING] Claude API error for Company ResultsCompany Results News: 'content' — falling back to keywords
+2026-09-21 08:39:52,381 [INFO]   [30/420] Disaster PreparednessDisaster Preparedness News
+2026-09-21 08:39:52,479 [WARNING] Claude API error for Disaster PreparednessDisaster Preparedness News: 'content' — falling back to keywords
+2026-09-21 08:39:52,980 [INFO]   [31/420] Executive AppointmentsExecutive Appointments News
+2026-09-21 08:39:53,096 [WARNING] Claude API error for Executive AppointmentsExecutive Appointments News: 'content' — falling back to keywords
+2026-09-21 08:39:53,597 [INFO]   [32/420] Hospitals & HealthcareHospitals & Healthcare News
+2026-09-21 08:39:53,696 [WARNING] Claude API error for Hospitals & HealthcareHospitals & Healthcare News: 'content' — falling back to keywords
+2026-09-21 08:39:54,197 [INFO]   [33/420] Insurer Credit RatingsCredit Ratings News
+2026-09-21 08:39:54,300 [WARNING] Claude API error for Insurer Credit RatingsCredit Ratings News: 'content' — falling back to keywords
+2026-09-21 08:39:54,801 [INFO]   [34/420] M & AMergers & Acquisitions News
+2026-09-21 08:39:54,907 [WARNING] Claude API error for M & AMergers & Acquisitions News: 'content' — falling back to keywords
+2026-09-21 08:39:55,409 [INFO]   [35/420] PaymentsInsurance Industry Domestic and Internatio
+2026-09-21 08:39:55,508 [WARNING] Claude API error for PaymentsInsurance Industry Domestic and International Payments: 'content' — falling back to keywords
+2026-09-21 08:39:56,009 [INFO]   [36/420] TravelTravel News
+2026-09-21 08:39:56,117 [WARNING] Claude API error for TravelTravel News: 'content' — falling back to keywords
+2026-09-21 08:39:56,618 [INFO]   [37/420] Travel InsuranceTravel Insurance News
+2026-09-21 08:39:56,718 [WARNING] Claude API error for Travel InsuranceTravel Insurance News: 'content' — falling back to keywords
+2026-09-21 08:39:57,219 [INFO]   [38/420] Travel Risk ManagementTRM News
+2026-09-21 08:39:57,325 [WARNING] Claude API error for Travel Risk ManagementTRM News: 'content' — falling back to keywords
+2026-09-21 08:39:57,826 [INFO]   [39/420] ReinsuranceReinsurance News
+2026-09-21 08:39:57,934 [WARNING] Claude API error for ReinsuranceReinsurance News: 'content' — falling back to keywords
+2026-09-21 08:39:58,435 [INFO]   [40/420] RiskRisk News
+2026-09-21 08:39:58,529 [WARNING] Claude API error for RiskRisk News: 'content' — falling back to keywords
+2026-09-21 08:39:59,031 [INFO]   [41/420] Reports
+2026-09-21 08:39:59,129 [WARNING] Claude API error for Reports: 'content' — falling back to keywords
+2026-09-21 08:39:59,630 [INFO]   [42/420] Interviews
+2026-09-21 08:39:59,732 [WARNING] Claude API error for Interviews: 'content' — falling back to keywords
+2026-09-21 08:40:00,234 [INFO]   [43/420] Events
+2026-09-21 08:40:00,334 [WARNING] Claude API error for Events: 'content' — falling back to keywords
+2026-09-21 08:40:00,836 [INFO]   [44/420] iPMI Market Providers
+2026-09-21 08:40:00,950 [WARNING] Claude API error for iPMI Market Providers: 'content' — falling back to keywords
+2026-09-21 08:40:01,451 [INFO]   [45/420] iPMI Market Insights
+2026-09-21 08:40:01,557 [WARNING] Claude API error for iPMI Market Insights: 'content' — falling back to keywords
+2026-09-21 08:40:02,058 [INFO]   [46/420] Momentum and Resilience: An In-Depth Analysis of B
+2026-09-21 08:40:02,160 [WARNING] Claude API error for Momentum and Resilience: An In-Depth Analysis of Best Doctors Insurance FY2026 Financial Results: 'content' — falling back to keywords
+2026-09-21 08:40:02,661 [INFO]   [47/420] iPMI Insights
+2026-09-21 08:40:02,761 [WARNING] Claude API error for iPMI Insights: 'content' — falling back to keywords
+2026-09-21 08:40:03,262 [INFO]   [48/420] Care Without Walls: Breaking Barriers to Better He
+2026-09-21 08:40:03,361 [WARNING] Claude API error for Care Without Walls: Breaking Barriers to Better Health: 'content' — falling back to keywords
+2026-09-21 08:40:03,862 [INFO]   [49/420] A Definitive Blueprint for Rebuilding Core Operati
+2026-09-21 08:40:03,969 [WARNING] Claude API error for A Definitive Blueprint for Rebuilding Core Operating Systems, Deploying Clinical AI, and Scaling Pro…: 'content' — falling back to keywords
+2026-09-21 08:40:04,471 [INFO]   [50/420] The Future of International Health Insurance Prote
+2026-09-21 08:40:04,570 [WARNING] Claude API error for The Future of International Health Insurance Protection: 10 Strategic Take Aways from the 2026 iPMI …: 'content' — falling back to keywords
+2026-09-21 08:40:05,071 [INFO]   [51/420] Socials
+2026-09-21 08:40:05,178 [WARNING] Claude API error for Socials: 'content' — falling back to keywords
+2026-09-21 08:40:05,680 [INFO]   [52/420] LinkedIn
+2026-09-21 08:40:05,774 [WARNING] Claude API error for LinkedIn: 'content' — falling back to keywords
+2026-09-21 08:40:06,275 [INFO]   [53/420] Twitter
+2026-09-21 08:40:06,379 [WARNING] Claude API error for Twitter: 'content' — falling back to keywords
+2026-09-21 08:40:06,880 [INFO]   [54/420] Expatriate iPMI Broker Group
+2026-09-21 08:40:06,977 [WARNING] Claude API error for Expatriate iPMI Broker Group: 'content' — falling back to keywords
+2026-09-21 08:40:07,478 [INFO]   [55/420] iPMI Magazine Group
+2026-09-21 08:40:07,575 [WARNING] Claude API error for iPMI Magazine Group: 'content' — falling back to keywords
+2026-09-21 08:40:08,076 [INFO]   [56/420] International Assistance Network
+2026-09-21 08:40:08,182 [WARNING] Claude API error for International Assistance Network: 'content' — falling back to keywords
+2026-09-21 08:40:08,683 [INFO]   [57/420] iPMI on Google
+2026-09-21 08:40:08,795 [WARNING] Claude API error for iPMI on Google: 'content' — falling back to keywords
+2026-09-21 08:40:09,296 [INFO]   [58/420] Terms of Service
+2026-09-21 08:40:09,399 [WARNING] Claude API error for Terms of Service: 'content' — falling back to keywords
+2026-09-21 08:40:09,900 [INFO]   [59/420] Privacy Policy
+2026-09-21 08:40:10,000 [WARNING] Claude API error for Privacy Policy: 'content' — falling back to keywords
+2026-09-21 08:40:10,502 [INFO]   [60/420] Contact iPMI Global
+2026-09-21 08:40:10,601 [WARNING] Claude API error for Contact iPMI Global: 'content' — falling back to keywords
+2026-09-21 08:40:11,102 [INFO]   [61/420] Headlines
+2026-09-21 08:40:11,204 [WARNING] Claude API error for Headlines: 'content' — falling back to keywords
+2026-09-21 08:40:11,706 [INFO]   [62/420] Ai Defence Journal
+2026-09-21 08:40:11,799 [WARNING] Claude API error for Ai Defence Journal: 'content' — falling back to keywords
+2026-09-21 08:40:12,300 [INFO]   [63/420] Sitemap
+2026-09-21 08:40:12,405 [WARNING] Claude API error for Sitemap: 'content' — falling back to keywords
+2026-09-21 08:40:12,906 [INFO]   [64/420] Athens Assistance
+2026-09-21 08:40:13,000 [WARNING] Claude API error for Athens Assistance: 'content' — falling back to keywords
+2026-09-21 08:40:13,501 [INFO]   [65/420] AP Companies
+2026-09-21 08:40:13,618 [WARNING] Claude API error for AP Companies: 'content' — falling back to keywords
+2026-09-21 08:40:14,119 [INFO]   [66/420] AXA Partners US
+2026-09-21 08:40:14,218 [WARNING] Claude API error for AXA Partners US: 'content' — falling back to keywords
+2026-09-21 08:40:14,719 [INFO]   [67/420] Best Doctors Insurance
+2026-09-21 08:40:14,816 [WARNING] Claude API error for Best Doctors Insurance: 'content' — falling back to keywords
+2026-09-21 08:40:15,317 [INFO]   [68/420] Cigna Healthcare
+2026-09-21 08:40:15,417 [WARNING] Claude API error for Cigna Healthcare: 'content' — falling back to keywords
+2026-09-21 08:40:15,918 [INFO]   [69/420] Compass Point Assist
+2026-09-21 08:40:16,026 [WARNING] Claude API error for Compass Point Assist: 'content' — falling back to keywords
+2026-09-21 08:40:16,527 [INFO]   [70/420] Flywire
+2026-09-21 08:40:16,643 [WARNING] Claude API error for Flywire: 'content' — falling back to keywords
+2026-09-21 08:40:17,145 [INFO]   [71/420] Global Excel
+2026-09-21 08:40:17,244 [WARNING] Claude API error for Global Excel: 'content' — falling back to keywords
+2026-09-21 08:40:17,746 [INFO]   [72/420] FAI Air Ambulance
+2026-09-21 08:40:17,845 [WARNING] Claude API error for FAI Air Ambulance: 'content' — falling back to keywords
+2026-09-21 08:40:18,346 [INFO]   [73/420] International Medical Group
+2026-09-21 08:40:18,451 [WARNING] Claude API error for International Medical Group: 'content' — falling back to keywords
+2026-09-21 08:40:18,952 [INFO]   [74/420] New Frontier Group
+2026-09-21 08:40:19,059 [WARNING] Claude API error for New Frontier Group: 'content' — falling back to keywords
+2026-09-21 08:40:19,560 [INFO]   [75/420] MDabroad
+2026-09-21 08:40:19,658 [WARNING] Claude API error for MDabroad: 'content' — falling back to keywords
+2026-09-21 08:40:20,159 [INFO]   [76/420] PassportCard
+2026-09-21 08:40:20,255 [WARNING] Claude API error for PassportCard: 'content' — falling back to keywords
+2026-09-21 08:40:20,756 [INFO]   [77/420] Roy Medical Assistance
+2026-09-21 08:40:20,853 [WARNING] Claude API error for Roy Medical Assistance: 'content' — falling back to keywords
+2026-09-21 08:40:21,354 [INFO]   [78/420] Pharmcare Services
+2026-09-21 08:40:21,465 [WARNING] Claude API error for Pharmcare Services: 'content' — falling back to keywords
+2026-09-21 08:40:21,966 [INFO]   [79/420] UnitedHealthcare Global
+2026-09-21 08:40:22,069 [WARNING] Claude API error for UnitedHealthcare Global: 'content' — falling back to keywords
+2026-09-21 08:40:22,571 [INFO]   [80/420] World of America
+2026-09-21 08:40:22,672 [WARNING] Claude API error for World of America: 'content' — falling back to keywords
+2026-09-21 08:40:23,173 [INFO]   [81/420] Trawick International
+2026-09-21 08:40:23,271 [WARNING] Claude API error for Trawick International: 'content' — falling back to keywords
+2026-09-21 08:40:23,773 [INFO]   [82/420] Global Reach Health
+2026-09-21 08:40:23,876 [WARNING] Claude API error for Global Reach Health: 'content' — falling back to keywords
+2026-09-21 08:40:24,377 [INFO]   [83/420] BringOff Assistance
+2026-09-21 08:40:24,479 [WARNING] Claude API error for BringOff Assistance: 'content' — falling back to keywords
+2026-09-21 08:40:24,980 [INFO]   [84/420] Oldorff Consulting
+2026-09-21 08:40:25,087 [WARNING] Claude API error for Oldorff Consulting: 'content' — falling back to keywords
+2026-09-21 08:40:25,588 [INFO]   [85/420] SIP Medical Family Office
+2026-09-21 08:40:25,696 [WARNING] Claude API error for SIP Medical Family Office: 'content' — falling back to keywords
+2026-09-21 08:40:26,198 [INFO]   [86/420] ICE-Tech
+2026-09-21 08:40:26,292 [WARNING] Claude API error for ICE-Tech: 'content' — falling back to keywords
+2026-09-21 08:40:26,793 [INFO]   [87/420] Acclaim
+2026-09-21 08:40:26,894 [WARNING] Claude API error for Acclaim: 'content' — falling back to keywords
+2026-09-21 08:40:27,396 [INFO]   [88/420] One Health Insurance
+2026-09-21 08:40:27,494 [WARNING] Claude API error for One Health Insurance: 'content' — falling back to keywords
+2026-09-21 08:40:27,996 [INFO]   [89/420] HealthcareLive
+2026-09-21 08:40:28,094 [WARNING] Claude API error for HealthcareLive: 'content' — falling back to keywords
+2026-09-21 08:40:28,595 [INFO]   [90/420] Valora International Assistance
+2026-09-21 08:40:28,687 [WARNING] Claude API error for Valora International Assistance: 'content' — falling back to keywords
+2026-09-21 08:40:29,189 [INFO]   [91/420] ExpatInsure
+2026-09-21 08:40:29,290 [WARNING] Claude API error for ExpatInsure: 'content' — falling back to keywords
+2026-09-21 08:40:29,792 [INFO]   [92/420] Cegedim Insurance Solutions
+2026-09-21 08:40:29,892 [WARNING] Claude API error for Cegedim Insurance Solutions: 'content' — falling back to keywords
+2026-09-21 08:40:30,393 [INFO]   [93/420] Omnia Corporation LTD
+2026-09-21 08:40:30,498 [WARNING] Claude API error for Omnia Corporation LTD: 'content' — falling back to keywords
+2026-09-21 08:40:31,000 [INFO]   [94/420] Personal
+2026-09-21 08:40:31,100 [WARNING] Claude API error for Personal: 'content' — falling back to keywords
+2026-09-21 08:40:31,602 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:31,602 [INFO]   [95/420] Business
+2026-09-21 08:40:31,708 [WARNING] Claude API error for Business: 'content' — falling back to keywords
+2026-09-21 08:40:32,210 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:32,210 [INFO]   [96/420] Intermediaries
+2026-09-21 08:40:32,317 [WARNING] Claude API error for Intermediaries: 'content' — falling back to keywords
+2026-09-21 08:40:32,818 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:32,818 [INFO]   [97/420] Medical providers
+2026-09-21 08:40:32,917 [WARNING] Claude API error for Medical providers: 'content' — falling back to keywords
+2026-09-21 08:40:33,418 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:33,418 [INFO]   [98/420] Wellbeing
+2026-09-21 08:40:33,515 [WARNING] Claude API error for Wellbeing: 'content' — falling back to keywords
+2026-09-21 08:40:34,016 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:34,017 [INFO]   [99/420] Unlock a world of opportunity
+2026-09-21 08:40:34,111 [WARNING] Claude API error for Unlock a world of opportunity: 'content' — falling back to keywords
+2026-09-21 08:40:34,613 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:34,613 [INFO]   [100/420] A look at our Hong Kong cover
+2026-09-21 08:40:34,706 [WARNING] Claude API error for A look at our Hong Kong cover: 'content' — falling back to keywords
+2026-09-21 08:40:35,207 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:35,207 [INFO]   [101/420] Cover benefits for Channel Islands or Isle of Man
+2026-09-21 08:40:35,307 [WARNING] Claude API error for Cover benefits for Channel Islands or Isle of Man: 'content' — falling back to keywords
+2026-09-21 08:40:35,808 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:35,808 [INFO]   [102/420] Switching to AXA
+2026-09-21 08:40:35,905 [WARNING] Claude API error for Switching to AXA: 'content' — falling back to keywords
+2026-09-21 08:40:36,406 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:36,406 [INFO]   [103/420] Individuals and families
+2026-09-21 08:40:36,511 [WARNING] Claude API error for Individuals and families: 'content' — falling back to keywords
+2026-09-21 08:40:37,012 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:37,012 [INFO]   [104/420] Plans for groups of up to 74 employees
+2026-09-21 08:40:37,112 [WARNING] Claude API error for Plans for groups of up to 74 employees: 'content' — falling back to keywords
+2026-09-21 08:40:37,613 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:37,613 [INFO]   [105/420] Plans for groups of 75 to 149 employees
+2026-09-21 08:40:37,714 [WARNING] Claude API error for Plans for groups of 75 to 149 employees: 'content' — falling back to keywords
+2026-09-21 08:40:38,215 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:38,216 [INFO]   [106/420] Plans for groups of 150+ employees
+2026-09-21 08:40:38,329 [WARNING] Claude API error for Plans for groups of 150+ employees: 'content' — falling back to keywords
+2026-09-21 08:40:38,830 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:38,830 [INFO]   [107/420] Maternity services
+2026-09-21 08:40:38,928 [WARNING] Claude API error for Maternity services: 'content' — falling back to keywords
+2026-09-21 08:40:39,430 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:39,430 [INFO]   [108/420] Cancer services
+2026-09-21 08:40:39,539 [WARNING] Claude API error for Cancer services: 'content' — falling back to keywords
+2026-09-21 08:40:40,041 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:40,041 [INFO]   [109/420] Evacuation and Repatriation service
+2026-09-21 08:40:40,151 [WARNING] Claude API error for Evacuation and Repatriation service: 'content' — falling back to keywords
+2026-09-21 08:40:40,653 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:40,653 [INFO]   [110/420] Second medical opinion
+2026-09-21 08:40:40,744 [WARNING] Claude API error for Second medical opinion: 'content' — falling back to keywords
+2026-09-21 08:40:41,245 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:41,245 [INFO]   [111/420] Mind health
+2026-09-21 08:40:41,353 [WARNING] Claude API error for Mind health: 'content' — falling back to keywords
+2026-09-21 08:40:41,855 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:41,855 [INFO]   [112/420] Virtual doctor
+2026-09-21 08:40:41,951 [WARNING] Claude API error for Virtual doctor: 'content' — falling back to keywords
+2026-09-21 08:40:42,452 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:42,452 [INFO]   [113/420] Psychiatric Case Management
+2026-09-21 08:40:42,549 [WARNING] Claude API error for Psychiatric Case Management: 'content' — falling back to keywords
+2026-09-21 08:40:43,050 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:43,050 [INFO]   [114/420] You’ve got their back. We’ve got yours.
+2026-09-21 08:40:43,154 [WARNING] Claude API error for You’ve got their back. We’ve got yours.: 'content' — falling back to keywords
+2026-09-21 08:40:43,656 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:43,656 [INFO]   [115/420] Get a quote for your client
+2026-09-21 08:40:43,757 [WARNING] Claude API error for Get a quote for your client: 'content' — falling back to keywords
+2026-09-21 08:40:44,259 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:44,259 [INFO]   [116/420] +44 (0)1892 556025*
+2026-09-21 08:40:44,377 [WARNING] Claude API error for +44 (0)1892 556025*: 'content' — falling back to keywords
+2026-09-21 08:40:44,878 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:44,878 [INFO]   [117/420] +44 (0)1892 556796**
+2026-09-21 08:40:44,977 [WARNING] Claude API error for +44 (0)1892 556796**: 'content' — falling back to keywords
+2026-09-21 08:40:45,479 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:45,479 [INFO]   [118/420] New to AXA?
+2026-09-21 08:40:45,584 [WARNING] Claude API error for New to AXA?: 'content' — falling back to keywords
+2026-09-21 08:40:46,085 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:46,085 [INFO]   [119/420] Why choose us?
+2026-09-21 08:40:46,193 [WARNING] Claude API error for Why choose us?: 'content' — falling back to keywords
+2026-09-21 08:40:46,694 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:46,694 [INFO]   [120/420] Want to work with us?
+2026-09-21 08:40:46,809 [WARNING] Claude API error for Want to work with us?: 'content' — falling back to keywords
+2026-09-21 08:40:47,311 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:47,311 [INFO]   [121/420] Making it easier to switch
+2026-09-21 08:40:47,405 [WARNING] Claude API error for Making it easier to switch: 'content' — falling back to keywords
+2026-09-21 08:40:47,906 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:47,906 [INFO]   [122/420] Personal insurance
+2026-09-21 08:40:48,006 [WARNING] Claude API error for Personal insurance: 'content' — falling back to keywords
+2026-09-21 08:40:48,507 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:48,507 [INFO]   [123/420] International health insurance
+2026-09-21 08:40:48,604 [WARNING] Claude API error for International health insurance: 'content' — falling back to keywords
+2026-09-21 08:40:49,106 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:49,106 [INFO]   [124/420] Short term cover options
+2026-09-21 08:40:49,205 [WARNING] Claude API error for Short term cover options: 'content' — falling back to keywords
+2026-09-21 08:40:49,706 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:49,706 [INFO]   [125/420] Online doctor service
+2026-09-21 08:40:49,804 [WARNING] Claude API error for Online doctor service: 'content' — falling back to keywords
+2026-09-21 08:40:50,306 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:50,306 [INFO]   [126/420] Business insurance
+2026-09-21 08:40:50,417 [WARNING] Claude API error for Business insurance: 'content' — falling back to keywords
+2026-09-21 08:40:50,919 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:50,919 [INFO]   [127/420] Small business (1-74)
+2026-09-21 08:40:51,014 [WARNING] Claude API error for Small business (1-74): 'content' — falling back to keywords
+2026-09-21 08:40:51,515 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:51,515 [INFO]   [128/420] Medium enterprise (75-149)
+2026-09-21 08:40:51,612 [WARNING] Claude API error for Medium enterprise (75-149): 'content' — falling back to keywords
+2026-09-21 08:40:52,113 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:52,113 [INFO]   [129/420] Large corporate (150+)
+2026-09-21 08:40:52,214 [WARNING] Claude API error for Large corporate (150+): 'content' — falling back to keywords
+2026-09-21 08:40:52,716 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:52,716 [INFO]   [130/420] All business health insurance
+2026-09-21 08:40:52,810 [WARNING] Claude API error for All business health insurance: 'content' — falling back to keywords
+2026-09-21 08:40:53,311 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:53,311 [INFO]   [131/420] Helpful links
+2026-09-21 08:40:53,404 [WARNING] Claude API error for Helpful links: 'content' — falling back to keywords
+2026-09-21 08:40:53,905 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:53,905 [INFO]   [132/420] Existing customers
+2026-09-21 08:40:54,007 [WARNING] Claude API error for Existing customers: 'content' — falling back to keywords
+2026-09-21 08:40:54,508 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:54,509 [INFO]   [133/420] Insurance partners
+2026-09-21 08:40:54,615 [WARNING] Claude API error for Insurance partners: 'content' — falling back to keywords
+2026-09-21 08:40:55,116 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:55,116 [INFO]   [134/420] Meet our global team
+2026-09-21 08:40:55,224 [WARNING] Claude API error for Meet our global team: 'content' — falling back to keywords
+2026-09-21 08:40:55,725 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:55,725 [INFO]   [135/420] Accessibility
+2026-09-21 08:40:55,823 [WARNING] Claude API error for Accessibility: 'content' — falling back to keywords
+2026-09-21 08:40:56,324 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:56,324 [INFO]   [136/420] Social
+2026-09-21 08:40:56,421 [WARNING] Claude API error for Social: 'content' — falling back to keywords
+2026-09-21 08:40:56,922 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:56,922 [INFO]   [137/420] Gender Pay Gap
+2026-09-21 08:40:57,024 [WARNING] Claude API error for Gender Pay Gap: 'content' — falling back to keywords
+2026-09-21 08:40:57,526 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:57,526 [INFO]   [138/420] Modern Slavery Act
+2026-09-21 08:40:57,629 [WARNING] Claude API error for Modern Slavery Act: 'content' — falling back to keywords
+2026-09-21 08:40:58,130 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:58,130 [INFO]   [139/420] Cookie Policy
+2026-09-21 08:40:58,224 [WARNING] Claude API error for Cookie Policy: 'content' — falling back to keywords
+2026-09-21 08:40:58,725 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:58,725 [INFO]   [140/420] Legal Information
+2026-09-21 08:40:58,824 [WARNING] Claude API error for Legal Information: 'content' — falling back to keywords
+2026-09-21 08:40:59,325 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:59,325 [INFO]   [141/420] © 2026  AXA All Rights Reserved
+2026-09-21 08:40:59,426 [WARNING] Claude API error for © 2026  AXA All Rights Reserved: 'content' — falling back to keywords
+2026-09-21 08:40:59,928 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:40:59,928 [INFO]   [142/420] AL BATINAH TREASURES INSURANCE BROKERS LLC
+2026-09-21 08:41:00,039 [WARNING] Claude API error for AL BATINAH TREASURES INSURANCE BROKERS LLC: 'content' — falling back to keywords
+2026-09-21 08:41:00,540 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:41:00,540 [INFO]   [143/420] Gargash Insurance Services LLC
+2026-09-21 08:41:00,644 [WARNING] Claude API error for Gargash Insurance Services LLC: 'content' — falling back to keywords
+2026-09-21 08:41:01,145 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:41:01,145 [INFO]   [144/420] Khimji Ramdas Insurance Services
+2026-09-21 08:41:01,247 [WARNING] Claude API error for Khimji Ramdas Insurance Services: 'content' — falling back to keywords
+2026-09-21 08:41:01,748 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:41:01,748 [INFO]   [145/420] Howden
+2026-09-21 08:41:01,854 [WARNING] Claude API error for Howden: 'content' — falling back to keywords
+2026-09-21 08:41:02,355 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:41:02,356 [INFO]   [146/420] Beacon Insurance Brokers Pvt. Ltd.
+2026-09-21 08:41:02,453 [WARNING] Claude API error for Beacon Insurance Brokers Pvt. Ltd.: 'content' — falling back to keywords
+2026-09-21 08:41:02,955 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:41:02,955 [INFO]   [147/420] RMS Insurance Brokers
+2026-09-21 08:41:03,067 [WARNING] Claude API error for RMS Insurance Brokers: 'content' — falling back to keywords
+2026-09-21 08:41:03,569 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:41:03,569 [INFO]   [148/420] Nasco Insurance Group
+2026-09-21 08:41:03,682 [WARNING] Claude API error for Nasco Insurance Group: 'content' — falling back to keywords
+2026-09-21 08:41:04,183 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:41:04,183 [INFO]   [149/420] ACE Gallagher
+2026-09-21 08:41:04,278 [WARNING] Claude API error for ACE Gallagher: 'content' — falling back to keywords
+2026-09-21 08:41:04,779 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:41:04,779 [INFO]   [150/420] Pureassure Insurance Brokers Pvt Ltd
+2026-09-21 08:41:04,887 [WARNING] Claude API error for Pureassure Insurance Brokers Pvt Ltd: 'content' — falling back to keywords
+2026-09-21 08:41:05,388 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:41:05,388 [INFO]   [151/420] Gargash Insurance
+2026-09-21 08:41:05,485 [WARNING] Claude API error for Gargash Insurance: 'content' — falling back to keywords
+2026-09-21 08:41:05,986 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:41:05,986 [INFO]   [152/420] Travel Guardian Insurance
+2026-09-21 08:41:06,082 [WARNING] Claude API error for Travel Guardian Insurance: 'content' — falling back to keywords
+2026-09-21 08:41:06,584 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:41:06,584 [INFO]   [153/420] The QFC and the QFCRA
+2026-09-21 08:41:06,683 [WARNING] Claude API error for The QFC and the QFCRA: 'content' — falling back to keywords
+2026-09-21 08:41:07,185 [INFO]   [154/420] QFC Affiliated Organisations
+2026-09-21 08:41:07,300 [WARNING] Claude API error for QFC Affiliated Organisations: 'content' — falling back to keywords
+2026-09-21 08:41:07,801 [INFO]   [155/420] QFCRA Structure
+2026-09-21 08:41:07,901 [WARNING] Claude API error for QFCRA Structure: 'content' — falling back to keywords
+2026-09-21 08:41:08,403 [INFO]   [156/420] Qatar’s Strategy for Financial Regulation
+2026-09-21 08:41:08,504 [WARNING] Claude API error for Qatar’s Strategy for Financial Regulation: 'content' — falling back to keywords
+2026-09-21 08:41:09,005 [INFO]   [157/420] The Financial Stability and Risk Control Committee
+2026-09-21 08:41:09,101 [WARNING] Claude API error for The Financial Stability and Risk Control Committee: 'content' — falling back to keywords
+2026-09-21 08:41:09,602 [INFO]   [158/420] Board Governance
+2026-09-21 08:41:09,708 [WARNING] Claude API error for Board Governance: 'content' — falling back to keywords
+2026-09-21 08:41:10,210 [INFO]   [159/420] Board of Directors
+2026-09-21 08:41:10,309 [WARNING] Claude API error for Board of Directors: 'content' — falling back to keywords
+2026-09-21 08:41:10,811 [INFO]   [160/420] The Executive Team
+2026-09-21 08:41:10,936 [WARNING] Claude API error for The Executive Team: 'content' — falling back to keywords
+2026-09-21 08:41:11,437 [INFO]   [161/420] Corporate Social Responsibility
+2026-09-21 08:41:11,535 [WARNING] Claude API error for Corporate Social Responsibility: 'content' — falling back to keywords
+2026-09-21 08:41:12,036 [INFO]   [162/420] Contact Us
+2026-09-21 08:41:12,146 [WARNING] Claude API error for Contact Us: 'content' — falling back to keywords
+2026-09-21 08:41:12,648 [INFO]   [163/420] Regulatory Objectives
+2026-09-21 08:41:12,746 [WARNING] Claude API error for Regulatory Objectives: 'content' — falling back to keywords
+2026-09-21 08:41:13,247 [INFO]   [164/420] Economic Research and Data Analytics
+2026-09-21 08:41:13,353 [WARNING] Claude API error for Economic Research and Data Analytics: 'content' — falling back to keywords
+2026-09-21 08:41:13,855 [INFO]   [165/420] Our Risk-Based Approach to Regulation
+2026-09-21 08:41:13,953 [WARNING] Claude API error for Our Risk-Based Approach to Regulation: 'content' — falling back to keywords
+2026-09-21 08:41:14,454 [INFO]   [166/420] Authorisation
+2026-09-21 08:41:14,558 [WARNING] Claude API error for Authorisation: 'content' — falling back to keywords
+2026-09-21 08:41:15,059 [INFO]   [167/420] Supervision
+2026-09-21 08:41:15,161 [WARNING] Claude API error for Supervision: 'content' — falling back to keywords
+2026-09-21 08:41:15,663 [INFO]   [168/420] Financial Analysis and Innovation
+2026-09-21 08:41:15,770 [WARNING] Claude API error for Financial Analysis and Innovation: 'content' — falling back to keywords
+2026-09-21 08:41:16,272 [INFO]   [169/420] AML/CFT Law and Legislation
+2026-09-21 08:41:16,372 [WARNING] Claude API error for AML/CFT Law and Legislation: 'content' — falling back to keywords
+2026-09-21 08:41:16,873 [INFO]   [170/420] AML/CFT Regulatory Framework
+2026-09-21 08:41:16,974 [WARNING] Claude API error for AML/CFT Regulatory Framework: 'content' — falling back to keywords
+2026-09-21 08:41:17,475 [INFO]   [171/420] AML/CFT Publications
+2026-09-21 08:41:17,575 [WARNING] Claude API error for AML/CFT Publications: 'content' — falling back to keywords
+2026-09-21 08:41:18,077 [INFO]   [172/420] AML/CFT Forms
+2026-09-21 08:41:18,175 [WARNING] Claude API error for AML/CFT Forms: 'content' — falling back to keywords
+2026-09-21 08:41:18,676 [INFO]   [173/420] National and International AML/CFT Bodies
+2026-09-21 08:41:18,776 [WARNING] Claude API error for National and International AML/CFT Bodies: 'content' — falling back to keywords
+2026-09-21 08:41:19,278 [INFO]   [174/420] United Nations Security Council Matters
+2026-09-21 08:41:19,374 [WARNING] Claude API error for United Nations Security Council Matters: 'content' — falling back to keywords
+2026-09-21 08:41:19,875 [INFO]   [175/420] Suspicious Transaction Reports
+2026-09-21 08:41:19,973 [WARNING] Claude API error for Suspicious Transaction Reports: 'content' — falling back to keywords
+2026-09-21 08:41:20,474 [INFO]   [176/420] Policy
+2026-09-21 08:41:20,577 [WARNING] Claude API error for Policy: 'content' — falling back to keywords
+2026-09-21 08:41:21,079 [INFO]   [177/420] Enforcement
+2026-09-21 08:41:21,183 [WARNING] Claude API error for Enforcement: 'content' — falling back to keywords
+2026-09-21 08:41:21,684 [INFO]   [178/420] Multilateral Agreements
+2026-09-21 08:41:21,800 [WARNING] Claude API error for Multilateral Agreements: 'content' — falling back to keywords
+2026-09-21 08:41:22,301 [INFO]   [179/420] Bilateral Agreements
+2026-09-21 08:41:22,398 [WARNING] Claude API error for Bilateral Agreements: 'content' — falling back to keywords
+2026-09-21 08:41:22,899 [INFO]   [180/420] Alternative Investment Fund Management MoUs
+2026-09-21 08:41:23,005 [WARNING] Claude API error for Alternative Investment Fund Management MoUs: 'content' — falling back to keywords
+2026-09-21 08:41:23,507 [INFO]   [181/420] Strategic Partnerships
+2026-09-21 08:41:23,608 [WARNING] Claude API error for Strategic Partnerships: 'content' — falling back to keywords
+2026-09-21 08:41:24,109 [INFO]   [182/420] Corporate Sustainability Reporting
+2026-09-21 08:41:24,218 [WARNING] Claude API error for Corporate Sustainability Reporting: 'content' — falling back to keywords
+2026-09-21 08:41:24,719 [INFO]   [183/420] QFCRA Rules
+2026-09-21 08:41:24,819 [WARNING] Claude API error for QFCRA Rules: 'content' — falling back to keywords
+2026-09-21 08:41:25,321 [INFO]   [184/420] QFCRA Rules for Business Sectors
+2026-09-21 08:41:25,420 [WARNING] Claude API error for QFCRA Rules for Business Sectors: 'content' — falling back to keywords
+2026-09-21 08:41:25,921 [INFO]   [185/420] The Application Process
+2026-09-21 08:41:26,019 [WARNING] Claude API error for The Application Process: 'content' — falling back to keywords
+2026-09-21 08:41:26,521 [INFO]   [186/420] Permitted ActivitiesRegulated ActivitiesNon-Regula
+2026-09-21 08:41:26,617 [WARNING] Claude API error for Permitted ActivitiesRegulated ActivitiesNon-Regulated Activities: 'content' — falling back to keywords
+2026-09-21 08:41:27,119 [INFO]   [187/420] Regulated Activities
+2026-09-21 08:41:27,219 [WARNING] Claude API error for Regulated Activities: 'content' — falling back to keywords
+2026-09-21 08:41:27,720 [INFO]   [188/420] Non-Regulated Activities
+2026-09-21 08:41:27,826 [WARNING] Claude API error for Non-Regulated Activities: 'content' — falling back to keywords
+2026-09-21 08:41:28,327 [INFO]   [189/420] Corporate Governance
+2026-09-21 08:41:28,425 [WARNING] Claude API error for Corporate Governance: 'content' — falling back to keywords
+2026-09-21 08:41:28,926 [INFO]   [190/420] Application Tips
+2026-09-21 08:41:29,023 [WARNING] Claude API error for Application Tips: 'content' — falling back to keywords
+2026-09-21 08:41:29,525 [INFO]   [191/420] Frequently Asked Questions
+2026-09-21 08:41:29,623 [WARNING] Claude API error for Frequently Asked Questions: 'content' — falling back to keywords
+2026-09-21 08:41:30,125 [INFO]   [192/420] E-submission
+2026-09-21 08:41:30,229 [WARNING] Claude API error for E-submission: 'content' — falling back to keywords
+2026-09-21 08:41:30,731 [INFO]   [193/420] Whistleblowing
+2026-09-21 08:41:30,832 [WARNING] Claude API error for Whistleblowing: 'content' — falling back to keywords
+2026-09-21 08:41:31,333 [INFO]   [194/420] How to Make Your Complaint
+2026-09-21 08:41:31,434 [WARNING] Claude API error for How to Make Your Complaint: 'content' — falling back to keywords
+2026-09-21 08:41:31,935 [INFO]   [195/420] Independent Adjudication
+2026-09-21 08:41:32,033 [WARNING] Claude API error for Independent Adjudication: 'content' — falling back to keywords
+2026-09-21 08:41:32,534 [INFO]   [196/420] Summary of CDRS Outcomes
+2026-09-21 08:41:32,638 [WARNING] Claude API error for Summary of CDRS Outcomes: 'content' — falling back to keywords
+2026-09-21 08:41:33,139 [INFO]   [197/420] CDRS Case Studies
+2026-09-21 08:41:33,240 [WARNING] Claude API error for CDRS Case Studies: 'content' — falling back to keywords
+2026-09-21 08:41:33,741 [INFO]   [198/420] Financial Scams Framework
+2026-09-21 08:41:33,837 [WARNING] Claude API error for Financial Scams Framework: 'content' — falling back to keywords
+2026-09-21 08:41:34,339 [INFO]   [199/420] Consumer Alert Bulletin
+2026-09-21 08:41:34,437 [WARNING] Claude API error for Consumer Alert Bulletin: 'content' — falling back to keywords
+2026-09-21 08:41:34,938 [INFO]   [200/420] RecruitmentApprenticeshipOpen PositionsInternship 
+2026-09-21 08:41:35,047 [WARNING] Claude API error for RecruitmentApprenticeshipOpen PositionsInternship Programme: 'content' — falling back to keywords
+2026-09-21 08:41:35,548 [INFO]   [201/420] Apprenticeship
+2026-09-21 08:41:35,646 [WARNING] Claude API error for Apprenticeship: 'content' — falling back to keywords
+2026-09-21 08:41:36,148 [INFO]   [202/420] Open Positions
+2026-09-21 08:41:36,248 [WARNING] Claude API error for Open Positions: 'content' — falling back to keywords
+2026-09-21 08:41:36,749 [INFO]   [203/420] Internship Programme
+2026-09-21 08:41:36,851 [WARNING] Claude API error for Internship Programme: 'content' — falling back to keywords
+2026-09-21 08:41:37,352 [INFO]   [204/420] Al Masar Nationalisation Programme
+2026-09-21 08:41:37,460 [WARNING] Claude API error for Al Masar Nationalisation Programme: 'content' — falling back to keywords
+2026-09-21 08:41:37,961 [INFO]   [205/420] Search
+2026-09-21 08:41:38,063 [WARNING] Claude API error for Search: 'content' — falling back to keywords
+2026-09-21 08:41:38,565 [INFO]   [206/420] Al Awael Captive Insurance Co. LLC
+2026-09-21 08:41:38,678 [WARNING] Claude API error for Al Awael Captive Insurance Co. LLC: 'content' — falling back to keywords
+2026-09-21 08:41:39,179 [INFO]   [207/420] Authorised
+2026-09-21 08:41:39,283 [WARNING] Claude API error for Authorised: 'content' — falling back to keywords
+2026-09-21 08:41:39,784 [INFO]   [208/420] 29/01/2020
+2026-09-21 08:41:39,888 [WARNING] Claude API error for 29/01/2020: 'content' — falling back to keywords
+2026-09-21 08:41:40,389 [INFO]   [209/420] 26/08/2020
+2026-09-21 08:41:40,495 [WARNING] Claude API error for 26/08/2020: 'content' — falling back to keywords
+2026-09-21 08:41:40,997 [INFO]   [210/420] AWP Health & Life S.A.
+2026-09-21 08:41:41,097 [WARNING] Claude API error for AWP Health & Life S.A.: 'content' — falling back to keywords
+2026-09-21 08:41:41,599 [INFO]   [211/420] 17/06/2014
+2026-09-21 08:41:41,699 [WARNING] Claude API error for 17/06/2014: 'content' — falling back to keywords
+2026-09-21 08:41:42,200 [INFO]   [212/420] Gulf Insurance Group (Gulf) B.S.C.(C)
+2026-09-21 08:41:42,303 [WARNING] Claude API error for Gulf Insurance Group (Gulf) B.S.C.(C): 'content' — falling back to keywords
+2026-09-21 08:41:42,804 [INFO]   [213/420] 19/11/2006
+2026-09-21 08:41:42,905 [WARNING] Claude API error for 19/11/2006: 'content' — falling back to keywords
+2026-09-21 08:41:43,406 [INFO]   [214/420] Logistics Insurance LLC
+2026-09-21 08:41:43,517 [WARNING] Claude API error for Logistics Insurance LLC: 'content' — falling back to keywords
+2026-09-21 08:41:44,019 [INFO]   [215/420] 31/05/2022
+2026-09-21 08:41:44,114 [WARNING] Claude API error for 31/05/2022: 'content' — falling back to keywords
+2026-09-21 08:41:44,615 [INFO]   [216/420] 08/01/2026
+2026-09-21 08:41:44,719 [WARNING] Claude API error for 08/01/2026: 'content' — falling back to keywords
+2026-09-21 08:41:45,220 [INFO]   [217/420] MedGulf Takaful - QFC Branch
+2026-09-21 08:41:45,330 [WARNING] Claude API error for MedGulf Takaful - QFC Branch: 'content' — falling back to keywords
+2026-09-21 08:41:45,831 [INFO]   [218/420] Authorised - Closed to New Business
+2026-09-21 08:41:45,933 [WARNING] Claude API error for Authorised - Closed to New Business: 'content' — falling back to keywords
+2026-09-21 08:41:46,434 [INFO]   [219/420] 09/08/2009
+2026-09-21 08:41:46,534 [WARNING] Claude API error for 09/08/2009: 'content' — falling back to keywords
+2026-09-21 08:41:47,036 [INFO]   [220/420] 16/02/2025
+2026-09-21 08:41:47,139 [WARNING] Claude API error for 16/02/2025: 'content' — falling back to keywords
+2026-09-21 08:41:47,640 [INFO]   [221/420] Oman Reinsurance Co. - QFC Branch
+2026-09-21 08:41:47,746 [WARNING] Claude API error for Oman Reinsurance Co. - QFC Branch: 'content' — falling back to keywords
+2026-09-21 08:41:48,247 [INFO]   [222/420] 30/11/2020
+2026-09-21 08:41:48,349 [WARNING] Claude API error for 30/11/2020: 'content' — falling back to keywords
+2026-09-21 08:41:48,851 [INFO]   [223/420] 22/08/2021
+2026-09-21 08:41:48,955 [WARNING] Claude API error for 22/08/2021: 'content' — falling back to keywords
+2026-09-21 08:41:49,456 [INFO]   [224/420] SEIB Insurance and Reinsurance Company LLC
+2026-09-21 08:41:49,554 [WARNING] Claude API error for SEIB Insurance and Reinsurance Company LLC: 'content' — falling back to keywords
+2026-09-21 08:41:50,055 [INFO]   [225/420] 21/10/2009
+2026-09-21 08:41:50,163 [WARNING] Claude API error for 21/10/2009: 'content' — falling back to keywords
+2026-09-21 08:41:50,664 [INFO]   [226/420] 26/09/2010
+2026-09-21 08:41:50,771 [WARNING] Claude API error for 26/09/2010: 'content' — falling back to keywords
+2026-09-21 08:41:51,272 [INFO]   [227/420] Sharq Insurance LLC
+2026-09-21 08:41:51,372 [WARNING] Claude API error for Sharq Insurance LLC: 'content' — falling back to keywords
+2026-09-21 08:41:51,874 [INFO]   [228/420] 16/07/2007
+2026-09-21 08:41:51,973 [WARNING] Claude API error for 16/07/2007: 'content' — falling back to keywords
+2026-09-21 08:41:52,475 [INFO]   [229/420] Zurich Insurance Company Ltd. QFC Branch
+2026-09-21 08:41:52,577 [WARNING] Claude API error for Zurich Insurance Company Ltd. QFC Branch: 'content' — falling back to keywords
+2026-09-21 08:41:53,078 [INFO]   [230/420] Authorised - Inactive
+2026-09-21 08:41:53,252 [WARNING] Claude API error for Authorised - Inactive: 'content' — falling back to keywords
+2026-09-21 08:41:53,753 [INFO]   [231/420] 08/10/2012
+2026-09-21 08:41:53,850 [WARNING] Claude API error for 08/10/2012: 'content' — falling back to keywords
+2026-09-21 08:41:54,351 [INFO]   [232/420] 10/06/2024
+2026-09-21 08:41:54,446 [WARNING] Claude API error for 10/06/2024: 'content' — falling back to keywords
+2026-09-21 08:41:54,947 [INFO]   [233/420] Zurich International Life Limited
+2026-09-21 08:41:55,044 [WARNING] Claude API error for Zurich International Life Limited: 'content' — falling back to keywords
+2026-09-21 08:41:55,545 [INFO]   [234/420] 08/11/2007
+2026-09-21 08:41:55,660 [WARNING] Claude API error for 08/11/2007: 'content' — falling back to keywords
+2026-09-21 08:41:56,161 [INFO]   [235/420] Aon Qatar LLC
+2026-09-21 08:41:56,259 [WARNING] Claude API error for Aon Qatar LLC: 'content' — falling back to keywords
+2026-09-21 08:41:56,760 [INFO]   [236/420] 22/07/2008
+2026-09-21 08:41:56,863 [WARNING] Claude API error for 22/07/2008: 'content' — falling back to keywords
+2026-09-21 08:41:57,364 [INFO]   [237/420] 31/08/2009
+2026-09-21 08:41:57,461 [WARNING] Claude API error for 31/08/2009: 'content' — falling back to keywords
+2026-09-21 08:41:57,962 [INFO]   [238/420] Chedid and Associates Qatar LLC
+2026-09-21 08:41:58,059 [WARNING] Claude API error for Chedid and Associates Qatar LLC: 'content' — falling back to keywords
+2026-09-21 08:41:58,561 [INFO]   [239/420] Lifecare International (Qatar) LLC
+2026-09-21 08:41:58,660 [WARNING] Claude API error for Lifecare International (Qatar) LLC: 'content' — falling back to keywords
+2026-09-21 08:41:59,161 [INFO]   [240/420] 09/01/2013
+2026-09-21 08:41:59,268 [WARNING] Claude API error for 09/01/2013: 'content' — falling back to keywords
+2026-09-21 08:41:59,769 [INFO]   [241/420] 20/03/2013
+2026-09-21 08:41:59,872 [WARNING] Claude API error for 20/03/2013: 'content' — falling back to keywords
+2026-09-21 08:42:00,374 [INFO]   [242/420] Marsh Qatar LLC
+2026-09-21 08:42:00,470 [WARNING] Claude API error for Marsh Qatar LLC: 'content' — falling back to keywords
+2026-09-21 08:42:00,971 [INFO]   [243/420] 30/06/2008
+2026-09-21 08:42:01,067 [WARNING] Claude API error for 30/06/2008: 'content' — falling back to keywords
+2026-09-21 08:42:01,568 [INFO]   [244/420] Nasco Qatar LLC
+2026-09-21 08:42:01,683 [WARNING] Claude API error for Nasco Qatar LLC: 'content' — falling back to keywords
+2026-09-21 08:42:02,184 [INFO]   [245/420] 08/08/2007
+2026-09-21 08:42:02,280 [WARNING] Claude API error for 08/08/2007: 'content' — falling back to keywords
+2026-09-21 08:42:02,781 [INFO]   [246/420] Nexus Financial Services WLL
+2026-09-21 08:42:02,966 [WARNING] Claude API error for Nexus Financial Services WLL: 'content' — falling back to keywords
+2026-09-21 08:42:03,468 [INFO]   [247/420] 30/11/2008
+2026-09-21 08:42:03,574 [WARNING] Claude API error for 30/11/2008: 'content' — falling back to keywords
+2026-09-21 08:42:04,075 [INFO]   [248/420] public-registers
+2026-09-21 08:42:04,172 [WARNING] Claude API error for public-registers: 'content' — falling back to keywords
+2026-09-21 08:42:04,673 [INFO]   [249/420] Search FirmsCurrent Authorised FirmsCurrent Insura
+2026-09-21 08:42:04,780 [WARNING] Claude API error for Search FirmsCurrent Authorised FirmsCurrent Insurance Authorised FirmsAll Firms: 'content' — falling back to keywords
+2026-09-21 08:42:05,281 [INFO]   [250/420] Current Authorised Firms
+2026-09-21 08:42:05,381 [WARNING] Claude API error for Current Authorised Firms: 'content' — falling back to keywords
+2026-09-21 08:42:05,882 [INFO]   [251/420] Current Insurance Authorised Firms
+2026-09-21 08:42:05,991 [WARNING] Claude API error for Current Insurance Authorised Firms: 'content' — falling back to keywords
+2026-09-21 08:42:06,492 [INFO]   [252/420] All Firms
+2026-09-21 08:42:06,597 [WARNING] Claude API error for All Firms: 'content' — falling back to keywords
+2026-09-21 08:42:07,099 [INFO]   [253/420] Search IndividualsActive IndividualsSearch All
+2026-09-21 08:42:07,199 [WARNING] Claude API error for Search IndividualsActive IndividualsSearch All: 'content' — falling back to keywords
+2026-09-21 08:42:07,700 [INFO]   [254/420] Active Individuals
+2026-09-21 08:42:07,794 [WARNING] Claude API error for Active Individuals: 'content' — falling back to keywords
+2026-09-21 08:42:08,295 [INFO]   [255/420] Search All
+2026-09-21 08:42:08,395 [WARNING] Claude API error for Search All: 'content' — falling back to keywords
+2026-09-21 08:42:08,896 [INFO]   [256/420] Search Waivers & Modifications
+2026-09-21 08:42:09,011 [WARNING] Claude API error for Search Waivers & Modifications: 'content' — falling back to keywords
+2026-09-21 08:42:09,513 [INFO]   [257/420] Search Registered Funds
+2026-09-21 08:42:09,609 [WARNING] Claude API error for Search Registered Funds: 'content' — falling back to keywords
+2026-09-21 08:42:10,110 [INFO]   [258/420] Search DNFBP Firms
+2026-09-21 08:42:10,206 [WARNING] Claude API error for Search DNFBP Firms: 'content' — falling back to keywords
+2026-09-21 08:42:10,707 [INFO]   [259/420] Authorised Firms
+2026-09-21 08:42:10,804 [WARNING] Claude API error for Authorised Firms: 'content' — falling back to keywords
+2026-09-21 08:42:11,305 [INFO]   [260/420] DNFBP Firms
+2026-09-21 08:42:11,405 [WARNING] Claude API error for DNFBP Firms: 'content' — falling back to keywords
+2026-09-21 08:42:11,906 [INFO]   [261/420] Approved Individuals
+2026-09-21 08:42:12,011 [WARNING] Claude API error for Approved Individuals: 'content' — falling back to keywords
+2026-09-21 08:42:12,512 [INFO]   [262/420] Related Individuals
+2026-09-21 08:42:12,616 [WARNING] Claude API error for Related Individuals: 'content' — falling back to keywords
+2026-09-21 08:42:13,118 [INFO]   [263/420] Registered Individuals
+2026-09-21 08:42:13,225 [WARNING] Claude API error for Registered Individuals: 'content' — falling back to keywords
+2026-09-21 08:42:13,726 [INFO]   [264/420] +974 44 95 68 88
+2026-09-21 08:42:13,824 [WARNING] Claude API error for +974 44 95 68 88: 'content' — falling back to keywords
+2026-09-21 08:42:14,325 [INFO]   [265/420] +974 44 95 68 68
+2026-09-21 08:42:14,430 [WARNING] Claude API error for +974 44 95 68 68: 'content' — falling back to keywords
+2026-09-21 08:42:14,931 [INFO]   [266/420] info@qfcra.com
+2026-09-21 08:42:15,032 [WARNING] Claude API error for info@qfcra.com: 'content' — falling back to keywords
+2026-09-21 08:42:15,533 [INFO]   [267/420] Quick Links
+2026-09-21 08:42:15,631 [WARNING] Claude API error for Quick Links: 'content' — falling back to keywords
+2026-09-21 08:42:16,132 [INFO]   [268/420] Privacy Notice
+2026-09-21 08:42:16,228 [WARNING] Claude API error for Privacy Notice: 'content' — falling back to keywords
+2026-09-21 08:42:16,729 [INFO]   [269/420] Legal Notice
+2026-09-21 08:42:16,834 [WARNING] Claude API error for Legal Notice: 'content' — falling back to keywords
+2026-09-21 08:42:17,335 [INFO]   [270/420] Accessibility Statement
+2026-09-21 08:42:17,433 [WARNING] Claude API error for Accessibility Statement: 'content' — falling back to keywords
+2026-09-21 08:42:17,934 [INFO]   [271/420] QFCRA Webmail
+2026-09-21 08:42:18,042 [WARNING] Claude API error for QFCRA Webmail: 'content' — falling back to keywords
+2026-09-21 08:42:18,543 [INFO]   [272/420] Privacy Overview
+2026-09-21 08:42:18,638 [WARNING] Claude API error for Privacy Overview: 'content' — falling back to keywords
+2026-09-21 08:42:19,139 [INFO]   [273/420] Increase TextIncrease Text
+2026-09-21 08:42:19,259 [WARNING] Claude API error for Increase TextIncrease Text: 'content' — falling back to keywords
+2026-09-21 08:42:19,761 [INFO]   [274/420] Decrease TextDecrease Text
+2026-09-21 08:42:19,863 [WARNING] Claude API error for Decrease TextDecrease Text: 'content' — falling back to keywords
+2026-09-21 08:42:20,364 [INFO]   [275/420] GrayscaleGrayscale
+2026-09-21 08:42:20,463 [WARNING] Claude API error for GrayscaleGrayscale: 'content' — falling back to keywords
+2026-09-21 08:42:20,964 [INFO]   [276/420] High ContrastHigh Contrast
+2026-09-21 08:42:21,060 [WARNING] Claude API error for High ContrastHigh Contrast: 'content' — falling back to keywords
+2026-09-21 08:42:21,561 [INFO]   [277/420] Negative ContrastNegative Contrast
+2026-09-21 08:42:21,657 [WARNING] Claude API error for Negative ContrastNegative Contrast: 'content' — falling back to keywords
+2026-09-21 08:42:22,158 [INFO]   [278/420] Light BackgroundLight Background
+2026-09-21 08:42:22,260 [WARNING] Claude API error for Light BackgroundLight Background: 'content' — falling back to keywords
+2026-09-21 08:42:22,761 [INFO]   [279/420] Links UnderlineLinks Underline
+2026-09-21 08:42:22,859 [WARNING] Claude API error for Links UnderlineLinks Underline: 'content' — falling back to keywords
+2026-09-21 08:42:23,360 [INFO]   [280/420] Readable FontReadable Font
+2026-09-21 08:42:23,466 [WARNING] Claude API error for Readable FontReadable Font: 'content' — falling back to keywords
+2026-09-21 08:42:23,968 [INFO]   [281/420] ResetReset
+2026-09-21 08:42:24,075 [WARNING] Claude API error for ResetReset: 'content' — falling back to keywords
+2026-09-21 08:42:24,576 [INFO]   [282/420] VanderSure Co.,Ltd
+2026-09-21 08:42:24,675 [WARNING] Claude API error for VanderSure Co.,Ltd: 'content' — falling back to keywords
+2026-09-21 08:42:25,176 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:25,176 [INFO]   [283/420] Alea - Health Insurance & Benefits
+2026-09-21 08:42:25,277 [WARNING] Claude API error for Alea - Health Insurance & Benefits: 'content' — falling back to keywords
+2026-09-21 08:42:25,778 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:25,778 [INFO]   [284/420] Tenzing Pacific Services
+2026-09-21 08:42:25,876 [WARNING] Claude API error for Tenzing Pacific Services: 'content' — falling back to keywords
+2026-09-21 08:42:26,377 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:26,377 [INFO]   [285/420] ASure Insurance
+2026-09-21 08:42:26,477 [WARNING] Claude API error for ASure Insurance: 'content' — falling back to keywords
+2026-09-21 08:42:26,979 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:26,979 [INFO]   [286/420] Andika Assistant
+2026-09-21 08:42:27,083 [WARNING] Claude API error for Andika Assistant: 'content' — falling back to keywords
+2026-09-21 08:42:27,584 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:27,584 [INFO]   [287/420] CFI - Club France International
+2026-09-21 08:42:27,688 [WARNING] Claude API error for CFI - Club France International: 'content' — falling back to keywords
+2026-09-21 08:42:28,189 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:28,189 [INFO]   [288/420] Austrian Development Agency
+2026-09-21 08:42:28,301 [WARNING] Claude API error for Austrian Development Agency: 'content' — falling back to keywords
+2026-09-21 08:42:28,802 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:28,802 [INFO]   [289/420] IVADO
+2026-09-21 08:42:28,909 [WARNING] Claude API error for IVADO: 'content' — falling back to keywords
+2026-09-21 08:42:29,411 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:29,411 [INFO]   [290/420] 聯發科技
+2026-09-21 08:42:29,508 [WARNING] Claude API error for 聯發科技: 'content' — falling back to keywords
+2026-09-21 08:42:30,009 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:30,009 [INFO]   [291/420] Israel Innovation Authority רשות החדשנות
+2026-09-21 08:42:30,107 [WARNING] Claude API error for Israel Innovation Authority רשות החדשנות: 'content' — falling back to keywords
+2026-09-21 08:42:30,609 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:30,609 [INFO]   [292/420] ENGIE
+2026-09-21 08:42:30,718 [WARNING] Claude API error for ENGIE: 'content' — falling back to keywords
+2026-09-21 08:42:31,219 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:31,219 [INFO]   [293/420] Gameloft
+2026-09-21 08:42:31,320 [WARNING] Claude API error for Gameloft: 'content' — falling back to keywords
+2026-09-21 08:42:31,821 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:31,821 [INFO]   [294/420] Hays
+2026-09-21 08:42:31,934 [WARNING] Claude API error for Hays: 'content' — falling back to keywords
+2026-09-21 08:42:32,436 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:32,436 [INFO]   [295/420] BIC
+2026-09-21 08:42:32,540 [WARNING] Claude API error for BIC: 'content' — falling back to keywords
+2026-09-21 08:42:33,041 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:33,041 [INFO]   [296/420] Gartner
+2026-09-21 08:42:33,143 [WARNING] Claude API error for Gartner: 'content' — falling back to keywords
+2026-09-21 08:42:33,644 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:33,644 [INFO]   [297/420] FDA
+2026-09-21 08:42:33,743 [WARNING] Claude API error for FDA: 'content' — falling back to keywords
+2026-09-21 08:42:34,245 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:34,245 [INFO]   [298/420] Think Insurtech
+2026-09-21 08:42:34,354 [WARNING] Claude API error for Think Insurtech: 'content' — falling back to keywords
+2026-09-21 08:42:34,855 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:34,855 [INFO]   [299/420] NOMADS.insure
+2026-09-21 08:42:34,954 [WARNING] Claude API error for NOMADS.insure: 'content' — falling back to keywords
+2026-09-21 08:42:35,455 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:35,455 [INFO]   [300/420] Nicos Rossos Insurance Brokers
+2026-09-21 08:42:35,555 [WARNING] Claude API error for Nicos Rossos Insurance Brokers: 'content' — falling back to keywords
+2026-09-21 08:42:36,056 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:36,057 [INFO]   [301/420] Seguro de salud en Panamá
+2026-09-21 08:42:36,152 [WARNING] Claude API error for Seguro de salud en Panamá: 'content' — falling back to keywords
+2026-09-21 08:42:36,653 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:36,654 [INFO]   [302/420] Ricardo J. Alemán De Janon | Seguros en Panamá | N
+2026-09-21 08:42:36,767 [WARNING] Claude API error for Ricardo J. Alemán De Janon | Seguros en Panamá | No todos ...: 'content' — falling back to keywords
+2026-09-21 08:42:37,268 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:37,268 [INFO]   [303/420] Seguros internacionales - Chile
+2026-09-21 08:42:37,364 [WARNING] Claude API error for Seguros internacionales - Chile: 'content' — falling back to keywords
+2026-09-21 08:42:37,865 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:37,865 [INFO]   [304/420] La información y la prevención son el primer paso 
+2026-09-21 08:42:37,981 [WARNING] Claude API error for La información y la prevención son el primer paso para tomar ...: 'content' — falling back to keywords
+2026-09-21 08:42:38,482 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:38,482 [INFO]   [305/420] Hoy felicitamos a la Asociación Dominicana de Corr
+2026-09-21 08:42:38,584 [WARNING] Claude API error for Hoy felicitamos a la Asociación Dominicana de Corredores ...: 'content' — falling back to keywords
+2026-09-21 08:42:39,086 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:39,086 [INFO]   [306/420] Seguros Triple A | Panama City
+2026-09-21 08:42:39,197 [WARNING] Claude API error for Seguros Triple A | Panama City: 'content' — falling back to keywords
+2026-09-21 08:42:39,698 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:39,698 [INFO]   [307/420] Seguros Triple A on Reels
+2026-09-21 08:42:39,793 [WARNING] Claude API error for Seguros Triple A on Reels: 'content' — falling back to keywords
+2026-09-21 08:42:40,294 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:40,294 [INFO]   [308/420] Cobertura de Seguro de Salud en América Latina
+2026-09-21 08:42:40,415 [WARNING] Claude API error for Cobertura de Seguro de Salud en América Latina: 'content' — falling back to keywords
+2026-09-21 08:42:40,917 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:40,917 [INFO]   [309/420] Portal del Cigna Broker
+2026-09-21 08:42:41,024 [WARNING] Claude API error for Portal del Cigna Broker: 'content' — falling back to keywords
+2026-09-21 08:42:41,525 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:41,525 [INFO]   [310/420] Así vivimos los WorldWide Awards 2026 en Santiago 
+2026-09-21 08:42:41,627 [WARNING] Claude API error for Así vivimos los WorldWide Awards 2026 en Santiago de los ...: 'content' — falling back to keywords
+2026-09-21 08:42:42,128 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:42,128 [INFO]   [311/420] Health Insurance Options in Panama
+2026-09-21 08:42:42,226 [WARNING] Claude API error for Health Insurance Options in Panama: 'content' — falling back to keywords
+2026-09-21 08:42:42,727 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:42,727 [INFO]   [312/420] Panama Healthcare System & Medical Insurance Optio
+2026-09-21 08:42:42,823 [WARNING] Claude API error for Panama Healthcare System & Medical Insurance Options ...: 'content' — falling back to keywords
+2026-09-21 08:42:43,324 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:43,324 [INFO]   [313/420] Health Insurance for Foreigners in Panama
+2026-09-21 08:42:43,425 [WARNING] Claude API error for Health Insurance for Foreigners in Panama: 'content' — falling back to keywords
+2026-09-21 08:42:43,926 [INFO]   [314/420] Panama Expat Medical Insurance | Private Health Co
+2026-09-21 08:42:44,030 [WARNING] Claude API error for Panama Expat Medical Insurance | Private Health Cover: 'content' — falling back to keywords
+2026-09-21 08:42:44,531 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:44,531 [INFO]   [315/420] Panama Health Insurance for Expats
+2026-09-21 08:42:44,626 [WARNING] Claude API error for Panama Health Insurance for Expats: 'content' — falling back to keywords
+2026-09-21 08:42:45,128 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:45,128 [INFO]   [316/420] Health insurance options for expats in Panama
+2026-09-21 08:42:45,233 [WARNING] Claude API error for Health insurance options for expats in Panama: 'content' — falling back to keywords
+2026-09-21 08:42:45,734 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:45,734 [INFO]   [317/420] Which Health Insurance To Choose in Panama
+2026-09-21 08:42:45,834 [WARNING] Claude API error for Which Health Insurance To Choose in Panama: 'content' — falling back to keywords
+2026-09-21 08:42:46,335 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:46,335 [INFO]   [318/420] Health Insurance in Panama for Beginners
+2026-09-21 08:42:46,437 [WARNING] Claude API error for Health Insurance in Panama for Beginners: 'content' — falling back to keywords
+2026-09-21 08:42:46,938 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:46,938 [INFO]   [319/420] Global Insurance Quote
+2026-09-21 08:42:47,035 [WARNING] Claude API error for Global Insurance Quote: 'content' — falling back to keywords
+2026-09-21 08:42:47,537 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:47,537 [INFO]   [320/420] Seguro de salud internacional en Costa Rica
+2026-09-21 08:42:47,637 [WARNING] Claude API error for Seguro de salud internacional en Costa Rica: 'content' — falling back to keywords
+2026-09-21 08:42:48,139 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:48,139 [INFO]   [321/420] Mejor seguro de salud internacional en Costa Rica 
+2026-09-21 08:42:48,247 [WARNING] Claude API error for Mejor seguro de salud internacional en Costa Rica para ...: 'content' — falling back to keywords
+2026-09-21 08:42:48,748 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:48,748 [INFO]   [322/420] ¿Qué es un corredor de seguros de salud internacio
+2026-09-21 08:42:48,854 [WARNING] Claude API error for ¿Qué es un corredor de seguros de salud internacional?: 'content' — falling back to keywords
+2026-09-21 08:42:49,355 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:49,356 [INFO]   [323/420] Un plan de salud diseñado para cuidar lo que más a
+2026-09-21 08:42:49,464 [WARNING] Claude API error for Un plan de salud diseñado para cuidar lo que más amas 💙 👶👧 ...: 'content' — falling back to keywords
+2026-09-21 08:42:49,966 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:49,966 [INFO]   [324/420] Cigna / Seguro de Salud y de Viaje Internacional
+2026-09-21 08:42:50,182 [WARNING] Claude API error for Cigna / Seguro de Salud y de Viaje Internacional: 'content' — falling back to keywords
+2026-09-21 08:42:50,683 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:50,683 [INFO]   [325/420] Publicación de Andres de Camino Beck
+2026-09-21 08:42:50,782 [WARNING] Claude API error for Publicación de Andres de Camino Beck: 'content' — falling back to keywords
+2026-09-21 08:42:51,283 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:51,283 [INFO]   [326/420] Hoy recibimos en el podcast Viajando Seguros PR. 🇵
+2026-09-21 08:42:51,390 [WARNING] Claude API error for Hoy recibimos en el podcast Viajando Seguros PR. 🇵🇷 ...: 'content' — falling back to keywords
+2026-09-21 08:42:51,892 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:51,892 [INFO]   [327/420] ✈️ ¿Te vas de viaje? Tu salud también viaja contig
+2026-09-21 08:42:52,005 [WARNING] Claude API error for ✈️ ¿Te vas de viaje? Tu salud también viaja contigo. ...: 'content' — falling back to keywords
+2026-09-21 08:42:52,507 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:52,507 [INFO]   [328/420] International Health Insurance in Costa Rica
+2026-09-21 08:42:52,607 [WARNING] Claude API error for International Health Insurance in Costa Rica: 'content' — falling back to keywords
+2026-09-21 08:42:53,109 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:53,109 [INFO]   [329/420] Costa Rica Health Insurance for Foreigners and Exp
+2026-09-21 08:42:53,213 [WARNING] Claude API error for Costa Rica Health Insurance for Foreigners and Expatriates: 'content' — falling back to keywords
+2026-09-21 08:42:53,715 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:53,715 [INFO]   [330/420] A Guide to Health Insurance in Costa Rica for Expa
+2026-09-21 08:42:53,809 [WARNING] Claude API error for A Guide to Health Insurance in Costa Rica for Expats: 'content' — falling back to keywords
+2026-09-21 08:42:54,310 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:54,310 [INFO]   [331/420] What health insurance companies are recommended fo
+2026-09-21 08:42:54,412 [WARNING] Claude API error for What health insurance companies are recommended for ...: 'content' — falling back to keywords
+2026-09-21 08:42:54,913 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:54,913 [INFO]   [332/420] Expatriate Health Insurance in Costa Rica
+2026-09-21 08:42:55,019 [WARNING] Claude API error for Expatriate Health Insurance in Costa Rica: 'content' — falling back to keywords
+2026-09-21 08:42:55,520 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:55,520 [INFO]   [333/420] Health insurance in Costa Rica: How to choose the 
+2026-09-21 08:42:55,630 [WARNING] Claude API error for Health insurance in Costa Rica: How to choose the right plan: 'content' — falling back to keywords
+2026-09-21 08:42:56,131 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:56,131 [INFO]   [334/420] Best International Health Insurance in Costa Rica 
+2026-09-21 08:42:56,237 [WARNING] Claude API error for Best International Health Insurance in Costa Rica for Expats: 'content' — falling back to keywords
+2026-09-21 08:42:56,738 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:56,738 [INFO]   [335/420] 7 Best International Health Insurance Plans for Ex
+2026-09-21 08:42:56,838 [WARNING] Claude API error for 7 Best International Health Insurance Plans for Expats in ...: 'content' — falling back to keywords
+2026-09-21 08:42:57,339 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:57,340 [INFO]   [336/420] A 20-Point Deep Dive Into Expat Health Insurance
+2026-09-21 08:42:57,441 [WARNING] Claude API error for A 20-Point Deep Dive Into Expat Health Insurance: 'content' — falling back to keywords
+2026-09-21 08:42:57,943 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:57,943 [INFO]   [337/420] Mejor seguro de salud internacional en Uruguay
+2026-09-21 08:42:58,047 [WARNING] Claude API error for Mejor seguro de salud internacional en Uruguay: 'content' — falling back to keywords
+2026-09-21 08:42:58,549 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:58,549 [INFO]   [338/420] Asegurate.uy – Broker de Seguros en Uruguay | Coti
+2026-09-21 08:42:58,648 [WARNING] Claude API error for Asegurate.uy – Broker de Seguros en Uruguay | Cotizá Auto ...: 'content' — falling back to keywords
+2026-09-21 08:42:59,149 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:59,149 [INFO]   [339/420] ¡Un día lleno de ideas y estrategia en Reynoso Bro
+2026-09-21 08:42:59,249 [WARNING] Claude API error for ¡Un día lleno de ideas y estrategia en Reynoso Broker! 🙌🏻👥 📍 ...: 'content' — falling back to keywords
+2026-09-21 08:42:59,750 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:42:59,750 [INFO]   [340/420] Elegí un plan que acompañe tu día a día. Con benef
+2026-09-21 08:42:59,850 [WARNING] Claude API error for Elegí un plan que acompañe tu día a día. Con beneficios ...: 'content' — falling back to keywords
+2026-09-21 08:43:00,351 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:00,351 [INFO]   [341/420] Carta Verde Mercosur | Seguro Obligatorio para Via
+2026-09-21 08:43:00,459 [WARNING] Claude API error for Carta Verde Mercosur | Seguro Obligatorio para Viajar: 'content' — falling back to keywords
+2026-09-21 08:43:00,960 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:00,960 [INFO]   [342/420] Uruguay Healthcare System & Insurance Options for 
+2026-09-21 08:43:01,066 [WARNING] Claude API error for Uruguay Healthcare System & Insurance Options for Expats: 'content' — falling back to keywords
+2026-09-21 08:43:01,568 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:01,568 [INFO]   [343/420] International health insurance in Uruguay for expa
+2026-09-21 08:43:01,678 [WARNING] Claude API error for International health insurance in Uruguay for expatriates: 'content' — falling back to keywords
+2026-09-21 08:43:02,179 [INFO]   [344/420] Best International Health Insurance Plans for Expa
+2026-09-21 08:43:02,287 [WARNING] Claude API error for Best International Health Insurance Plans for Expats in ...: 'content' — falling back to keywords
+2026-09-21 08:43:02,788 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:02,788 [INFO]   [345/420] Uruguay Expat Health Insurance Guide, Montevideo P
+2026-09-21 08:43:02,884 [WARNING] Claude API error for Uruguay Expat Health Insurance Guide, Montevideo Private Care: 'content' — falling back to keywords
+2026-09-21 08:43:03,385 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:03,385 [INFO]   [346/420] Health Insurance in Uruguay
+2026-09-21 08:43:03,484 [WARNING] Claude API error for Health Insurance in Uruguay: 'content' — falling back to keywords
+2026-09-21 08:43:03,985 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:03,985 [INFO]   [347/420] AOC Insurance broker: Expat health insurance
+2026-09-21 08:43:04,079 [WARNING] Claude API error for AOC Insurance broker: Expat health insurance: 'content' — falling back to keywords
+2026-09-21 08:43:04,581 [INFO]   [348/420] Moving to Uruguay | Expat Guide
+2026-09-21 08:43:04,676 [WARNING] Claude API error for Moving to Uruguay | Expat Guide: 'content' — falling back to keywords
+2026-09-21 08:43:05,177 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:05,177 [INFO]   [349/420] NowCompare - International Health Insurance
+2026-09-21 08:43:05,273 [WARNING] Claude API error for NowCompare - International Health Insurance: 'content' — falling back to keywords
+2026-09-21 08:43:05,775 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:05,775 [INFO]   [350/420] Do I Need Health Insurance Living Abroad? Expat Gu
+2026-09-21 08:43:05,878 [WARNING] Claude API error for Do I Need Health Insurance Living Abroad? Expat Guide: 'content' — falling back to keywords
+2026-09-21 08:43:06,379 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:06,379 [INFO]   [351/420] Seguro de salud internacional en los EE. UU.
+2026-09-21 08:43:06,482 [WARNING] Claude API error for Seguro de salud internacional en los EE. UU.: 'content' — falling back to keywords
+2026-09-21 08:43:06,983 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:06,983 [INFO]   [352/420] Seguro de salud para expatriados. : r/ExpatFIRE
+2026-09-21 08:43:07,120 [WARNING] Claude API error for Seguro de salud para expatriados. : r/ExpatFIRE: 'content' — falling back to keywords
+2026-09-21 08:43:07,621 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:07,621 [INFO]   [353/420] Seguro de Salud Internacional Bolivar
+2026-09-21 08:43:07,720 [WARNING] Claude API error for Seguro de Salud Internacional Bolivar: 'content' — falling back to keywords
+2026-09-21 08:43:08,222 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:08,222 [INFO]   [354/420] Seguro de salud internacional en el Canadá
+2026-09-21 08:43:08,318 [WARNING] Claude API error for Seguro de salud internacional en el Canadá: 'content' — falling back to keywords
+2026-09-21 08:43:08,820 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:08,820 [INFO]   [355/420] Seguro Médico Internacional
+2026-09-21 08:43:08,920 [WARNING] Claude API error for Seguro Médico Internacional: 'content' — falling back to keywords
+2026-09-21 08:43:09,422 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:09,422 [INFO]   [356/420] ¿Cómo elegir un seguro de salud para viajar al ext
+2026-09-21 08:43:09,523 [WARNING] Claude API error for ¿Cómo elegir un seguro de salud para viajar al extranjero?: 'content' — falling back to keywords
+2026-09-21 08:43:10,024 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:10,024 [INFO]   [357/420] Con tu Seguro de Salud Internacional SURA, en caso
+2026-09-21 08:43:10,119 [WARNING] Claude API error for Con tu Seguro de Salud Internacional SURA, en caso ...: 'content' — falling back to keywords
+2026-09-21 08:43:10,620 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:10,620 [INFO]   [358/420] VUMI 💙 @vumi_group un seguro de salud internaciona
+2026-09-21 08:43:10,725 [WARNING] Claude API error for VUMI 💙 @vumi_group un seguro de salud internacional. ...: 'content' — falling back to keywords
+2026-09-21 08:43:11,226 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:11,226 [INFO]   [359/420] Seguro de salud internacional en Chile
+2026-09-21 08:43:11,322 [WARNING] Claude API error for Seguro de salud internacional en Chile: 'content' — falling back to keywords
+2026-09-21 08:43:11,824 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:11,824 [INFO]   [360/420] International Health Insurance for Expatriates in 
+2026-09-21 08:43:11,923 [WARNING] Claude API error for International Health Insurance for Expatriates in Paraguay: 'content' — falling back to keywords
+2026-09-21 08:43:12,424 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:12,424 [INFO]   [361/420] Paraguay Expat Medical Insurance | International H
+2026-09-21 08:43:12,523 [WARNING] Claude API error for Paraguay Expat Medical Insurance | International Health Cover: 'content' — falling back to keywords
+2026-09-21 08:43:13,025 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:13,025 [INFO]   [362/420] Health Insurance in Paraguay
+2026-09-21 08:43:13,124 [WARNING] Claude API error for Health Insurance in Paraguay: 'content' — falling back to keywords
+2026-09-21 08:43:13,625 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:13,625 [INFO]   [363/420] Paraguay Healthcare System & Medical Insurance Opt
+2026-09-21 08:43:13,719 [WARNING] Claude API error for Paraguay Healthcare System & Medical Insurance Options ...: 'content' — falling back to keywords
+2026-09-21 08:43:14,220 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:14,220 [INFO]   [364/420] Is private health insurance worth it for expats in
+2026-09-21 08:43:14,316 [WARNING] Claude API error for Is private health insurance worth it for expats in Paraguay?: 'content' — falling back to keywords
+2026-09-21 08:43:14,817 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:14,818 [INFO]   [365/420] Cigna Global for Paraguay (2026) | Honest Expat Re
+2026-09-21 08:43:14,920 [WARNING] Claude API error for Cigna Global for Paraguay (2026) | Honest Expat Review ...: 'content' — falling back to keywords
+2026-09-21 08:43:15,422 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:15,422 [INFO]   [366/420] Mejor seguro de salud internacional en Bolivia
+2026-09-21 08:43:15,530 [WARNING] Claude API error for Mejor seguro de salud internacional en Bolivia: 'content' — falling back to keywords
+2026-09-21 08:43:16,031 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:16,031 [INFO]   [367/420] La Boliviana Ciacruz Seguros comercializará en Bol
+2026-09-21 08:43:16,130 [WARNING] Claude API error for La Boliviana Ciacruz Seguros comercializará en Bolivia un ...: 'content' — falling back to keywords
+2026-09-21 08:43:16,631 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:16,631 [INFO]   [368/420] La Boliviana Ciacruz Seguros, comercializará en #B
+2026-09-21 08:43:16,739 [WARNING] Claude API error for La Boliviana Ciacruz Seguros, comercializará en #Bolivia un ...: 'content' — falling back to keywords
+2026-09-21 08:43:17,240 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:17,240 [INFO]   [369/420] Cuidar tu salud también es contar con respaldo cua
+2026-09-21 08:43:17,340 [WARNING] Claude API error for Cuidar tu salud también es contar con respaldo cuando más ...: 'content' — falling back to keywords
+2026-09-21 08:43:17,842 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:17,842 [INFO]   [370/420] Ser la número 1 no es quedarse quieto. Y ...
+2026-09-21 08:43:17,945 [WARNING] Claude API error for Ser la número 1 no es quedarse quieto. Y ...: 'content' — falling back to keywords
+2026-09-21 08:43:18,446 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:18,446 [INFO]   [371/420] La Paz Expat City & Insurance Guide
+2026-09-21 08:43:18,556 [WARNING] Claude API error for La Paz Expat City & Insurance Guide: 'content' — falling back to keywords
+2026-09-21 08:43:19,057 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:19,057 [INFO]   [372/420] Bolivia Expat Insurance & Country Page
+2026-09-21 08:43:19,154 [WARNING] Claude API error for Bolivia Expat Insurance & Country Page: 'content' — falling back to keywords
+2026-09-21 08:43:19,655 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:19,655 [INFO]   [373/420] Health Insurance in Bolivia | Healthcare & Cover f
+2026-09-21 08:43:19,748 [WARNING] Claude API error for Health Insurance in Bolivia | Healthcare & Cover for Expats: 'content' — falling back to keywords
+2026-09-21 08:43:20,249 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:20,249 [INFO]   [374/420] International health insurance Bolivia for expatri
+2026-09-21 08:43:20,345 [WARNING] Claude API error for International health insurance Bolivia for expatriate: 'content' — falling back to keywords
+2026-09-21 08:43:20,846 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:20,846 [INFO]   [375/420] International Health Insurance | APRIL Internation
+2026-09-21 08:43:20,946 [WARNING] Claude API error for International Health Insurance | APRIL International⁤: 'content' — falling back to keywords
+2026-09-21 08:43:21,448 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:21,448 [INFO]   [376/420] Expat Health Insurance
+2026-09-21 08:43:21,554 [WARNING] Claude API error for Expat Health Insurance: 'content' — falling back to keywords
+2026-09-21 08:43:22,056 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:22,056 [INFO]   [377/420] Guía de seguro de salud internacional
+2026-09-21 08:43:22,168 [WARNING] Claude API error for Guía de seguro de salud internacional: 'content' — falling back to keywords
+2026-09-21 08:43:22,669 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:22,669 [INFO]   [378/420] Ecuador
+2026-09-21 08:43:22,779 [WARNING] Claude API error for Ecuador: 'content' — falling back to keywords
+2026-09-21 08:43:23,280 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:23,280 [INFO]   [379/420] 1 Month Cycling through Ecuador
+2026-09-21 08:43:23,381 [WARNING] Claude API error for 1 Month Cycling through Ecuador: 'content' — falling back to keywords
+2026-09-21 08:43:23,883 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:23,883 [INFO]   [380/420] Ecuador: 2008 Constitution in English
+2026-09-21 08:43:23,982 [WARNING] Claude API error for Ecuador: 2008 Constitution in English: 'content' — falling back to keywords
+2026-09-21 08:43:24,483 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:24,483 [INFO]   [381/420] The Path to Ecuador and Peru
+2026-09-21 08:43:24,582 [WARNING] Claude API error for The Path to Ecuador and Peru: 'content' — falling back to keywords
+2026-09-21 08:43:25,084 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:25,084 [INFO]   [382/420] Ecuador 2008 (rev. 2021) Constitution
+2026-09-21 08:43:25,190 [WARNING] Claude API error for Ecuador 2008 (rev. 2021) Constitution: 'content' — falling back to keywords
+2026-09-21 08:43:25,691 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:25,691 [INFO]   [383/420] Travel advice and advisories for Ecuador
+2026-09-21 08:43:25,789 [WARNING] Claude API error for Travel advice and advisories for Ecuador: 'content' — falling back to keywords
+2026-09-21 08:43:26,290 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:26,290 [INFO]   [384/420] Kind People, Meaningful Work: My Unforgettable Tri
+2026-09-21 08:43:26,392 [WARNING] Claude API error for Kind People, Meaningful Work: My Unforgettable Trip to ...: 'content' — falling back to keywords
+2026-09-21 08:43:26,893 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:26,894 [INFO]   [385/420] What's life like in Ecuador? I'm thinking of movin
+2026-09-21 08:43:26,994 [WARNING] Claude API error for What's life like in Ecuador? I'm thinking of moving there ...: 'content' — falling back to keywords
+2026-09-21 08:43:27,495 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:27,496 [INFO]   [386/420] Mejor seguro de salud internacional en Guatemala
+2026-09-21 08:43:27,599 [WARNING] Claude API error for Mejor seguro de salud internacional en Guatemala: 'content' — falling back to keywords
+2026-09-21 08:43:28,101 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:28,101 [INFO]   [387/420] Tener cobertura médica no significa estar cubierto
+2026-09-21 08:43:28,204 [WARNING] Claude API error for Tener cobertura médica no significa estar cubierto de la ...: 'content' — falling back to keywords
+2026-09-21 08:43:28,705 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:28,705 [INFO]   [388/420] Juan Carlos Fernández Alemán GoJuanca - Insurance 
+2026-09-21 08:43:28,803 [WARNING] Claude API error for Juan Carlos Fernández Alemán GoJuanca - Insurance expert: 'content' — falling back to keywords
+2026-09-21 08:43:29,304 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:29,304 [INFO]   [389/420] ​"A mí nunca me va a pasar..." ​Es una frase que m
+2026-09-21 08:43:29,403 [WARNING] Claude API error for ​"A mí nunca me va a pasar..." ​Es una frase que muchos ...: 'content' — falling back to keywords
+2026-09-21 08:43:29,904 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:29,904 [INFO]   [390/420] Health Insurance in Guatemala
+2026-09-21 08:43:30,002 [WARNING] Claude API error for Health Insurance in Guatemala: 'content' — falling back to keywords
+2026-09-21 08:43:30,503 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:30,503 [INFO]   [391/420] A Guide to the Guatemala Healthcare System for Exp
+2026-09-21 08:43:30,607 [WARNING] Claude API error for A Guide to the Guatemala Healthcare System for Expats: 'content' — falling back to keywords
+2026-09-21 08:43:31,108 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:31,108 [INFO]   [392/420] What bank offers the best family health insurance 
+2026-09-21 08:43:31,202 [WARNING] Claude API error for What bank offers the best family health insurance for expats?: 'content' — falling back to keywords
+2026-09-21 08:43:31,703 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:31,704 [INFO]   [393/420] Moving to Guatemala | Expat Guide
+2026-09-21 08:43:31,806 [WARNING] Claude API error for Moving to Guatemala | Expat Guide: 'content' — falling back to keywords
+2026-09-21 08:43:32,307 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:32,307 [INFO]   [394/420] How does healthcare work in Guatemala, and what tr
+2026-09-21 08:43:32,407 [WARNING] Claude API error for How does healthcare work in Guatemala, and what travel ...: 'content' — falling back to keywords
+2026-09-21 08:43:32,908 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:32,909 [INFO]   [395/420] What are some good health insurance brokers for Me
+2026-09-21 08:43:33,008 [WARNING] Claude API error for What are some good health insurance brokers for Mexico?: 'content' — falling back to keywords
+2026-09-21 08:43:33,510 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:33,510 [INFO]   [396/420] International Health Insurance for Americans & Can
+2026-09-21 08:43:33,604 [WARNING] Claude API error for International Health Insurance for Americans & Canadians: 'content' — falling back to keywords
+2026-09-21 08:43:34,106 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:34,106 [INFO]   [397/420] International Health Insurance Coverage for Global
+2026-09-21 08:43:34,205 [WARNING] Claude API error for International Health Insurance Coverage for Global Travelers: 'content' — falling back to keywords
+2026-09-21 08:43:34,706 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:34,706 [INFO]   [398/420] Comparing Genki Explorer and Genki Native Internat
+2026-09-21 08:43:34,836 [WARNING] Claude API error for Comparing Genki Explorer and Genki Native International ...: 'content' — falling back to keywords
+2026-09-21 08:43:35,337 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:35,338 [INFO]   [399/420] Opinions about International Health Insurance. : r
+2026-09-21 08:43:35,444 [WARNING] Claude API error for Opinions about International Health Insurance. : r/expats: 'content' — falling back to keywords
+2026-09-21 08:43:35,945 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:35,945 [INFO]   [400/420] International Health Insurance for Individuals
+2026-09-21 08:43:36,043 [WARNING] Claude API error for International Health Insurance for Individuals: 'content' — falling back to keywords
+2026-09-21 08:43:36,545 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:36,545 [INFO]   [401/420] SafetyWing Nomad Insurance Complete vs. Cigna Glob
+2026-09-21 08:43:36,657 [WARNING] Claude API error for SafetyWing Nomad Insurance Complete vs. Cigna Global ...: 'content' — falling back to keywords
+2026-09-21 08:43:37,158 [INFO]   [402/420] Has anyone had a positive experience with internat
+2026-09-21 08:43:37,265 [WARNING] Claude API error for Has anyone had a positive experience with international ...: 'content' — falling back to keywords
+2026-09-21 08:43:37,767 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:37,767 [INFO]   [403/420] International Health Insurance for Expats
+2026-09-21 08:43:37,876 [WARNING] Claude API error for International Health Insurance for Expats: 'content' — falling back to keywords
+2026-09-21 08:43:38,377 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:38,378 [INFO]   [404/420] Mejor seguro de salud internacional en El Salvador
+2026-09-21 08:43:38,483 [WARNING] Claude API error for Mejor seguro de salud internacional en El Salvador: 'content' — falling back to keywords
+2026-09-21 08:43:38,985 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:38,985 [INFO]   [405/420] EVER Insurance | La salud no entiende de fronteras
+2026-09-21 08:43:39,083 [WARNING] Claude API error for EVER Insurance | La salud no entiende de fronteras. Con ...: 'content' — falling back to keywords
+2026-09-21 08:43:39,584 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:39,584 [INFO]   [406/420] ¿Por qué es importante tener un seguro de salud in
+2026-09-21 08:43:39,687 [WARNING] Claude API error for ¿Por qué es importante tener un seguro de salud internacional ...: 'content' — falling back to keywords
+2026-09-21 08:43:40,188 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:40,188 [INFO]   [407/420] El Salvador Expat Insurance
+2026-09-21 08:43:40,283 [WARNING] Claude API error for El Salvador Expat Insurance: 'content' — falling back to keywords
+2026-09-21 08:43:40,785 [INFO]   [408/420] Top Insurance Companies in El Salvador for Expats
+2026-09-21 08:43:40,897 [WARNING] Claude API error for Top Insurance Companies in El Salvador for Expats: 'content' — falling back to keywords
+2026-09-21 08:43:41,398 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:41,398 [INFO]   [409/420] What private medical insurance providers are ...
+2026-09-21 08:43:41,493 [WARNING] Claude API error for What private medical insurance providers are ...: 'content' — falling back to keywords
+2026-09-21 08:43:41,994 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:41,994 [INFO]   [410/420] How does healthcare work in El Salvador, and what 
+2026-09-21 08:43:42,094 [WARNING] Claude API error for How does healthcare work in El Salvador, and what travel ...: 'content' — falling back to keywords
+2026-09-21 08:43:42,595 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:42,595 [INFO]   [411/420] International Health Insurance for Expats in El Sa
+2026-09-21 08:43:42,695 [WARNING] Claude API error for International Health Insurance for Expats in El Salvador: 'content' — falling back to keywords
+2026-09-21 08:43:43,196 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:43,196 [INFO]   [412/420] International Medical Insurance Country Guides
+2026-09-21 08:43:43,318 [WARNING] Claude API error for International Medical Insurance Country Guides: 'content' — falling back to keywords
+2026-09-21 08:43:43,819 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:43,819 [INFO]   [413/420] Dominican Republic Health Insurance for Expats
+2026-09-21 08:43:43,914 [WARNING] Claude API error for Dominican Republic Health Insurance for Expats: 'content' — falling back to keywords
+2026-09-21 08:43:44,416 [INFO]   [414/420] Dominican Republic Healthcare System 2026 | Expat 
+2026-09-21 08:43:44,516 [WARNING] Claude API error for Dominican Republic Healthcare System 2026 | Expat Guide: 'content' — falling back to keywords
+2026-09-21 08:43:45,018 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:45,018 [INFO]   [415/420] Health Insurance in Dominican Republic
+2026-09-21 08:43:45,115 [WARNING] Claude API error for Health Insurance in Dominican Republic: 'content' — falling back to keywords
+2026-09-21 08:43:45,616 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:45,616 [INFO]   [416/420] Health insurance for american and dominican family
+2026-09-21 08:43:45,787 [WARNING] Claude API error for Health insurance for american and dominican family?: 'content' — falling back to keywords
+2026-09-21 08:43:46,288 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:46,288 [INFO]   [417/420] Choosing the Right International Health Insurance 
+2026-09-21 08:43:46,390 [WARNING] Claude API error for Choosing the Right International Health Insurance Plan in the ...: 'content' — falling back to keywords
+2026-09-21 08:43:46,891 [INFO]   [418/420] Moving your life to the Dominican Republic is kind
+2026-09-21 08:43:46,985 [WARNING] Claude API error for Moving your life to the Dominican Republic is kind of wild🌴 ...: 'content' — falling back to keywords
+2026-09-21 08:43:47,487 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:47,487 [INFO]   [419/420] Dominican republic insurance Options for Expats
+2026-09-21 08:43:47,587 [WARNING] Claude API error for Dominican republic insurance Options for Expats: 'content' — falling back to keywords
+2026-09-21 08:43:48,089 [INFO]   [420/420] Health Insurance Expat
+2026-09-21 08:43:48,188 [WARNING] Claude API error for Health Insurance Expat: 'content' — falling back to keywords
+2026-09-21 08:43:48,690 [INFO]     ❌ Filtered: 🔴 Unlikely IPMI — keyword scoring (no Claude API)
+2026-09-21 08:43:48,690 [INFO] 
+[FILTER] Kept: 230 | Removed: 190
+2026-09-21 08:43:48,694 [INFO] 
+============================================================
+2026-09-21 08:43:48,694 [INFO] RUN COMPLETE
+2026-09-21 08:43:48,694 [INFO] Raw candidates       : 420
+2026-09-21 08:43:48,694 [INFO] After AI filtering   : 230
+2026-09-21 08:43:48,694 [INFO] 🟢 Strong IPMI       : 93
+2026-09-21 08:43:48,694 [INFO] 🟡 Possible          : 137
+2026-09-21 08:43:48,694 [INFO] 🔴 Filtered out      : 190
+2026-09-21 08:43:48,694 [INFO] SerpApi calls        : 50
+2026-09-21 08:43:48,694 [INFO] Claude API calls     : 420
+2026-09-21 08:43:48,695 [INFO] CSV                  : docs/data/ipmi_brokers_20260921_084348.csv
+2026-09-21 08:43:48,695 [INFO] ============================================================
