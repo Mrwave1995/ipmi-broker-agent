@@ -1,11 +1,11 @@
 {
-  "run_date": "2026-09-28T09:31:48.259473",
-  "raw_candidates": 463,
+  "run_date": "2026-10-05T10:10:32.446255",
+  "raw_candidates": 398,
   "total_leads": 225,
   "strong": 93,
   "possible": 132,
-  "filtered_out": 238,
+  "filtered_out": 173,
   "serpapi_calls": 50,
-  "claude_calls": 463,
+  "claude_calls": 398,
   "claude_active": true
 }
